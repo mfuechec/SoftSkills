@@ -1,0 +1,370 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SoftSkills Analysis Data",
+  "description": "Schema for classroom discussion analysis JSON files",
+  "type": "object",
+  "required": ["transcript_metadata", "session_analysis", "students"],
+  "properties": {
+    "transcript_metadata": {
+      "type": "object",
+      "required": ["week", "date", "topic", "duration_minutes", "total_turns"],
+      "properties": {
+        "week": {
+          "type": "string",
+          "pattern": "^Week \\d+$",
+          "description": "Week identifier (e.g., 'Week 10')"
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Date in YYYY-MM-DD format"
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Discussion topic"
+        },
+        "duration_minutes": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Discussion duration in minutes"
+        },
+        "total_turns": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Total speaking turns in discussion"
+        }
+      },
+      "additionalProperties": false
+    },
+    "session_analysis": {
+      "type": "object",
+      "required": [
+        "overall_engagement",
+        "discussion_quality",
+        "key_moments",
+        "concerns",
+        "teacher_recommendations",
+        "participation_equity_score",
+        "participation_distribution",
+        "discussion_depth_score",
+        "evidence_citation_count",
+        "perspective_diversity",
+        "interaction_health",
+        "conversational_turns",
+        "environment_quality"
+      ],
+      "properties": {
+        "overall_engagement": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "discussion_quality": {
+          "type": "string",
+          "minLength": 1
+        },
+        "key_moments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "concerns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "teacher_recommendations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "participation_equity_score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "participation_distribution": {
+          "type": "string",
+          "enum": ["even", "skewed_to_few", "dominated_by_one"]
+        },
+        "discussion_depth_score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "evidence_citation_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "perspective_diversity": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "interaction_health": {
+          "type": "string",
+          "enum": ["strong", "moderate", "weak"]
+        },
+        "conversational_turns": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "environment_quality": {
+          "type": "object",
+          "required": [
+            "student_to_student_interaction",
+            "idea_building_frequency",
+            "domination_concerns",
+            "exclusion_concerns",
+            "positive_patterns"
+          ],
+          "properties": {
+            "student_to_student_interaction": {
+              "type": "string",
+              "enum": ["high", "medium", "low"]
+            },
+            "idea_building_frequency": {
+              "type": "string",
+              "enum": ["frequent", "occasional", "rare"]
+            },
+            "domination_concerns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "exclusion_concerns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "positive_patterns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "students": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "student_id",
+          "totalTurns",
+          "speaking_time_estimate",
+          "interaction_patterns",
+          "discussion_behavior",
+          "skills",
+          "overall_impression",
+          "growth_indicators",
+          "suggested_score"
+        ],
+        "properties": {
+          "student_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "IMPORTANT: Must be snake_case, not camelCase"
+          },
+          "totalTurns": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "IMPORTANT: This is the ONLY camelCase field - number of speaking turns"
+          },
+          "speaking_time_estimate": {
+            "type": "string",
+            "pattern": "^(<1|\\d+(-\\d+)?) minutes?$",
+            "description": "Format: '1 minute', '1-2 minutes', '2-3 minutes', or '<1 minute'"
+          },
+          "interaction_patterns": {
+            "type": "object",
+            "required": [
+              "responded_to",
+              "built_upon_ideas_from",
+              "received_responses_from",
+              "interruption_count",
+              "was_interrupted_by",
+              "initiated_topics",
+              "turn_length"
+            ],
+            "properties": {
+              "responded_to": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "built_upon_ideas_from": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "received_responses_from": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "interruption_count": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "was_interrupted_by": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "initiated_topics": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "turn_length": {
+                "type": "string",
+                "enum": ["short", "medium", "long"]
+              }
+            },
+            "additionalProperties": false
+          },
+          "discussion_behavior": {
+            "type": "object",
+            "required": [
+              "engagement_level",
+              "wait_time",
+              "response_rate",
+              "contribution_to_environment"
+            ],
+            "properties": {
+              "engagement_level": {
+                "type": "string",
+                "enum": ["high", "medium", "low"]
+              },
+              "wait_time": {
+                "type": "string",
+                "enum": ["patient", "moderate", "impulsive"]
+              },
+              "response_rate": {
+                "type": "string"
+              },
+              "contribution_to_environment": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "skills": {
+            "type": "object",
+            "required": [
+              "empathy_perspective_taking",
+              "collaboration_relationship",
+              "adaptability_open_mindedness",
+              "active_listening_focus",
+              "participation_engagement"
+            ],
+            "properties": {
+              "empathy_perspective_taking": {
+                "$ref": "#/definitions/skill"
+              },
+              "collaboration_relationship": {
+                "$ref": "#/definitions/skill"
+              },
+              "adaptability_open_mindedness": {
+                "$ref": "#/definitions/skill"
+              },
+              "active_listening_focus": {
+                "$ref": "#/definitions/skill"
+              },
+              "participation_engagement": {
+                "$ref": "#/definitions/skill"
+              }
+            },
+            "additionalProperties": false
+          },
+          "overall_impression": {
+            "type": "string",
+            "minLength": 1
+          },
+          "growth_indicators": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "suggested_score": {
+            "type": "object",
+            "required": [
+              "empathy_perspective_taking",
+              "collaboration_relationship",
+              "adaptability_open_mindedness",
+              "active_listening_focus",
+              "participation_engagement"
+            ],
+            "properties": {
+              "empathy_perspective_taking": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "collaboration_relationship": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "adaptability_open_mindedness": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "active_listening_focus": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              },
+              "participation_engagement": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "skill": {
+      "type": "object",
+      "required": ["pattern", "confidence", "examples"],
+      "properties": {
+        "pattern": {
+          "type": "string",
+          "enum": ["frequent", "occasional", "consistent", "not_observed"]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -3,7 +3,15 @@
   "engines": {
     "node": "20.x"
   },
+  "scripts": {
+    "validate": "node validate-analysis.js",
+    "validate:watch": "nodemon --watch frontend/public/data/analysis --exec 'npm run validate'"
+  },
   "dependencies": {
     "openai": "^6.8.1"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
   }
 }
