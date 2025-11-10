@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useData } from '../../context/DataContext';
 import StudentCard from '../Student/StudentCard';
@@ -13,6 +13,31 @@ export default function ClassOverview() {
   const navigate = useNavigate();
   const { loading, error, currentAnalysis, analyses, selectedWeek, availableWeeks } = useData();
   const [activeSection, setActiveSection] = useState('students');
+
+  // Scroll spy - update active section based on scroll position
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ['students', 'environment', 'interventions', 'session'];
+      const scrollPosition = window.scrollY + 100; // Offset for header
+
+      // Find which section is currently in view
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = document.getElementById(sections[i]);
+        if (section) {
+          const sectionTop = section.offsetTop;
+          if (scrollPosition >= sectionTop) {
+            setActiveSection(sections[i]);
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check initial position
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   if (loading) {
     return (
