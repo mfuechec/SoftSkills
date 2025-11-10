@@ -1,597 +1,421 @@
 {
-  "transcript_metadata": {
+  "transcriptMetadata": {
     "week": "Week 19",
     "date": "2025-03-19",
-    "topic": "Reflecting on themes and comparing to 'Brave New World' (Introduction)",
-    "duration_minutes": 15,
-    "total_turns": 32
+    "topic": "Reflecting on themes and comparing to 'Brave New World'",
+    "durationMinutes": 15,
+    "totalTurns": 32
   },
-  "session_analysis": {
-    "overall_engagement": "high",
-    "discussion_quality": "Students engaged deeply with philosophical questions and made connections between texts.",
-    "key_moments": [
-      "Casey raises philosophical questions about freedom and happiness.",
-      "Sam changes their perspective on happiness and control."
+  "sessionAnalysis": {
+    "overallEngagement": "high",
+    "discussionQuality": "The discussion was rich with philosophical questions and connections between texts.",
+    "keyMoments": [
+      "Casey raised a philosophical question about freedom and happiness.",
+      "Sam questioned the nature of happiness, leading to a deeper discussion.",
+      "Maya facilitated and validated diverse perspectives."
     ],
     "concerns": [],
-    "teacher_recommendations": [
+    "teacherRecommendations": [
       "Encourage more students to initiate topics.",
-      "Facilitate deeper exploration of real-world connections."
+      "Continue fostering philosophical debates."
     ],
-    "participation_equity_score": 8,
-    "participation_distribution": "even",
-    "discussion_depth_score": 9,
-    "evidence_citation_count": 0,
-    "perspective_diversity": "high",
-    "interaction_health": "strong",
-    "conversational_turns": 30,
-    "environment_quality": {
-      "student_to_student_interaction": "high",
-      "idea_building_frequency": "frequent",
-      "domination_concerns": [],
-      "exclusion_concerns": [],
-      "positive_patterns": [
+    "participationEquityScore": 8,
+    "participationDistribution": "even",
+    "discussionDepthScore": 9,
+    "evidenceCitationCount": 0,
+    "perspectiveDiversity": "high",
+    "interactionHealth": "strong",
+    "conversationalTurns": 25,
+    "environmentQuality": {
+      "studentToStudentInteraction": "high",
+      "ideaBuildingFrequency": "frequent",
+      "dominationConcerns": [],
+      "exclusionConcerns": [],
+      "positivePatterns": [
         "Strong collaborative dialogue between Maya and Jordan"
       ]
     }
   },
   "students": [
     {
-      "student_id": "Maya",
-      "total_turns": 9,
-      "speaking_time_estimate": "3-4 minutes",
-      "interaction_patterns": {
-        "responded_to": [
+      "studentId": "Maya",
+      "totalTurns": 9,
+      "speakingTimeEstimate": "3-4 minutes",
+      "interactionPatterns": {
+        "respondedTo": [
           "Jordan",
           "Casey"
         ],
-        "built_upon_ideas_from": [
-          "Alex"
+        "builtUponIdeasFrom": [
+          "Alex",
+          "Sam"
         ],
-        "received_responses_from": [
+        "receivedResponsesFrom": [
           "Jordan",
           "Casey"
         ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "medium"
+        "interruptionCount": 0,
+        "wasInterruptedBy": [],
+        "initiatedTopics": 1,
+        "turnLength": "medium"
       },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "High engagement with peers' ideas",
-        "contribution_to_environment": "Enhances discussion quality"
+      "discussionBehavior": {
+        "engagementLevel": "high",
+        "waitTime": "patient",
+        "responseRate": "high",
+        "contributionToEnvironment": "enhances"
       },
       "skills": {
-        "empathy_perspective_taking": {
-          "evidence": [
-            {
-              "quote": "Casey and Jordan, you both have interesting points.",
-              "context": "Responding to differing views on happiness.",
-              "behavior_observed": "Validating peers' contributions.",
-              "line_reference": "Line 28",
-              "interacted_with": "Casey, Jordan"
-            }
-          ],
-          "pattern": "strong",
+        "empathyPerspectiveTaking": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently validates and acknowledges peers' perspectives."
+          "examples": [
+            "Maya: 'No, don't apologize! That's exactly what we should be doing. These are important questions.'",
+            "Maya: 'Casey and Jordan, you both have interesting points. This is actually a major philosophical debate - whether the experience or the reality matters more.'"
+          ]
         },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "These are really insightful connections.",
-              "context": "Responding to Alex's connection to society.",
-              "behavior_observed": "Building on others' ideas.",
-              "line_reference": "Line 30",
-              "interacted_with": "Alex"
-            }
-          ],
-          "pattern": "strong",
+        "collaborationRelationship": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Frequently builds on and acknowledges peers' contributions."
+          "examples": [
+            "Maya: 'Alex, yes! That's the key connection. Different methods, same goal.'",
+            "Maya: 'These are really insightful connections. We're not as controlled as these dystopias, but there are definitely parallels.'"
+          ]
         },
-        "adaptability_open_mindedness": {
-          "evidence": [
-            {
-              "quote": "But I understand why Casey's unsure - it's a hard call.",
-              "context": "Acknowledging complexity in philosophical debate.",
-              "behavior_observed": "Considering multiple perspectives.",
-              "line_reference": "Line 26",
-              "interacted_with": "Casey"
-            }
-          ],
-          "pattern": "consistent",
-          "confidence": "high",
-          "confidence_rationale": "Demonstrates understanding of complex perspectives."
+        "adaptabilityOpenMindedness": {
+          "pattern": "not_observed",
+          "confidence": "low",
+          "examples": []
         },
-        "active_listening_focus": {
-          "evidence": [
-            {
-              "quote": "That's totally valid, Casey.",
-              "context": "Responding to Casey's uncertainty.",
-              "behavior_observed": "Referencing what others specifically said.",
-              "line_reference": "Line 28",
-              "interacted_with": "Casey"
-            }
-          ],
-          "pattern": "strong",
+        "activeListeningFocus": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Frequently references and builds on peers' contributions."
+          "examples": [
+            "Maya: 'That's fair, Jordan. I think... I agree with Sam and Jordan. I'd rather struggle with real choices than have fake contentment.'"
+          ]
         },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "That's fair, Jordan.",
-              "context": "Responding to Jordan's request for Maya's opinion.",
-              "behavior_observed": "Engaged and responsive to peers.",
-              "line_reference": "Line 24",
-              "interacted_with": "Jordan"
-            }
-          ],
-          "pattern": "strong",
+        "participationEngagement": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently engaged and responsive throughout the discussion."
+          "examples": [
+            "Maya: 'That's totally valid, Casey. These aren't easy questions with simple answers.'"
+          ]
         }
       },
-      "overall_impression": "Maya demonstrated strong facilitation skills, consistently validating peers and building on ideas.",
-      "growth_indicators": [
-        "Continues to facilitate discussions effectively."
+      "overallImpression": "Maya consistently facilitated the discussion, validating and building on peers' ideas.",
+      "growthIndicators": [
+        "Continues to facilitate and validate diverse perspectives."
       ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 5,
+        "collaborationRelationship": 5,
+        "adaptabilityOpenMindedness": 0,
+        "activeListeningFocus": 4,
+        "participationEngagement": 5
       }
     },
     {
-      "student_id": "Jordan",
-      "total_turns": 8,
-      "speaking_time_estimate": "3-4 minutes",
-      "interaction_patterns": {
-        "responded_to": [
+      "studentId": "Jordan",
+      "totalTurns": 8,
+      "speakingTimeEstimate": "2-3 minutes",
+      "interactionPatterns": {
+        "respondedTo": [
           "Sam",
           "Alex"
         ],
-        "built_upon_ideas_from": [
+        "builtUponIdeasFrom": [
+          "Casey",
           "Maya"
         ],
-        "received_responses_from": [
+        "receivedResponsesFrom": [
           "Maya",
           "Casey"
         ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "medium"
+        "interruptionCount": 0,
+        "wasInterruptedBy": [],
+        "initiatedTopics": 1,
+        "turnLength": "medium"
       },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "Peers frequently engage with ideas",
-        "contribution_to_environment": "Enhances discussion quality"
+      "discussionBehavior": {
+        "engagementLevel": "high",
+        "waitTime": "patient",
+        "responseRate": "high",
+        "contributionToEnvironment": "enhances"
       },
       "skills": {
-        "empathy_perspective_taking": {
-          "evidence": [
-            {
-              "quote": "Ooh, good question, Sam.",
-              "context": "Responding to Sam's question about happiness.",
-              "behavior_observed": "Acknowledging others' viewpoints.",
-              "line_reference": "Line 20",
-              "interacted_with": "Sam"
-            }
-          ],
-          "pattern": "strong",
+        "empathyPerspectiveTaking": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently acknowledges and builds on peers' viewpoints."
+          "examples": [
+            "Jordan: 'Ooh, good question, Sam. I'm going to say... no? Because real happiness has to come from real experiences and relationships.'"
+          ]
         },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "Exactly, Alex! Same question.",
-              "context": "Building on Alex's Matrix analogy.",
-              "behavior_observed": "Building on others' ideas.",
-              "line_reference": "Line 22",
-              "interacted_with": "Alex"
-            }
-          ],
-          "pattern": "strong",
+        "collaborationRelationship": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Frequently builds on and extends peers' ideas."
+          "examples": [
+            "Jordan: 'Exactly, Alex! Same question.'"
+          ]
         },
-        "adaptability_open_mindedness": {
-          "evidence": [
-            {
-              "quote": "It makes me want to be more aware of how I'm influenced by things around me.",
-              "context": "Reflecting on societal influences.",
-              "behavior_observed": "Considering multiple perspectives.",
-              "line_reference": "Line 32",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "consistent",
-          "confidence": "high",
-          "confidence_rationale": "Demonstrates openness to new perspectives and self-reflection."
+        "adaptabilityOpenMindedness": {
+          "pattern": "not_observed",
+          "confidence": "low",
+          "examples": []
         },
-        "active_listening_focus": {
-          "evidence": [
-            {
-              "quote": "What do you think, Maya?",
-              "context": "Inviting Maya to share her perspective.",
-              "behavior_observed": "Inviting quieter voices into the conversation.",
-              "line_reference": "Line 24",
-              "interacted_with": "Maya"
-            }
-          ],
-          "pattern": "strong",
+        "activeListeningFocus": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Actively listens and engages peers in discussion."
+          "examples": [
+            "Jordan: 'And in both books, most people don't even realize they're being controlled. They think they're happy.'"
+          ]
         },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "They both have these societies that seem perfect on the surface but have major problems underneath.",
-              "context": "Initiating discussion on book themes.",
-              "behavior_observed": "Initiating discussion.",
-              "line_reference": "Line 2",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "strong",
+        "participationEngagement": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently initiates and engages in meaningful discussion."
+          "examples": [
+            "Jordan: 'What do you think, Maya? You've been asking us questions but not sharing your view.'"
+          ]
         }
       },
-      "overall_impression": "Jordan actively engaged in the discussion, building on ideas and encouraging peer participation.",
-      "growth_indicators": [
-        "Continues to engage deeply with peers' ideas."
+      "overallImpression": "Jordan actively engaged in the discussion, synthesizing ideas and encouraging participation.",
+      "growthIndicators": [
+        "Continues to synthesize ideas and encourage peer participation."
       ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 4,
+        "collaborationRelationship": 5,
+        "adaptabilityOpenMindedness": 0,
+        "activeListeningFocus": 4,
+        "participationEngagement": 5
       }
     },
     {
-      "student_id": "Casey",
-      "total_turns": 7,
-      "speaking_time_estimate": "2-3 minutes",
-      "interaction_patterns": {
-        "responded_to": [
-          "Sam"
+      "studentId": "Casey",
+      "totalTurns": 7,
+      "speakingTimeEstimate": "2-3 minutes",
+      "interactionPatterns": {
+        "respondedTo": [
+          "Sam",
+          "Maya"
         ],
-        "built_upon_ideas_from": [
-          "Jordan"
+        "builtUponIdeasFrom": [
+          "Jordan",
+          "Alex"
         ],
-        "received_responses_from": [
+        "receivedResponsesFrom": [
           "Maya",
           "Sam"
         ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "medium"
+        "interruptionCount": 0,
+        "wasInterruptedBy": [],
+        "initiatedTopics": 1,
+        "turnLength": "medium"
       },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "Peers frequently engage with ideas",
-        "contribution_to_environment": "Enhances discussion quality"
+      "discussionBehavior": {
+        "engagementLevel": "high",
+        "waitTime": "patient",
+        "responseRate": "high",
+        "contributionToEnvironment": "enhances"
       },
       "skills": {
-        "empathy_perspective_taking": {
-          "evidence": [
-            {
-              "quote": "That's the scariest part. Like, how do you know if you're actually free or if you just think you are?",
-              "context": "Discussing philosophical implications of control.",
-              "behavior_observed": "Recognizing emotions in self and others.",
-              "line_reference": "Line 12",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "strong",
+        "empathyPerspectiveTaking": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently engages with and acknowledges complex emotional and philosophical ideas."
+          "examples": [
+            "Casey: 'That's the scariest part. Like, how do you know if you're actually free or if you just think you are?'"
+          ]
         },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "In Brave New World, they use drugs and pleasure to control people.",
-              "context": "Building on Jordan's observation about societal control.",
-              "behavior_observed": "Building on others' ideas.",
-              "line_reference": "Line 6",
-              "interacted_with": "Jordan"
-            }
-          ],
-          "pattern": "strong",
+        "collaborationRelationship": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Frequently builds on and extends peers' ideas."
+          "examples": [
+            "Casey: 'In Brave New World, they use drugs and pleasure to control people. In The Giver, they use rules and sameness.'"
+          ]
         },
-        "adaptability_open_mindedness": {
-          "evidence": [
-            {
-              "quote": "Hmm. I'm not sure yet. I need to think about it more.",
-              "context": "Reflecting on the nature of happiness.",
-              "behavior_observed": "Comfort with ambiguity.",
-              "line_reference": "Line 26",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "consistent",
+        "adaptabilityOpenMindedness": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Demonstrates openness to complex and uncertain ideas."
+          "examples": [
+            "Casey: 'Hmm. I'm not sure yet. I need to think about it more.'"
+          ]
         },
-        "active_listening_focus": {
-          "evidence": [
-            {
-              "quote": "And we're definitely distracted by entertainment.",
-              "context": "Responding to Alex's question about societal parallels.",
-              "behavior_observed": "Referencing what others specifically said.",
-              "line_reference": "Line 32",
-              "interacted_with": "Alex"
-            }
-          ],
-          "pattern": "strong",
+        "activeListeningFocus": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Actively listens and engages with peers' contributions."
+          "examples": [
+            "Casey: 'I don't know if I agree. Like, if someone feels happy, does it matter how they got there?'"
+          ]
         },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "Like, if someone feels happy, does it matter how they got there?",
-              "context": "Posing philosophical questions to the group.",
-              "behavior_observed": "Initiating discussion.",
-              "line_reference": "Line 22",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "strong",
+        "participationEngagement": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently initiates and engages in meaningful discussion."
+          "examples": [
+            "Casey: '[laughs] Sorry, this stuff just makes me think a lot.'"
+          ]
         }
       },
-      "overall_impression": "Casey demonstrated deep philosophical thinking and actively engaged with peers' ideas.",
-      "growth_indicators": [
-        "Continues to explore complex ideas and engage peers."
+      "overallImpression": "Casey demonstrated deep philosophical thinking and was open to exploring complex ideas.",
+      "growthIndicators": [
+        "Continues to engage deeply with philosophical questions."
       ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 4,
+        "collaborationRelationship": 4,
+        "adaptabilityOpenMindedness": 4,
+        "activeListeningFocus": 4,
+        "participationEngagement": 5
       }
     },
     {
-      "student_id": "Sam",
-      "total_turns": 6,
-      "speaking_time_estimate": "2-3 minutes",
-      "interaction_patterns": {
-        "responded_to": [
+      "studentId": "Sam",
+      "totalTurns": 6,
+      "speakingTimeEstimate": "2-3 minutes",
+      "interactionPatterns": {
+        "respondedTo": [
           "Casey",
           "Jordan"
         ],
-        "built_upon_ideas_from": [
+        "builtUponIdeasFrom": [
+          "Maya",
           "Alex"
         ],
-        "received_responses_from": [
+        "receivedResponsesFrom": [
           "Jordan",
           "Casey"
         ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "medium"
+        "interruptionCount": 0,
+        "wasInterruptedBy": [],
+        "initiatedTopics": 1,
+        "turnLength": "medium"
       },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "Peers frequently engage with ideas",
-        "contribution_to_environment": "Enhances discussion quality"
+      "discussionBehavior": {
+        "engagementLevel": "high",
+        "waitTime": "patient",
+        "responseRate": "high",
+        "contributionToEnvironment": "enhances"
       },
       "skills": {
-        "empathy_perspective_taking": {
-          "evidence": [
-            {
-              "quote": "That's a really good point, Casey.",
-              "context": "Responding to Casey's observation about societal control.",
-              "behavior_observed": "Validating peers' contributions.",
-              "line_reference": "Line 8",
-              "interacted_with": "Casey"
-            }
-          ],
-          "pattern": "strong",
+        "empathyPerspectiveTaking": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently acknowledges and validates peers' contributions."
+          "examples": [
+            "Sam: 'But is fake happiness still happiness?'"
+          ]
         },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "But is fake happiness still happiness?",
-              "context": "Building on Alex's point about happiness.",
-              "behavior_observed": "Building on others' ideas.",
-              "line_reference": "Line 16",
-              "interacted_with": "Alex"
-            }
-          ],
-          "pattern": "strong",
+        "collaborationRelationship": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Frequently builds on and extends peers' ideas."
+          "examples": [
+            "Sam: 'That's a really good point, Casey. Like, one society is boring and gray, and the other is all about fun and pleasure.'"
+          ]
         },
-        "adaptability_open_mindedness": {
-          "evidence": [
-            {
-              "quote": "Okay, I'm changing my answer.",
-              "context": "Revising perspective on happiness and control.",
-              "behavior_observed": "Changing opinions based on new information.",
-              "line_reference": "Line 24",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "consistent",
+        "adaptabilityOpenMindedness": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Demonstrates openness to revising perspectives."
+          "examples": [
+            "Sam: 'Okay, I'm changing my answer. I think reality matters. I'd rather be unhappy and free than happy and controlled.'"
+          ]
         },
-        "active_listening_focus": {
-          "evidence": [
-            {
-              "quote": "I mean, social media kind of controls us, right?",
-              "context": "Responding to Alex's question about societal parallels.",
-              "behavior_observed": "Referencing what others specifically said.",
-              "line_reference": "Line 32",
-              "interacted_with": "Alex"
-            }
-          ],
-          "pattern": "strong",
+        "activeListeningFocus": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Actively listens and engages with peers' contributions."
+          "examples": [
+            "Sam: 'I mean, social media kind of controls us, right? Like, we're addicted to our phones.'"
+          ]
         },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "But is fake happiness still happiness?",
-              "context": "Posing philosophical questions to the group.",
-              "behavior_observed": "Initiating discussion.",
-              "line_reference": "Line 16",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "strong",
+        "participationEngagement": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently initiates and engages in meaningful discussion."
+          "examples": [
+            "Sam: 'Okay Casey, you're getting too philosophical for me right now.'"
+          ]
         }
       },
-      "overall_impression": "Sam demonstrated adaptability and engaged deeply with philosophical questions.",
-      "growth_indicators": [
-        "Continues to adapt and engage with complex ideas."
+      "overallImpression": "Sam was thoughtful and willing to reconsider their views, contributing to a dynamic discussion.",
+      "growthIndicators": [
+        "Demonstrates openness to changing perspectives."
       ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 4,
+        "collaborationRelationship": 4,
+        "adaptabilityOpenMindedness": 5,
+        "activeListeningFocus": 4,
+        "participationEngagement": 5
       }
     },
     {
-      "student_id": "Alex",
-      "total_turns": 6,
-      "speaking_time_estimate": "2-3 minutes",
-      "interaction_patterns": {
-        "responded_to": [
+      "studentId": "Alex",
+      "totalTurns": 6,
+      "speakingTimeEstimate": "2-3 minutes",
+      "interactionPatterns": {
+        "respondedTo": [
+          "Jordan",
           "Maya"
         ],
-        "built_upon_ideas_from": [
-          "Jordan"
-        ],
-        "received_responses_from": [
-          "Jordan",
+        "builtUponIdeasFrom": [
+          "Casey",
           "Sam"
         ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "medium"
+        "receivedResponsesFrom": [
+          "Maya",
+          "Jordan"
+        ],
+        "interruptionCount": 0,
+        "wasInterruptedBy": [],
+        "initiatedTopics": 1,
+        "turnLength": "medium"
       },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "Peers frequently engage with ideas",
-        "contribution_to_environment": "Enhances discussion quality"
+      "discussionBehavior": {
+        "engagementLevel": "high",
+        "waitTime": "patient",
+        "responseRate": "high",
+        "contributionToEnvironment": "enhances"
       },
       "skills": {
-        "empathy_perspective_taking": {
-          "evidence": [
-            {
-              "quote": "But they're both trying to make people not think for themselves.",
-              "context": "Responding to Maya's point about societal control.",
-              "behavior_observed": "Recognizing emotions in self and others.",
-              "line_reference": "Line 10",
-              "interacted_with": "Maya"
-            }
-          ],
-          "pattern": "strong",
+        "empathyPerspectiveTaking": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently engages with and acknowledges complex emotional and philosophical ideas."
+          "examples": [
+            "Alex: 'Like the Matrix? If you're in the Matrix and you're happy, is that real happiness?'"
+          ]
         },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "Like the Matrix? If you're in the Matrix and you're happy, is that real happiness?",
-              "context": "Building on Jordan's point about reality and happiness.",
-              "behavior_observed": "Building on others' ideas.",
-              "line_reference": "Line 22",
-              "interacted_with": "Jordan"
-            }
-          ],
-          "pattern": "strong",
+        "collaborationRelationship": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Frequently builds on and extends peers' ideas."
+          "examples": [
+            "Alex: 'But they're both trying to make people not think for themselves.'"
+          ]
         },
-        "adaptability_open_mindedness": {
-          "evidence": [
-            {
-              "quote": "Me too. Like, making sure I'm thinking for myself.",
-              "context": "Reflecting on societal influences.",
-              "behavior_observed": "Considering multiple perspectives.",
-              "line_reference": "Line 32",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "consistent",
-          "confidence": "high",
-          "confidence_rationale": "Demonstrates openness to new perspectives and self-reflection."
+        "adaptabilityOpenMindedness": {
+          "pattern": "not_observed",
+          "confidence": "low",
+          "examples": []
         },
-        "active_listening_focus": {
-          "evidence": [
-            {
-              "quote": "Do you think our society is like these books at all?",
-              "context": "Posing questions to the group.",
-              "behavior_observed": "Initiating discussion.",
-              "line_reference": "Line 28",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "strong",
+        "activeListeningFocus": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Actively listens and engages with peers' contributions."
+          "examples": [
+            "Alex: 'Do you think our society is like these books at all?'"
+          ]
         },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "But they're both trying to make people not think for themselves.",
-              "context": "Posing philosophical questions to the group.",
-              "behavior_observed": "Initiating discussion.",
-              "line_reference": "Line 10",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "strong",
+        "participationEngagement": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently initiates and engages in meaningful discussion."
+          "examples": [
+            "Alex: 'I think Jonas's society is sadder because they don't even get to have fun. At least in Brave New World people are having a good time, even if it's fake.'"
+          ]
         }
       },
-      "overall_impression": "Alex demonstrated strong engagement and made insightful connections between texts and real-world concepts.",
-      "growth_indicators": [
-        "Continues to engage deeply with complex ideas and connections."
+      "overallImpression": "Alex confidently made connections between texts and real-world scenarios, enhancing the discussion.",
+      "growthIndicators": [
+        "Consistently makes insightful connections."
       ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 4,
+        "collaborationRelationship": 4,
+        "adaptabilityOpenMindedness": 0,
+        "activeListeningFocus": 4,
+        "participationEngagement": 5
       }
     }
   ]

@@ -1,528 +1,417 @@
 {
-  "transcript_metadata": {
+  "transcriptMetadata": {
     "week": "Week 12",
     "date": "2025-01-29",
     "topic": "The concept of 'Sameness' and memories (Chapters 13-15)",
-    "duration_minutes": 15,
-    "total_turns": 31
+    "durationMinutes": 15,
+    "totalTurns": 31
   },
-  "session_analysis": {
-    "overall_engagement": "high",
-    "discussion_quality": "Students engaged deeply with the text, exploring complex themes and demonstrating active listening.",
-    "key_moments": [
-      "Maya and Jordan discuss the implications of 'Sameness' beyond just pain.",
-      "Alex gains confidence in expressing a darker interpretation of 'release'."
+  "sessionAnalysis": {
+    "overallEngagement": "high",
+    "discussionQuality": "The discussion was dynamic with multiple students building on each other's ideas and exploring complex themes.",
+    "keyMoments": [
+      "Maya and Jordan discussing the complexity of the community's intentions.",
+      "Alex gaining confidence and contributing a darker interpretation of 'release'."
     ],
     "concerns": [
-      "Sam interrupted twice, though apologized once."
+      "Sam interrupted twice, which could indicate a need for better turn-taking skills."
     ],
-    "teacher_recommendations": [
-      "Encourage Sam to practice waiting for others to finish speaking.",
-      "Continue to support Alex in gaining confidence in sharing ideas."
+    "teacherRecommendations": [
+      "Encourage Sam to practice waiting for others to finish before speaking.",
+      "Provide Alex with more opportunities to share thoughts to build confidence."
     ],
-    "participation_equity_score": 8,
-    "participation_distribution": "even",
-    "discussion_depth_score": 8,
-    "evidence_citation_count": 0,
-    "perspective_diversity": "high",
-    "interaction_health": "strong",
-    "conversational_turns": 25,
-    "environment_quality": {
-      "student_to_student_interaction": "high",
-      "idea_building_frequency": "frequent",
-      "domination_concerns": [],
-      "exclusion_concerns": [],
-      "positive_patterns": [
+    "participationEquityScore": 8,
+    "participationDistribution": "even",
+    "discussionDepthScore": 8,
+    "evidenceCitationCount": 3,
+    "perspectiveDiversity": "high",
+    "interactionHealth": "strong",
+    "conversationalTurns": 25,
+    "environmentQuality": {
+      "studentToStudentInteraction": "high",
+      "ideaBuildingFrequency": "frequent",
+      "dominationConcerns": [],
+      "exclusionConcerns": [],
+      "positivePatterns": [
         "Strong collaborative dialogue between Maya and Jordan"
       ]
     }
   },
   "students": [
     {
-      "student_id": "Maya",
-      "total_turns": 7,
-      "speaking_time_estimate": "3-4 minutes",
-      "interaction_patterns": {
-        "responded_to": [
+      "studentId": "Maya",
+      "totalTurns": 7,
+      "speakingTimeEstimate": "3-4 minutes",
+      "interactionPatterns": {
+        "respondedTo": [
           "Casey",
           "Jordan",
           "Alex"
         ],
-        "built_upon_ideas_from": [
-          "Sam",
-          "Jordan"
-        ],
-        "received_responses_from": [
+        "builtUponIdeasFrom": [
           "Jordan",
           "Alex"
         ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "medium"
-      },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "High engagement from peers",
-        "contribution_to_environment": "Enhances discussion quality"
-      },
-      "skills": {
-        "empathy_perspective_taking": {
-          "evidence": [
-            {
-              "quote": "Casey, that's actually a really interesting question.",
-              "context": "Responding to Casey's question about the necessity of memories.",
-              "behavior_observed": "Acknowledging and validating a peer's contribution.",
-              "line_reference": "Line 9",
-              "interacted_with": "Casey"
-            }
-          ],
-          "pattern": "strong",
-          "confidence": "high",
-          "confidence_rationale": "Consistently acknowledged and built upon peers' ideas."
-        },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "I thought it was interesting how Jonas starts to see that Sameness took away more than just pain.",
-              "context": "Building on the discussion about the impact of Sameness.",
-              "behavior_observed": "Building on others' ideas.",
-              "line_reference": "Line 14",
-              "interacted_with": "Jordan"
-            }
-          ],
-          "pattern": "strong",
-          "confidence": "high",
-          "confidence_rationale": "Frequently built on peers' ideas and engaged collaboratively."
-        },
-        "adaptability_open_mindedness": {
-          "evidence": [
-            {
-              "quote": "Hmm, I'm not sure it's that simple. The way the book describes it feels ominous.",
-              "context": "Considering a darker interpretation of 'release'.",
-              "behavior_observed": "Considering multiple perspectives.",
-              "line_reference": "Line 22",
-              "interacted_with": "Casey"
-            }
-          ],
-          "pattern": "consistent",
-          "confidence": "high",
-          "confidence_rationale": "Showed openness to different interpretations."
-        },
-        "active_listening_focus": {
-          "evidence": [
-            {
-              "quote": "I really like what you said, Jordan, about it not being black and white.",
-              "context": "Referencing Jordan's earlier point.",
-              "behavior_observed": "Referencing what others specifically said.",
-              "line_reference": "Line 29",
-              "interacted_with": "Jordan"
-            }
-          ],
-          "pattern": "strong",
-          "confidence": "high",
-          "confidence_rationale": "Consistently referenced peers' contributions accurately."
-        },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "I thought it was interesting how Jonas starts to see that Sameness took away more than just pain.",
-              "context": "Initiating a deeper exploration of the theme.",
-              "behavior_observed": "Initiating discussion and engaging deeply.",
-              "line_reference": "Line 14",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "strong",
-          "confidence": "high",
-          "confidence_rationale": "Frequent and high-quality contributions."
-        }
-      },
-      "overall_impression": "Maya demonstrated strong engagement and collaboration, frequently building on peers' ideas and considering multiple perspectives.",
-      "growth_indicators": [
-        "Consistently engaged and supported peers' ideas."
-      ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
-      }
-    },
-    {
-      "student_id": "Jordan",
-      "total_turns": 7,
-      "speaking_time_estimate": "3-4 minutes",
-      "interaction_patterns": {
-        "responded_to": [
-          "Sam",
-          "Maya"
-        ],
-        "built_upon_ideas_from": [
-          "Sam",
-          "Maya"
-        ],
-        "received_responses_from": [
-          "Maya"
-        ],
-        "interruption_count": 0,
-        "was_interrupted_by": [
+        "receivedResponsesFrom": [
+          "Jordan",
           "Sam"
         ],
-        "initiated_topics": 1,
-        "turn_length": "medium"
+        "interruptionCount": 0,
+        "wasInterruptedBy": [],
+        "initiatedTopics": 1,
+        "turnLength": "medium"
       },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "High engagement from peers",
-        "contribution_to_environment": "Enhances discussion quality"
+      "discussionBehavior": {
+        "engagementLevel": "high",
+        "waitTime": "patient",
+        "responseRate": "high",
+        "contributionToEnvironment": "enhances"
       },
       "skills": {
-        "empathy_perspective_taking": {
-          "evidence": [
-            {
-              "quote": "Sam, I hear you, but... I'm starting to think maybe not?",
-              "context": "Acknowledging Sam's point before offering a different perspective.",
-              "behavior_observed": "Acknowledging and validating a peer's contribution.",
-              "line_reference": "Line 17",
-              "interacted_with": "Sam"
-            }
-          ],
-          "pattern": "strong",
+        "empathyPerspectiveTaking": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently acknowledged peers' viewpoints."
+          "examples": [
+            "\"Casey, that's actually a really interesting question.\"",
+            "\"I really like what you said, Jordan, about it not being black and white.\""
+          ]
         },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "Building on what Sam said, it's also kind of unfair?",
-              "context": "Extending Sam's point about the burden of memories.",
-              "behavior_observed": "Building on others' ideas.",
-              "line_reference": "Line 3",
-              "interacted_with": "Sam"
-            }
-          ],
-          "pattern": "strong",
+        "collaborationRelationship": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Frequently built on peers' ideas and engaged collaboratively."
+          "examples": [
+            "\"Building on what Sam said...\"",
+            "\"Alex, I was thinking the same thing.\""
+          ]
         },
-        "adaptability_open_mindedness": {
-          "evidence": [
-            {
-              "quote": "Oh man, I didn't think about that. Maya, you might be right.",
-              "context": "Reconsidering the interpretation of 'release'.",
-              "behavior_observed": "Changing opinions based on new information.",
-              "line_reference": "Line 23",
-              "interacted_with": "Maya"
-            }
-          ],
-          "pattern": "consistent",
+        "adaptabilityOpenMindedness": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Showed openness to different interpretations."
+          "examples": [
+            "\"Hmm, I'm not sure it's that simple. The way the book describes it feels ominous.\""
+          ]
         },
-        "active_listening_focus": {
-          "evidence": [
-            {
-              "quote": "Right? At first it seemed straightforward, but now there's so much to think about.",
-              "context": "Responding to Casey's observation about the complexity of the book.",
-              "behavior_observed": "Referencing what others specifically said.",
-              "line_reference": "Line 27",
-              "interacted_with": "Casey"
-            }
-          ],
-          "pattern": "strong",
+        "activeListeningFocus": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Consistently referenced peers' contributions accurately."
+          "examples": [
+            "\"I thought it was interesting how Jonas starts to see that Sameness took away more than just pain.\""
+          ]
         },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "Building on what Sam said, it's also kind of unfair?",
-              "context": "Initiating a deeper exploration of the theme.",
-              "behavior_observed": "Initiating discussion and engaging deeply.",
-              "line_reference": "Line 3",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "strong",
+        "participationEngagement": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Frequent and high-quality contributions."
+          "examples": [
+            "Initiated discussion on the complexity of the community's intentions."
+          ]
         }
       },
-      "overall_impression": "Jordan demonstrated strong engagement and collaboration, frequently building on peers' ideas and considering multiple perspectives.",
-      "growth_indicators": [
-        "Improved communication by acknowledging peers before offering new ideas."
+      "overallImpression": "Maya demonstrated strong engagement and empathy, frequently building on peers' ideas and considering multiple perspectives.",
+      "growthIndicators": [
+        "Consistently shows empathy and builds on others' ideas."
       ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 5,
+        "collaborationRelationship": 5,
+        "adaptabilityOpenMindedness": 5,
+        "activeListeningFocus": 5,
+        "participationEngagement": 5
       }
     },
     {
-      "student_id": "Sam",
-      "total_turns": 7,
-      "speaking_time_estimate": "3-4 minutes",
-      "interaction_patterns": {
-        "responded_to": [
+      "studentId": "Sam",
+      "totalTurns": 7,
+      "speakingTimeEstimate": "3-4 minutes",
+      "interactionPatterns": {
+        "respondedTo": [
           "Casey",
           "Jordan"
         ],
-        "built_upon_ideas_from": [
+        "builtUponIdeasFrom": [
           "Jordan"
         ],
-        "received_responses_from": [
+        "receivedResponsesFrom": [
+          "Maya",
           "Jordan"
         ],
-        "interruption_count": 2,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "medium"
+        "interruptionCount": 2,
+        "wasInterruptedBy": [
+          "Jordan"
+        ],
+        "initiatedTopics": 1,
+        "turnLength": "medium"
       },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "impulsive",
-        "response_rate": "Moderate engagement from peers",
-        "contribution_to_environment": "Neutral to discussion quality"
+      "discussionBehavior": {
+        "engagementLevel": "high",
+        "waitTime": "impulsive",
+        "responseRate": "moderate",
+        "contributionToEnvironment": "neutral"
       },
       "skills": {
-        "empathy_perspective_taking": {
-          "evidence": [
-            {
-              "quote": "Oh, sorry. Go ahead.",
-              "context": "Apologizing after interrupting Jordan.",
-              "behavior_observed": "Recognizing and correcting an interruption.",
-              "line_reference": "Line 30",
-              "interacted_with": "Jordan"
-            }
-          ],
-          "pattern": "emerging",
+        "empathyPerspectiveTaking": {
+          "pattern": "occasional",
           "confidence": "medium",
-          "confidence_rationale": "Acknowledged interruption but needs more consistent behavior."
+          "examples": [
+            "\"I hear you, but... I'm starting to think maybe not?\""
+          ]
         },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "Because someone needs to have wisdom! That's the whole point.",
-              "context": "Responding to Casey's question about the necessity of memories.",
-              "behavior_observed": "Responding directly to a peer's question.",
-              "line_reference": "Line 10",
-              "interacted_with": "Casey"
-            }
-          ],
-          "pattern": "consistent",
-          "confidence": "high",
-          "confidence_rationale": "Frequently engaged with peers' ideas."
+        "collaborationRelationship": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "\"Building on what Sam said...\""
+          ]
         },
-        "adaptability_open_mindedness": {
+        "adaptabilityOpenMindedness": {
           "pattern": "not_observed",
           "confidence": "low",
-          "confidence_rationale": "No evidence of changing opinions or considering multiple perspectives."
+          "examples": []
         },
-        "active_listening_focus": {
-          "pattern": "not_observed",
-          "confidence": "low",
-          "confidence_rationale": "No evidence of referencing others' specific contributions."
+        "activeListeningFocus": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "\"I still think the community had good intentions though, even if—\""
+          ]
         },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "I think it's crazy that one person has to hold all the painful memories.",
-              "context": "Initiating discussion on the burden of memories.",
-              "behavior_observed": "Initiating discussion and engaging deeply.",
-              "line_reference": "Line 2",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "strong",
+        "participationEngagement": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Frequent and high-quality contributions."
+          "examples": [
+            "Initiated discussion on the fairness of memory holding."
+          ]
         }
       },
-      "overall_impression": "Sam was highly engaged and frequently initiated discussion, though needs to work on waiting for others to finish speaking.",
-      "growth_indicators": [
-        "Acknowledged an interruption, showing emerging awareness of discussion dynamics."
+      "overallImpression": "Sam actively participated but needs to work on listening and waiting for others to finish speaking.",
+      "growthIndicators": [
+        "Shows high engagement but needs to improve turn-taking."
       ],
-      "suggested_score": {
-        "empathy_perspective_taking": 3,
-        "collaboration_relationship": 4,
-        "adaptability_open_mindedness": 0,
-        "active_listening_focus": 0,
-        "participation_engagement": 5,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 3,
+        "collaborationRelationship": 3,
+        "adaptabilityOpenMindedness": 0,
+        "activeListeningFocus": 3,
+        "participationEngagement": 5
       }
     },
     {
-      "student_id": "Casey",
-      "total_turns": 5,
-      "speaking_time_estimate": "2-3 minutes",
-      "interaction_patterns": {
-        "responded_to": [
-          "Maya"
-        ],
-        "built_upon_ideas_from": [],
-        "received_responses_from": [
+      "studentId": "Jordan",
+      "totalTurns": 7,
+      "speakingTimeEstimate": "3-4 minutes",
+      "interactionPatterns": {
+        "respondedTo": [
           "Sam",
           "Maya"
         ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "short"
+        "builtUponIdeasFrom": [
+          "Sam",
+          "Maya"
+        ],
+        "receivedResponsesFrom": [
+          "Maya",
+          "Sam"
+        ],
+        "interruptionCount": 1,
+        "wasInterruptedBy": [],
+        "initiatedTopics": 1,
+        "turnLength": "medium"
       },
-      "discussion_behavior": {
-        "engagement_level": "medium",
-        "wait_time": "patient",
-        "response_rate": "Moderate engagement from peers",
-        "contribution_to_environment": "Enhances discussion quality"
+      "discussionBehavior": {
+        "engagementLevel": "high",
+        "waitTime": "patient",
+        "responseRate": "high",
+        "contributionToEnvironment": "enhances"
       },
       "skills": {
-        "empathy_perspective_taking": {
-          "pattern": "not_observed",
-          "confidence": "low",
-          "confidence_rationale": "No direct evidence of acknowledging others' viewpoints."
-        },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "Oh, okay. That makes sense.",
-              "context": "Responding to Maya's explanation about the necessity of memories.",
-              "behavior_observed": "Acknowledging a peer's explanation.",
-              "line_reference": "Line 11",
-              "interacted_with": "Maya"
-            }
-          ],
-          "pattern": "consistent",
-          "confidence": "medium",
-          "confidence_rationale": "Engaged with peers' ideas but did not extend them."
-        },
-        "adaptability_open_mindedness": {
-          "pattern": "not_observed",
-          "confidence": "low",
-          "confidence_rationale": "No evidence of changing opinions or considering multiple perspectives."
-        },
-        "active_listening_focus": {
-          "pattern": "not_observed",
-          "confidence": "low",
-          "confidence_rationale": "No evidence of referencing others' specific contributions."
-        },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "I didn't really get why they needed someone to have the memories at all.",
-              "context": "Initiating a question about the necessity of memories.",
-              "behavior_observed": "Initiating discussion.",
-              "line_reference": "Line 8",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "consistent",
+        "empathyPerspectiveTaking": {
+          "pattern": "frequent",
           "confidence": "high",
-          "confidence_rationale": "Initiated discussion and engaged with peers' responses."
+          "examples": [
+            "\"Sam, I hear you, but... I'm starting to think maybe not?\""
+          ]
+        },
+        "collaborationRelationship": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Building on what Sam said...\""
+          ]
+        },
+        "adaptabilityOpenMindedness": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"That's what makes it interesting - it's not black and white.\""
+          ]
+        },
+        "activeListeningFocus": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Oh man, I didn't think about that. Maya, you might be right.\""
+          ]
+        },
+        "participationEngagement": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "Initiated discussion on the fairness of memory holding."
+          ]
         }
       },
-      "overall_impression": "Casey engaged with the discussion by asking clarifying questions and acknowledging peers' explanations.",
-      "growth_indicators": [
-        "Showed curiosity by asking questions that prompted further discussion."
+      "overallImpression": "Jordan demonstrated strong empathy and collaboration skills, actively building on peers' ideas and considering multiple perspectives.",
+      "growthIndicators": [
+        "Shows improvement in communication and turn-taking."
       ],
-      "suggested_score": {
-        "empathy_perspective_taking": 0,
-        "collaboration_relationship": 3,
-        "adaptability_open_mindedness": 0,
-        "active_listening_focus": 0,
-        "participation_engagement": 4,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 5,
+        "collaborationRelationship": 5,
+        "adaptabilityOpenMindedness": 5,
+        "activeListeningFocus": 5,
+        "participationEngagement": 5
       }
     },
     {
-      "student_id": "Alex",
-      "total_turns": 3,
-      "speaking_time_estimate": "1-2 minutes",
-      "interaction_patterns": {
-        "responded_to": [
+      "studentId": "Casey",
+      "totalTurns": 5,
+      "speakingTimeEstimate": "2-3 minutes",
+      "interactionPatterns": {
+        "respondedTo": [
           "Maya"
         ],
-        "built_upon_ideas_from": [
+        "builtUponIdeasFrom": [],
+        "receivedResponsesFrom": [
           "Maya"
         ],
-        "received_responses_from": [
-          "Jordan",
-          "Maya"
-        ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "short"
+        "interruptionCount": 0,
+        "wasInterruptedBy": [],
+        "initiatedTopics": 1,
+        "turnLength": "short"
       },
-      "discussion_behavior": {
-        "engagement_level": "medium",
-        "wait_time": "patient",
-        "response_rate": "High engagement from peers",
-        "contribution_to_environment": "Enhances discussion quality"
+      "discussionBehavior": {
+        "engagementLevel": "medium",
+        "waitTime": "patient",
+        "responseRate": "moderate",
+        "contributionToEnvironment": "neutral"
       },
       "skills": {
-        "empathy_perspective_taking": {
-          "pattern": "not_observed",
-          "confidence": "low",
-          "confidence_rationale": "No direct evidence of acknowledging others' viewpoints."
-        },
-        "collaboration_relationship": {
-          "evidence": [
-            {
-              "quote": "I think they... I think they might hurt them.",
-              "context": "Expressing a darker interpretation of 'release'.",
-              "behavior_observed": "Contributing a new perspective.",
-              "line_reference": "Line 24",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "emerging",
+        "empathyPerspectiveTaking": {
+          "pattern": "occasional",
           "confidence": "medium",
-          "confidence_rationale": "Contributed a unique perspective that was acknowledged by peers."
+          "examples": [
+            "\"Oh, okay. That makes sense.\""
+          ]
         },
-        "adaptability_open_mindedness": {
+        "collaborationRelationship": {
           "pattern": "not_observed",
           "confidence": "low",
-          "confidence_rationale": "No evidence of changing opinions or considering multiple perspectives."
+          "examples": []
         },
-        "active_listening_focus": {
-          "pattern": "not_observed",
-          "confidence": "low",
-          "confidence_rationale": "No evidence of referencing others' specific contributions."
-        },
-        "participation_engagement": {
-          "evidence": [
-            {
-              "quote": "The war memory was scary.",
-              "context": "Expressing a reaction to the book's content.",
-              "behavior_observed": "Engaging with the discussion topic.",
-              "line_reference": "Line 12",
-              "interacted_with": "Group"
-            }
-          ],
-          "pattern": "consistent",
+        "adaptabilityOpenMindedness": {
+          "pattern": "occasional",
           "confidence": "medium",
-          "confidence_rationale": "Engaged with the discussion and contributed personal reactions."
+          "examples": [
+            "\"This book is getting more complicated than I expected.\""
+          ]
+        },
+        "activeListeningFocus": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "\"I didn't really get why they needed someone to have the memories at all.\""
+          ]
+        },
+        "participationEngagement": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "Asked clarifying questions about the need for memory holders."
+          ]
         }
       },
-      "overall_impression": "Alex showed emerging confidence by contributing a unique perspective and engaging with peers' responses.",
-      "growth_indicators": [
-        "Expressed a new interpretation that was acknowledged by peers."
+      "overallImpression": "Casey participated with curiosity, asking questions that prompted deeper discussion, but could engage more actively.",
+      "growthIndicators": [
+        "Shows curiosity but needs to build on others' ideas more."
       ],
-      "suggested_score": {
-        "empathy_perspective_taking": 0,
-        "collaboration_relationship": 3,
-        "adaptability_open_mindedness": 0,
-        "active_listening_focus": 0,
-        "participation_engagement": 3,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 3,
+        "collaborationRelationship": 2,
+        "adaptabilityOpenMindedness": 3,
+        "activeListeningFocus": 3,
+        "participationEngagement": 3
+      }
+    },
+    {
+      "studentId": "Alex",
+      "totalTurns": 3,
+      "speakingTimeEstimate": "1-2 minutes",
+      "interactionPatterns": {
+        "respondedTo": [],
+        "builtUponIdeasFrom": [
+          "Maya"
+        ],
+        "receivedResponsesFrom": [
+          "Maya",
+          "Jordan"
+        ],
+        "interruptionCount": 0,
+        "wasInterruptedBy": [],
+        "initiatedTopics": 0,
+        "turnLength": "short"
+      },
+      "discussionBehavior": {
+        "engagementLevel": "medium",
+        "waitTime": "patient",
+        "responseRate": "moderate",
+        "contributionToEnvironment": "enhances"
+      },
+      "skills": {
+        "empathyPerspectiveTaking": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "\"I think they... I think they might hurt them.\""
+          ]
+        },
+        "collaborationRelationship": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "\"The war memory was scary.\""
+          ]
+        },
+        "adaptabilityOpenMindedness": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "\"Yeah, like, why would they make such a big deal about it?\""
+          ]
+        },
+        "activeListeningFocus": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "\"The war memory was scary.\""
+          ]
+        },
+        "participationEngagement": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "Gained confidence and contributed a darker interpretation of 'release'."
+          ]
+        }
+      },
+      "overallImpression": "Alex showed growing confidence and provided valuable insights, though participation was limited.",
+      "growthIndicators": [
+        "Increased confidence in sharing ideas."
+      ],
+      "suggestedScore": {
+        "empathyPerspectiveTaking": 3,
+        "collaborationRelationship": 3,
+        "adaptabilityOpenMindedness": 3,
+        "activeListeningFocus": 3,
+        "participationEngagement": 3
       }
     }
   ]

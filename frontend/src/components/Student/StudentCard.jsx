@@ -42,7 +42,7 @@ export default function StudentCard({ student, analyses }) {
         <div>
           <h3 className="text-lg font-semibold text-gray-900">{studentName}</h3>
           <p className="text-sm text-gray-500 mt-1">
-            {student.total_turns} {student.total_turns === 1 ? 'turn' : 'turns'}
+            {student.totalTurns} {student.totalTurns === 1 ? 'turn' : 'turns'}
           </p>
         </div>
         <GrowthIndicator change={participationGrowth} />

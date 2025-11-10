@@ -17,7 +17,7 @@ export function aggregateStudentData(studentId, analyses) {
     return {
       week,
       date: analysis.transcript_metadata.date,
-      totalTurns: student.total_turns,
+      totalTurns: student.totalTurns,
       skills: student.skills || {},
       scores: student.suggested_score || {},
       participation: student.overall_impression || '',

@@ -101,7 +101,7 @@ function getUserPrompt(transcript) {
   "students": [
     {
       "student_id": "StudentName",
-      "total_turns": 5,
+      "totalTurns": 5,
       "speaking_time_estimate": "2-3 minutes",
       "interaction_patterns": {
         "responded_to": ["OtherStudent"],
