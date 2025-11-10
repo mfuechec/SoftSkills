@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useData } from '../../context/DataContext';
 import StudentCard from '../Student/StudentCard';
@@ -5,11 +6,12 @@ import WeekSelector from '../Shared/WeekSelector';
 import ClassInsights from '../ClassInsights/ClassInsights';
 import InterventionPriority from '../ClassInsights/InterventionPriority';
 import { getAllStudents } from '../../utils/aggregateStudent';
-import { Upload } from 'lucide-react';
+import { Upload, Users, BarChart3, AlertCircle, FileText } from 'lucide-react';
 
 export default function ClassOverview() {
   const navigate = useNavigate();
   const { loading, error, currentAnalysis, analyses, selectedWeek, availableWeeks } = useData();
+  const [activeSection, setActiveSection] = useState('students');
 
   if (loading) {
     return (
@@ -41,6 +43,29 @@ export default function ClassOverview() {
   const previousWeek = currentWeekIdx > 0 ? availableWeeks[currentWeekIdx - 1] : null;
   const previousAnalysis = previousWeek ? analyses[previousWeek] : null;
 
+  // Scroll to section smoothly
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const offset = 80; // Account for header height
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+      setActiveSection(sectionId);
+    }
+  };
+
+  const sections = [
+    { id: 'students', label: 'Students', icon: Users },
+    { id: 'environment', label: 'Discussion Environment', icon: BarChart3 },
+    { id: 'interventions', label: 'Intervention Priority', icon: AlertCircle },
+    { id: 'session', label: 'Session Notes', icon: FileText },
+  ];
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -69,84 +94,154 @@ export default function ClassOverview() {
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Session Info */}
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div>
-              <p className="text-sm font-medium text-gray-500">Week</p>
-              <p className="mt-1 text-2xl font-semibold text-gray-900">
-                {selectedWeek}
-              </p>
-            </div>
-            <div>
-              <p className="text-sm font-medium text-gray-500">Date</p>
-              <p className="mt-1 text-2xl font-semibold text-gray-900">
-                {metadata.date || 'N/A'}
-              </p>
-            </div>
-            <div>
-              <p className="text-sm font-medium text-gray-500">Students</p>
-              <p className="mt-1 text-2xl font-semibold text-gray-900">
-                {students.length}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Class Insights - NEW */}
-        <ClassInsights analysis={currentAnalysis} />
-
-        {/* Intervention Priority - NEW */}
-        <InterventionPriority analysis={currentAnalysis} previousAnalysis={previousAnalysis} />
-
-        {/* Students Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {students.map((student) => (
-            <StudentCard
-              key={student.student_id}
-              student={student}
-              analyses={analyses}
-            />
-          ))}
-        </div>
-
-        {/* Session Analysis */}
-        {currentAnalysis?.session_analysis && (
-          <div className="mt-8 bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">
-              Session Analysis
-            </h2>
-            <div className="space-y-4">
-              {currentAnalysis.session_analysis.key_moments?.length > 0 && (
-                <div>
-                  <h3 className="text-sm font-medium text-gray-700 mb-2">
-                    Key Moments
-                  </h3>
-                  <ul className="list-disc list-inside space-y-1">
-                    {currentAnalysis.session_analysis.key_moments.map((moment, idx) => (
-                      <li key={idx} className="text-gray-600 text-sm">
-                        {moment}
-                      </li>
-                    ))}
-                  </ul>
+      {/* Main Content with Sidebar */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex flex-col lg:flex-row gap-8">
+          {/* Sidebar Navigation - Hidden on mobile, sticky on desktop */}
+          <aside className="hidden lg:block lg:w-64 flex-shrink-0">
+            <div className="sticky top-8">
+              {/* Session Info Card */}
+              <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-4">
+                <div className="space-y-3">
+                  <div>
+                    <p className="text-xs font-medium text-gray-500">Week</p>
+                    <p className="mt-0.5 text-lg font-semibold text-gray-900">
+                      {selectedWeek}
+                    </p>
+                  </div>
+                  <div className="border-t border-gray-200 pt-3">
+                    <p className="text-xs font-medium text-gray-500">Date</p>
+                    <p className="mt-0.5 text-sm font-medium text-gray-900">
+                      {metadata.date || 'N/A'}
+                    </p>
+                  </div>
+                  <div className="border-t border-gray-200 pt-3">
+                    <p className="text-xs font-medium text-gray-500">Students</p>
+                    <p className="mt-0.5 text-lg font-semibold text-gray-900">
+                      {students.length}
+                    </p>
+                  </div>
                 </div>
-              )}
-              {currentAnalysis.session_analysis.teacher_recommendations && (
+              </div>
+
+              {/* Navigation Menu */}
+              <nav className="bg-white rounded-lg shadow-sm border border-gray-200 p-2">
+                <p className="px-3 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">
+                  Jump to Section
+                </p>
+                <div className="mt-1 space-y-1">
+                  {sections.map((section) => {
+                    const Icon = section.icon;
+                    const isActive = activeSection === section.id;
+                    return (
+                      <button
+                        key={section.id}
+                        onClick={() => scrollToSection(section.id)}
+                        className={`w-full flex items-center space-x-3 px-3 py-2 text-sm font-medium rounded-md transition-colors ${
+                          isActive
+                            ? 'bg-primary-100 text-primary-700'
+                            : 'text-gray-700 hover:bg-gray-100'
+                        }`}
+                      >
+                        <Icon className={`w-4 h-4 ${isActive ? 'text-primary-600' : 'text-gray-400'}`} />
+                        <span>{section.label}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </nav>
+            </div>
+          </aside>
+
+          {/* Main Content Area */}
+          <main className="flex-1 min-w-0">
+            {/* Mobile Session Info */}
+            <div className="lg:hidden bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
+              <div className="grid grid-cols-3 gap-4">
                 <div>
-                  <h3 className="text-sm font-medium text-gray-700 mb-2">
-                    Teacher Recommendations
-                  </h3>
-                  <p className="text-gray-600 text-sm">
-                    {currentAnalysis.session_analysis.teacher_recommendations}
+                  <p className="text-sm font-medium text-gray-500">Week</p>
+                  <p className="mt-1 text-2xl font-semibold text-gray-900">
+                    {selectedWeek}
                   </p>
                 </div>
-              )}
+                <div>
+                  <p className="text-sm font-medium text-gray-500">Date</p>
+                  <p className="mt-1 text-lg font-semibold text-gray-900">
+                    {metadata.date || 'N/A'}
+                  </p>
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-gray-500">Students</p>
+                  <p className="mt-1 text-2xl font-semibold text-gray-900">
+                    {students.length}
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-        )}
-      </main>
+
+            {/* Students Grid - NOW FIRST */}
+            <section id="students" className="scroll-mt-20 mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Students</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                {students.map((student) => (
+                  <StudentCard
+                    key={student.student_id}
+                    student={student}
+                    analyses={analyses}
+                  />
+                ))}
+              </div>
+            </section>
+
+            {/* Class Insights / Discussion Environment */}
+            <section id="environment" className="scroll-mt-20 mb-8">
+              <ClassInsights analysis={currentAnalysis} />
+            </section>
+
+            {/* Intervention Priority */}
+            <section id="interventions" className="scroll-mt-20 mb-8">
+              <InterventionPriority analysis={currentAnalysis} previousAnalysis={previousAnalysis} />
+            </section>
+
+            {/* Session Analysis / Notes */}
+            {currentAnalysis?.session_analysis && (
+              <section id="session" className="scroll-mt-20">
+                <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                  <h2 className="text-xl font-semibold text-gray-900 mb-4">
+                    Session Notes
+                  </h2>
+                  <div className="space-y-4">
+                    {currentAnalysis.session_analysis.key_moments?.length > 0 && (
+                      <div>
+                        <h3 className="text-sm font-medium text-gray-700 mb-2">
+                          Key Moments
+                        </h3>
+                        <ul className="list-disc list-inside space-y-1">
+                          {currentAnalysis.session_analysis.key_moments.map((moment, idx) => (
+                            <li key={idx} className="text-gray-600 text-sm">
+                              {moment}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    {currentAnalysis.session_analysis.teacher_recommendations && (
+                      <div>
+                        <h3 className="text-sm font-medium text-gray-700 mb-2">
+                          Teacher Recommendations
+                        </h3>
+                        <p className="text-gray-600 text-sm">
+                          {currentAnalysis.session_analysis.teacher_recommendations}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </section>
+            )}
+          </main>
+        </div>
+      </div>
     </div>
   );
 }
