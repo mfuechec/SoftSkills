@@ -5,6 +5,7 @@ import StudentCard from '../Student/StudentCard';
 import WeekSelector from '../Shared/WeekSelector';
 import ClassInsights from '../ClassInsights/ClassInsights';
 import InterventionPriority from '../ClassInsights/InterventionPriority';
+import SessionComparison from '../SessionAnalysis/SessionComparison';
 import { getAllStudents } from '../../utils/aggregateStudent';
 import { Upload, Users, BarChart3, AlertCircle, FileText } from 'lucide-react';
 
@@ -235,6 +236,12 @@ export default function ClassOverview() {
                         </p>
                       </div>
                     )}
+
+                    {/* Week-over-Week Comparison */}
+                    <SessionComparison
+                      currentAnalysis={currentAnalysis}
+                      previousAnalysis={previousAnalysis}
+                    />
                   </div>
                 </div>
               </section>
