@@ -1,0 +1,369 @@
+{
+  "transcript_metadata": {
+    "week": "Week 20",
+    "date": "March 26, 2025",
+    "topic": "Control vs. Freedom in 'Brave New World' (Chapters 4-7)",
+    "duration_minutes": 15,
+    "total_turns": 36
+  },
+  "session_analysis": {
+    "overall_engagement": "high",
+    "discussion_quality": "Balanced and thoughtful with high participation and insightful connections",
+    "key_moments": [
+      "Alex's observation: 'staying comfortable means losing yourself'",
+      "Jordan mediating Sam's interruption"
+    ],
+    "concerns": [
+      "Sam's initial interruption, though self-corrected"
+    ],
+    "teacher_recommendations": [
+      "Encourage more turns for quieter students like Sam to balance participation"
+    ]
+  },
+  "students": [
+    {
+      "student_id": "Maya",
+      "total_turns": 9,
+      "skills": {
+        "empathy_perspective_taking": {
+          "evidence": [
+            {
+              "quote": "That's a beautiful connection to The Giver, Casey.",
+              "context": "Acknowledging Casey's connection between books",
+              "behavior_observed": "Validating peers' contributions",
+              "line_reference": "Line 52"
+            },
+            {
+              "quote": "Alex, that's a really empathetic point.",
+              "context": "Responding to Alex's perspective on Bernard",
+              "behavior_observed": "Acknowledging others' viewpoints",
+              "line_reference": "Line 17"
+            }
+          ],
+          "pattern": "strong",
+          "confidence": "high",
+          "confidence_rationale": "Multiple clear examples of validation and empathy"
+        },
+        "collaboration_relationship": {
+          "evidence": [
+            {
+              "quote": "That's a great question. What do you all predict?",
+              "context": "Facilitating further discussion",
+              "behavior_observed": "Inviting others into discussion",
+              "line_reference": "Line 59"
+            }
+          ],
+          "pattern": "strong",
+          "confidence": "high",
+          "confidence_rationale": "Consistent facilitation and inviting others"
+        },
+        "adaptability_open_mindedness": {
+          "evidence": [],
+          "pattern": "not_observed",
+          "confidence": "low",
+          "confidence_rationale": "No direct evidence observed in this session"
+        },
+        "active_listening_focus": {
+          "evidence": [
+            {
+              "quote": "That connects back to what we were talking about last week.",
+              "context": "Referencing past discussions",
+              "behavior_observed": "Referencing what others specifically said",
+              "line_reference": "Line 23"
+            }
+          ],
+          "pattern": "consistent",
+          "confidence": "high",
+          "confidence_rationale": "Clear reference to previous discussion"
+        },
+        "participation_engagement": {
+          "evidence": [],
+          "pattern": "highly_active",
+          "confidence": "high",
+          "confidence_rationale": "Based on turn count and transcript notes"
+        }
+      },
+      "overall_impression": "Maya effectively facilitated the discussion, showed strong empathy, and maintained engagement.",
+      "growth_indicators": [
+        "Continued strong facilitation and empathy"
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 5,
+        "collaboration_relationship": 5,
+        "adaptability_open_mindedness": 0,
+        "active_listening_focus": 4,
+        "participation_engagement": 5,
+        "score_note": "Scores are 1-5 scale. Use 0 if insufficient evidence. These are SECONDARY to evidence."
+      }
+    },
+    {
+      "student_id": "Jordan",
+      "total_turns": 9,
+      "skills": {
+        "empathy_perspective_taking": {
+          "evidence": [],
+          "pattern": "not_observed",
+          "confidence": "medium",
+          "confidence_rationale": "No direct empathy evidence noted"
+        },
+        "collaboration_relationship": {
+          "evidence": [
+            {
+              "quote": "Hold on Sam, I think Casey's making a point.",
+              "context": "Mediating an interruption by Sam",
+              "behavior_observed": "Mediating and maintaining discussion flow",
+              "line_reference": "Line 45"
+            }
+          ],
+          "pattern": "strong",
+          "confidence": "high",
+          "confidence_rationale": "Clear evidence of effective mediation"
+        },
+        "adaptability_open_mindedness": {
+          "evidence": [
+            {
+              "quote": "Unless the point is to make us think about our own world, not to give us a neat resolution.",
+              "context": "Responding to Sam's prediction",
+              "behavior_observed": "Exploring contradictions without defensiveness",
+              "line_reference": "Line 62"
+            }
+          ],
+          "pattern": "developing",
+          "confidence": "medium",
+          "confidence_rationale": "Some evidence shown"
+        },
+        "active_listening_focus": {
+          "evidence": [
+            {
+              "quote": "Exactly, Alex! And that makes it way harder to resist...",
+              "context": "Building on Alex's point",
+              "behavior_observed": "Referencing what others specifically said",
+              "line_reference": "Line 30"
+            }
+          ],
+          "pattern": "consistent",
+          "confidence": "high",
+          "confidence_rationale": "Consistent reference and building on peer contributions"
+        },
+        "participation_engagement": {
+          "evidence": [],
+          "pattern": "highly_active",
+          "confidence": "high",
+          "confidence_rationale": "Based on turn count and active engagement"
+        }
+      },
+      "overall_impression": "Jordan actively participated, mediated discussions, and contributed thoughtful insights.",
+      "growth_indicators": [
+        "Effective conflict mediation"
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 0,
+        "collaboration_relationship": 5,
+        "adaptability_open_mindedness": 3,
+        "active_listening_focus": 4,
+        "participation_engagement": 5,
+        "score_note": "Scores are 1-5 scale. Use 0 if insufficient evidence. These are SECONDARY to evidence."
+      }
+    },
+    {
+      "student_id": "Alex",
+      "total_turns": 7,
+      "skills": {
+        "empathy_perspective_taking": {
+          "evidence": [],
+          "pattern": "not_observed",
+          "confidence": "low",
+          "confidence_rationale": "No direct evidence observed"
+        },
+        "collaboration_relationship": {
+          "evidence": [
+            {
+              "quote": "It reminds me of what Jordan said about social media.",
+              "context": "Connecting Jordan's earlier point to broader context",
+              "behavior_observed": "Synthesizing multiple viewpoints",
+              "line_reference": "Line 27"
+            }
+          ],
+          "pattern": "consistent",
+          "confidence": "high",
+          "confidence_rationale": "Evidence of synthesis"
+        },
+        "adaptability_open_mindedness": {
+          "evidence": [
+            {
+              "quote": "But staying comfortable means losing yourself.",
+              "context": "Contributing a profound observation",
+              "behavior_observed": "Exploring philosophical ideas",
+              "line_reference": "Line 54"
+            }
+          ],
+          "pattern": "strong",
+          "confidence": "high",
+          "confidence_rationale": "Strong evidence of philosophical engagement"
+        },
+        "active_listening_focus": {
+          "evidence": [
+            {
+              "quote": "Exactly, Alex! And that makes it way harder to resist...",
+              "context": "Referenced by Jordan",
+              "behavior_observed": "Contributed to ongoing discussion",
+              "line_reference": "Line 30"
+            }
+          ],
+          "pattern": "developing",
+          "confidence": "medium",
+          "confidence_rationale": "Referenced by peers"
+        },
+        "participation_engagement": {
+          "evidence": [],
+          "pattern": "active",
+          "confidence": "high",
+          "confidence_rationale": "Engaged with substantial contributions"
+        }
+      },
+      "overall_impression": "Alex made several profound observations, showing deep engagement and synthesis of ideas.",
+      "growth_indicators": [
+        "Emerging philosophical engagement"
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 0,
+        "collaboration_relationship": 4,
+        "adaptability_open_mindedness": 5,
+        "active_listening_focus": 3,
+        "participation_engagement": 4,
+        "score_note": "Scores are 1-5 scale. Use 0 if insufficient evidence. These are SECONDARY to evidence."
+      }
+    },
+    {
+      "student_id": "Sam",
+      "total_turns": 6,
+      "skills": {
+        "empathy_perspective_taking": {
+          "evidence": [
+            {
+              "quote": "Okay, you're right. I hadn't thought about how lonely that would be.",
+              "context": "Acknowledging Alex's point about Bernard",
+              "behavior_observed": "Revising opinion based on new perspective",
+              "line_reference": "Line 19"
+            }
+          ],
+          "pattern": "developing",
+          "confidence": "medium",
+          "confidence_rationale": "Some evidence of perspective-taking"
+        },
+        "collaboration_relationship": {
+          "evidence": [
+            {
+              "quote": "Oh, sorry Casey. Go ahead.",
+              "context": "After interrupting, invites Casey to continue",
+              "behavior_observed": "Inviting others into conversation",
+              "line_reference": "Line 47"
+            }
+          ],
+          "pattern": "emerging",
+          "confidence": "medium",
+          "confidence_rationale": "Evidence of self-correction and collaboration"
+        },
+        "adaptability_open_mindedness": {
+          "evidence": [],
+          "pattern": "not_observed",
+          "confidence": "low",
+          "confidence_rationale": "Limited turns to assess adaptability"
+        },
+        "active_listening_focus": {
+          "evidence": [
+            {
+              "quote": "Yeah but—",
+              "context": "Initial interruption of Casey",
+              "behavior_observed": "Interrupting",
+              "line_reference": "Line 45"
+            }
+          ],
+          "pattern": "emerging",
+          "confidence": "medium",
+          "confidence_rationale": "Shows potential for improvement in listening"
+        },
+        "participation_engagement": {
+          "evidence": [],
+          "pattern": "moderate",
+          "confidence": "high",
+          "confidence_rationale": "Participated but with fewer turns"
+        }
+      },
+      "overall_impression": "Sam participated with some insightful moments but needs to improve active listening and collaboration.",
+      "growth_indicators": [
+        "Self-correction after interrupting"
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 3,
+        "collaboration_relationship": 2,
+        "adaptability_open_mindedness": 0,
+        "active_listening_focus": 2,
+        "participation_engagement": 3,
+        "score_note": "Scores are 1-5 scale. Use 0 if insufficient evidence. These are SECONDARY to evidence."
+      }
+    },
+    {
+      "student_id": "Casey",
+      "total_turns": 8,
+      "skills": {
+        "empathy_perspective_taking": {
+          "evidence": [],
+          "pattern": "not_observed",
+          "confidence": "medium",
+          "confidence_rationale": "Focus on critical thinking rather than empathy"
+        },
+        "collaboration_relationship": {
+          "evidence": [],
+          "pattern": "not_observed",
+          "confidence": "medium",
+          "confidence_rationale": "Focused more on individual contributions"
+        },
+        "adaptability_open_mindedness": {
+          "evidence": [
+            {
+              "quote": "Maybe not quite that extreme, but there are definitely parallels.",
+              "context": "Responding to Sam's extreme view",
+              "behavior_observed": "Exploring contradictions without defensiveness",
+              "line_reference": "Line 41"
+            }
+          ],
+          "pattern": "developing",
+          "confidence": "medium",
+          "confidence_rationale": "Some evidence of exploring ideas"
+        },
+        "active_listening_focus": {
+          "evidence": [
+            {
+              "quote": "Absolutely! Because people think they're free.",
+              "context": "Building on Jordan's point",
+              "behavior_observed": "Staying on topic and focused",
+              "line_reference": "Line 22"
+            }
+          ],
+          "pattern": "consistent",
+          "confidence": "high",
+          "confidence_rationale": "Consistent focus and contribution"
+        },
+        "participation_engagement": {
+          "evidence": [],
+          "pattern": "active",
+          "confidence": "high",
+          "confidence_rationale": "Engaged with substantial critical thinking"
+        }
+      },
+      "overall_impression": "Casey was active in the discussion, showing strong critical thinking and consistent focus.",
+      "growth_indicators": [
+        "Continued strong focus on critical thinking"
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 0,
+        "collaboration_relationship": 0,
+        "adaptability_open_mindedness": 3,
+        "active_listening_focus": 4,
+        "participation_engagement": 4,
+        "score_note": "Scores are 1-5 scale. Use 0 if insufficient evidence. These are SECONDARY to evidence."
+      }
+    }
+  ]
+}
