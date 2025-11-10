@@ -11,12 +11,12 @@ export function useData() {
 }
 
 export function DataProvider({ children }) {
+  const availableWeeks = [10, 12, 15, 17, 19];
+
   const [analyses, setAnalyses] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [selectedWeek, setSelectedWeek] = useState(20);
-
-  const availableWeeks = [10, 12, 15, 17, 19, 20];
+  const [selectedWeek, setSelectedWeek] = useState(availableWeeks[availableWeeks.length - 1]);
 
   useEffect(() => {
     async function loadAnalyses() {
