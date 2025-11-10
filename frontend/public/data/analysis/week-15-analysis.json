@@ -8,21 +8,21 @@
   },
   "session_analysis": {
     "overall_engagement": "high",
-    "discussion_quality": "The discussion was rich with thoughtful connections and deep questions, indicating high engagement and understanding.",
+    "discussion_quality": "Students engaged deeply with ethical questions and real-world connections.",
     "key_moments": [
-      "Casey's deep question about societal conditioning.",
-      "Maya's validation of Alex's earlier suspicions.",
-      "Jordan's insight into the conditioning of Jonas's dad."
+      "Casey raised a profound question about societal blindness.",
+      "Maya validated Alex's earlier predictions.",
+      "Jordan synthesized themes of systemic conditioning."
     ],
     "concerns": [],
     "teacher_recommendations": [
-      "Encourage students to explore more real-world connections.",
-      "Provide opportunities for quieter students to initiate topics."
+      "Encourage students to explore more real-world parallels.",
+      "Facilitate a deeper dive into individual vs. systemic change."
     ],
     "participation_equity_score": 8,
     "participation_distribution": "even",
     "discussion_depth_score": 8,
-    "evidence_citation_count": 0,
+    "evidence_citation_count": 3,
     "perspective_diversity": "high",
     "interaction_health": "strong",
     "conversational_turns": 25,
@@ -69,41 +69,39 @@
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Maya: 'The worst part for me is that his dad seems like a nice person. He's not evil. He just doesn't know.'",
-            "Maya: 'Casey, that's such a good point. It makes you think about our own society and what we might be blind to.'"
+            "\"Alex, you were right to be suspicious earlier. You picked up on the clues better than the rest of us.\""
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Maya: 'Alex, you were right to be suspicious earlier. You picked up on the clues better than the rest of us.'",
-            "Maya: 'I love where your head's at, Casey. That would be really brave of Jonas.'"
+            "\"I love where your head's at, Casey. That would be really brave of Jonas.\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "occasional",
+          "pattern": "emerging",
           "confidence": "medium",
           "examples": [
-            "Maya: 'Those are great examples, Alex. I hadn't connected it to real life like that, but you're right.'"
+            "\"That's such a hard question. Part of me wants him to stay and try to change things from the inside, but another part thinks the system is too broken.\""
           ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Maya: 'I agree with Jordan. Sometimes you have to take risks for what's right, even if it's dangerous.'"
+            "\"Those are great examples, Alex. I hadn't connected it to real life like that, but you're right.\""
           ]
         },
         "participation_engagement": {
           "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "Maya: 'That's such a hard question. Part of me wants him to stay and try to change things from the inside, but another part thinks the system is too broken.'"
+            "Initiated topics and engaged deeply with peers."
           ]
         }
       },
-      "overall_impression": "Maya consistently validates and builds on her peers' ideas, showing strong empathy and collaboration skills.",
+      "overall_impression": "Maya consistently validates and builds on peers' ideas, enhancing the discussion with empathy and perspective-taking.",
       "growth_indicators": [
         "Increased ability to connect book themes to real-world issues."
       ],
@@ -125,7 +123,6 @@
           "Maya"
         ],
         "built_upon_ideas_from": [
-          "Maya",
           "Alex"
         ],
         "received_responses_from": [
@@ -141,48 +138,48 @@
         "engagement_level": "high",
         "wait_time": "patient",
         "response_rate": "High - peers frequently engage with his ideas",
-        "contribution_to_environment": "Enhances discussion quality through thoughtful insights and building on others' ideas"
+        "contribution_to_environment": "Synthesizes themes and builds on peers' contributions"
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Jordan: 'I think what Maya said about Jonas's dad is really important. Like, he's not a bad person, but he's been so conditioned by the system that he can't see how wrong it is.'"
+            "\"I think what Maya said about Jonas's dad is really important. Like, he's not a bad person, but he's been so conditioned by the system that he can't see how wrong it is.\""
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Jordan: 'Yeah, like, are there things we just accept as normal that are actually wrong?'"
+            "\"Building on Alex's point, maybe it's about convenience?\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "occasional",
+          "pattern": "emerging",
           "confidence": "medium",
           "examples": [
-            "Jordan: 'Oh man, you're right, Alex. Jonas can't just leave Gabriel there.'"
+            "\"That's hard to say. Maybe he's not stronger, just different.\""
           ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Jordan: 'I mean, yeah, but what's the alternative? Let Gabriel die? That's not an option.'"
+            "\"Yeah, like, are there things we just accept as normal that are actually wrong?\""
           ]
         },
         "participation_engagement": {
           "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "Jordan: 'If he leaves, can he actually change anything? Or will the community just keep going the same way?'"
+            "Initiated topics and engaged deeply with peers."
           ]
         }
       },
-      "overall_impression": "Jordan provides insightful contributions and effectively builds on others' ideas, demonstrating strong empathy and collaboration skills.",
+      "overall_impression": "Jordan effectively synthesizes and builds on peers' ideas, contributing to a deeper understanding of the themes.",
       "growth_indicators": [
-        "Consistently connects text themes to broader societal issues."
+        "Increased ability to synthesize complex themes."
       ],
       "suggested_score": {
         "empathy_perspective_taking": 5,
@@ -198,68 +195,67 @@
       "speaking_time_estimate": "2-3 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Jordan",
-          "Sam"
+          "Sam",
+          "Jordan"
         ],
         "built_upon_ideas_from": [
-          "Maya",
-          "Alex"
+          "Maya"
         ],
         "received_responses_from": [
           "Maya",
-          "Jordan"
+          "Sam"
         ],
         "interruption_count": 0,
         "was_interrupted_by": [],
-        "initiated_topics": 1,
+        "initiated_topics": 2,
         "turn_length": "medium"
       },
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
         "response_rate": "High - peers frequently engage with her ideas",
-        "contribution_to_environment": "Enhances discussion quality through deep questioning and real-world connections"
+        "contribution_to_environment": "Poses deep ethical questions and connects themes to real-world issues"
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Casey: 'That's actually terrifying when you think about it. Like, what if we're all like that about something and don't realize it?'"
+            "\"That's actually terrifying when you think about it. Like, what if we're all like that about something and don't realize it?\""
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Casey: 'So what should Jonas do? Should he leave?'"
+            "\"So maybe he has to take Gabriel with him?\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "occasional",
+          "pattern": "emerging",
           "confidence": "medium",
           "examples": [
-            "Casey: 'Wait, so maybe he has to take Gabriel with him?'"
+            "\"It's uncomfortable though. Like, it's easier not to think about this stuff.\""
           ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Casey: 'Me too. I'm actually really worried about how this book is going to end.'"
+            "\"I was thinking about how we treat homeless people. Like, we just walk past them like they're invisible.\""
           ]
         },
         "participation_engagement": {
           "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "Casey: 'I was NOT expecting that. I had to put the book down for a minute.'"
+            "Initiated topics and engaged deeply with peers."
           ]
         }
       },
-      "overall_impression": "Casey asks deep questions and makes connections to real-world issues, demonstrating strong empathy and engagement.",
+      "overall_impression": "Casey consistently raises thought-provoking questions and connects themes to real-world issues, enhancing the depth of the discussion.",
       "growth_indicators": [
-        "Increased ability to ask thought-provoking questions."
+        "Increased ability to connect book themes to ethical questions."
       ],
       "suggested_score": {
         "empathy_perspective_taking": 5,
@@ -279,8 +275,7 @@
           "Jordan"
         ],
         "built_upon_ideas_from": [
-          "Maya",
-          "Alex"
+          "Maya"
         ],
         "received_responses_from": [
           "Maya",
@@ -295,55 +290,55 @@
         "engagement_level": "high",
         "wait_time": "patient",
         "response_rate": "High - peers frequently engage with his ideas",
-        "contribution_to_environment": "Enhances discussion quality through humility and openness to new ideas"
+        "contribution_to_environment": "Shows humility and empathy, enhancing the discussion"
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Sam: 'I... okay, I was totally wrong before. This is way darker than I thought. Alex called it.'"
+            "\"I... okay, I was totally wrong before. This is way darker than I thought. Alex called it.\""
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Sam: 'Whoa. That's a really deep question, Casey.'"
+            "\"That's a really good example, Casey. We've kind of normalized ignoring people who need help.\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "frequent",
-          "confidence": "high",
+          "pattern": "emerging",
+          "confidence": "medium",
           "examples": [
-            "Sam: 'I think he has to leave. How can he stay after knowing what he knows?'"
+            "\"But also really dangerous. They're both going to be in trouble if he does that.\""
           ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Sam: 'But also really dangerous. They're both going to be in trouble if he does that.'"
+            "\"Yeah, but isn't that the point? Jonas could have stayed comfortable and ignorant, but he chose to see the truth even though it hurt.\""
           ]
         },
         "participation_engagement": {
           "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "Sam: 'Okay, this book just went from interesting to, like, really important.'"
+            "Engaged deeply with peers and showed humility."
           ]
         }
       },
-      "overall_impression": "Sam demonstrates humility and openness, contributing to a respectful and thoughtful discussion.",
+      "overall_impression": "Sam demonstrates humility and empathy, contributing to a supportive and reflective discussion environment.",
       "growth_indicators": [
-        "Shows increased willingness to reconsider previous opinions."
+        "Increased ability to acknowledge others' insights."
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 4,
+        "empathy_perspective_taking": 5,
         "collaboration_relationship": 4,
-        "adaptability_open_mindedness": 4,
+        "adaptability_open_mindedness": 3,
         "active_listening_focus": 4,
-        "participation_engagement": 4
+        "participation_engagement": 5
       }
     },
     {
@@ -365,61 +360,61 @@
         "interruption_count": 0,
         "was_interrupted_by": [],
         "initiated_topics": 0,
-        "turn_length": "short"
+        "turn_length": "medium"
       },
       "discussion_behavior": {
         "engagement_level": "medium",
         "wait_time": "patient",
         "response_rate": "Moderate - peers engage with his ideas",
-        "contribution_to_environment": "Enhances discussion quality through real-world connections and validation"
+        "contribution_to_environment": "Provides real-world connections and honest vulnerability"
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Alex: 'It was really sad. Especially because it was a baby.'"
+            "\"I hope they both make it.\""
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Alex: 'Thanks. I just had a bad feeling about it.'"
+            "\"Like... maybe how we treat animals? Or the environment?\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "frequent",
-          "confidence": "high",
+          "pattern": "emerging",
+          "confidence": "medium",
           "examples": [
-            "Alex: 'Like... maybe how we treat animals? Or the environment?'"
+            "\"I want to say yes, but I don't know. It's scary to question everything you thought was normal.\""
           ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Alex: 'But what about Gabriel? He'll be released soon.'"
+            "\"But what about Gabriel? He'll be released soon.\""
           ]
         },
         "participation_engagement": {
           "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "Alex: 'I hope they both make it.'"
+            "Engaged deeply with peers and provided real-world connections."
           ]
         }
       },
-      "overall_impression": "Alex makes thoughtful contributions and connects themes to real-world issues, demonstrating strong empathy and adaptability.",
+      "overall_impression": "Alex provides insightful real-world connections and demonstrates honest vulnerability, enhancing the depth of the discussion.",
       "growth_indicators": [
-        "Increased confidence in sharing ideas and making connections."
+        "Increased ability to connect book themes to real-world issues."
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 4,
+        "empathy_perspective_taking": 5,
         "collaboration_relationship": 4,
-        "adaptability_open_mindedness": 4,
+        "adaptability_open_mindedness": 3,
         "active_listening_focus": 4,
-        "participation_engagement": 4
+        "participation_engagement": 5
       }
     }
   ]

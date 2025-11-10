@@ -3,47 +3,50 @@
     "week": "Week 17",
     "date": "2025-03-05",
     "topic": "The ending and Jonas's journey to Elsewhere (Chapters 20-23)",
-    "duration_minutes": 15,
-    "total_turns": 33
+    "duration_minutes": 30,
+    "total_turns": 67
   },
   "session_analysis": {
     "overall_engagement": "high",
-    "discussion_quality": "Students engaged deeply with the text, exploring multiple interpretations and demonstrating strong collaboration.",
+    "discussion_quality": "Students demonstrated deep analysis and empathy, with multiple perspectives explored.",
     "key_moments": [
-      "Casey's reinterpretation of the ending as hopeful despite tragedy."
+      "Casey introduces the idea that the ending is hopeful regardless of survival, shifting the group's perspective."
     ],
     "concerns": [],
     "teacher_recommendations": [
-      "Continue to encourage students to challenge each other's ideas respectfully."
+      "Encourage students to explore more textual evidence to support their interpretations."
     ],
     "participation_equity_score": 8,
     "participation_distribution": "even",
-    "discussion_depth_score": 8,
-    "evidence_citation_count": 3,
+    "discussion_depth_score": 9,
+    "evidence_citation_count": 7,
     "perspective_diversity": "high",
     "interaction_health": "strong",
-    "conversational_turns": 28,
+    "conversational_turns": 62,
     "environment_quality": {
       "student_to_student_interaction": "high",
       "idea_building_frequency": "frequent",
       "domination_concerns": [],
       "exclusion_concerns": [],
       "positive_patterns": [
-        "Students built on each other's ideas and changed perspectives based on discussion."
+        "Students frequently built on each other's ideas and challenged each other respectfully."
       ]
     }
   },
   "students": [
     {
       "student_id": "Maya",
-      "totalTurns": 8,
-      "speaking_time_estimate": "2-3 minutes",
+      "totalTurns": 14,
+      "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
+          "Sam",
           "Jordan",
+          "Casey",
           "Alex"
         ],
         "built_upon_ideas_from": [
+          "Jordan",
           "Casey"
         ],
         "received_responses_from": [
@@ -52,21 +55,21 @@
         ],
         "interruption_count": 0,
         "was_interrupted_by": [],
-        "initiated_topics": 1,
+        "initiated_topics": 2,
         "turn_length": "medium"
       },
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
         "response_rate": "Consistently engaged with peers' ideas and facilitated discussion.",
-        "contribution_to_environment": "Validated peers' contributions and encouraged deeper thinking."
+        "contribution_to_environment": "Validated and synthesized peers' contributions, fostering a supportive environment."
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"These are both really valid interpretations. Jordan, I appreciate you challenging Alex's idea respectfully.\""
+            "\"Maya: These are both really valid interpretations. Jordan, I appreciate you challenging Alex's idea respectfully.\""
           ]
         },
         "collaboration_relationship": {
@@ -77,102 +80,33 @@
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "occasional",
-          "confidence": "medium",
-          "examples": []
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Maya: We're all interpreting the same text differently based on what we want to believe or what evidence we find most convincing.\""
+          ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Right, and that would be really overwhelming for people who've never experienced them before.\""
+            "\"Maya: Right, and that would be really overwhelming for people who've never experienced them before.\""
           ]
         },
         "participation_engagement": {
           "pattern": "frequent",
           "confidence": "high",
-          "examples": []
+          "examples": [
+            "\"Maya: These reflections show real growth in your thinking. Last question - would you recommend this book to others?\""
+          ]
         }
       },
-      "overall_impression": "Maya effectively facilitated the discussion, validating peers and encouraging deeper analysis.",
+      "overall_impression": "Maya demonstrated strong facilitation skills, encouraging diverse perspectives and validating peers' contributions.",
       "growth_indicators": [
-        "Consistently encouraged peers to explore multiple perspectives."
+        "Continued to synthesize ideas and validate peers, enhancing group cohesion."
       ],
       "suggested_score": {
         "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 3,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
-      }
-    },
-    {
-      "student_id": "Sam",
-      "totalTurns": 7,
-      "speaking_time_estimate": "2-3 minutes",
-      "interaction_patterns": {
-        "responded_to": [
-          "Casey"
-        ],
-        "built_upon_ideas_from": [
-          "Jordan"
-        ],
-        "received_responses_from": [
-          "Casey",
-          "Jordan"
-        ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "medium"
-      },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "moderate",
-        "response_rate": "Engaged with peers' ideas and reflected on alternative interpretations.",
-        "contribution_to_environment": "Challenged peers' ideas constructively and accepted new perspectives."
-      },
-      "skills": {
-        "empathy_perspective_taking": {
-          "pattern": "occasional",
-          "confidence": "medium",
-          "examples": [
-            "\"Honestly, even if they died, they died free. That's better than living in the community.\""
-          ]
-        },
-        "collaboration_relationship": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"Okay, Sam, I see your point, but I think Maya and Alex are saying we should at least acknowledge that and feel sad about it.\""
-          ]
-        },
-        "adaptability_open_mindedness": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"Hmm. I hadn't thought about it that way, Sam. That actually changes how I see the ending.\""
-          ]
-        },
-        "active_listening_focus": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"Oh yeah, totally. I wasn't trying to say it doesn't matter.\""
-          ]
-        },
-        "participation_engagement": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": []
-        }
-      },
-      "overall_impression": "Sam demonstrated strong adaptability and collaboration by engaging with and reconsidering peers' perspectives.",
-      "growth_indicators": [
-        "Showed openness to changing interpretations based on peers' insights."
-      ],
-      "suggested_score": {
-        "empathy_perspective_taking": 4,
         "collaboration_relationship": 5,
         "adaptability_open_mindedness": 5,
         "active_listening_focus": 5,
@@ -180,20 +114,22 @@
       }
     },
     {
-      "student_id": "Jordan",
-      "totalTurns": 8,
-      "speaking_time_estimate": "2-3 minutes",
+      "student_id": "Sam",
+      "totalTurns": 14,
+      "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Alex",
-          "Sam"
+          "Casey",
+          "Jordan",
+          "Maya"
         ],
         "built_upon_ideas_from": [
-          "Casey"
+          "Casey",
+          "Jordan"
         ],
         "received_responses_from": [
-          "Maya",
-          "Sam"
+          "Jordan",
+          "Maya"
         ],
         "interruption_count": 0,
         "was_interrupted_by": [],
@@ -203,8 +139,86 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Engaged in idea-building and mediating discussions.",
-        "contribution_to_environment": "Facilitated understanding and resolution of differing perspectives."
+        "response_rate": "Engaged in reflective thinking and responded thoughtfully to peers.",
+        "contribution_to_environment": "Contributed hopeful and reflective perspectives, enriching the discussion."
+      },
+      "skills": {
+        "empathy_perspective_taking": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Sam: Honestly, even if they died, they died free. That's better than living in the community.\""
+          ]
+        },
+        "collaboration_relationship": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Sam: Oh yeah, totally. I wasn't trying to say it doesn't matter.\""
+          ]
+        },
+        "adaptability_open_mindedness": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Sam: That could be better, actually. Like, they're easing into it instead of being overwhelmed.\""
+          ]
+        },
+        "active_listening_focus": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Sam: Let's look at the evidence again. What makes people think they died?\""
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Sam: I'd recommend it even though it's sad. Important books don't have to be happy.\""
+          ]
+        }
+      },
+      "overall_impression": "Sam contributed reflective and hopeful insights, demonstrating empathy and a strong engagement with the text.",
+      "growth_indicators": [
+        "Demonstrated increased confidence in sharing personal interpretations and engaging with peers."
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 5,
+        "collaboration_relationship": 5,
+        "adaptability_open_mindedness": 5,
+        "active_listening_focus": 5,
+        "participation_engagement": 5
+      }
+    },
+    {
+      "student_id": "Jordan",
+      "totalTurns": 14,
+      "speaking_time_estimate": "3-4 minutes",
+      "interaction_patterns": {
+        "responded_to": [
+          "Alex",
+          "Casey",
+          "Sam"
+        ],
+        "built_upon_ideas_from": [
+          "Casey",
+          "Sam"
+        ],
+        "received_responses_from": [
+          "Maya",
+          "Sam"
+        ],
+        "interruption_count": 0,
+        "was_interrupted_by": [],
+        "initiated_topics": 2,
+        "turn_length": "medium"
+      },
+      "discussion_behavior": {
+        "engagement_level": "high",
+        "wait_time": "patient",
+        "response_rate": "Engaged deeply with peers' ideas and facilitated constructive dialogue.",
+        "contribution_to_environment": "Fostered a collaborative environment by building on and challenging ideas respectfully."
       },
       "skills": {
         "empathy_perspective_taking": {
@@ -218,53 +232,137 @@
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Building on Casey's point, maybe chaos is better than the fake peace they had before.\""
+            "\"Jordan: Building on Casey's point, maybe chaos is better than the fake peace they had before.\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "occasional",
-          "confidence": "medium",
-          "examples": []
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Jordan: So the journey itself is the point, not necessarily the destination. Whether they physically survive, they've already won by choosing freedom and love.\""
+          ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Jordan: Same here. I was feeling kind of depressed about it, but now I see it differently.\""
+            "\"Jordan: That's what love is though, right? Letting someone go even when it hurts. The opposite of what the community does.\""
           ]
         },
         "participation_engagement": {
           "pattern": "frequent",
           "confidence": "high",
-          "examples": []
+          "examples": [
+            "\"Jordan: Absolutely. Everyone should read it.\""
+          ]
         }
       },
-      "overall_impression": "Jordan effectively mediated discussions and contributed to a collaborative environment.",
+      "overall_impression": "Jordan demonstrated strong analytical skills and empathy, contributing to a rich, collaborative discussion.",
       "growth_indicators": [
-        "Demonstrated strong mediation skills by clarifying and integrating different viewpoints."
+        "Exhibited increased ability to synthesize and challenge ideas, enhancing discussion depth."
       ],
       "suggested_score": {
         "empathy_perspective_taking": 5,
         "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
+        "adaptability_open_mindedness": 5,
         "active_listening_focus": 5,
         "participation_engagement": 5
       }
     },
     {
       "student_id": "Casey",
-      "totalTurns": 7,
-      "speaking_time_estimate": "2-3 minutes",
+      "totalTurns": 13,
+      "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Sam"
+          "Sam",
+          "Jordan",
+          "Maya"
         ],
         "built_upon_ideas_from": [
+          "Sam",
           "Jordan"
         ],
         "received_responses_from": [
-          "Sam",
+          "Jordan",
+          "Maya"
+        ],
+        "interruption_count": 0,
+        "was_interrupted_by": [],
+        "initiated_topics": 2,
+        "turn_length": "medium"
+      },
+      "discussion_behavior": {
+        "engagement_level": "high",
+        "wait_time": "patient",
+        "response_rate": "Provided thoughtful insights and engaged deeply with peers' contributions.",
+        "contribution_to_environment": "Introduced new perspectives and facilitated deeper analysis."
+      },
+      "skills": {
+        "empathy_perspective_taking": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Casey: Hmm. I hadn't thought about it that way, Sam. That actually changes how I see the ending.\""
+          ]
+        },
+        "collaboration_relationship": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Casey: Building on Casey's point, maybe chaos is better than the fake peace they had before.\""
+          ]
+        },
+        "adaptability_open_mindedness": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Casey: Which is kind of brilliant, actually. The ambiguity makes us think harder about what matters more - the survival or the meaning.\""
+          ]
+        },
+        "active_listening_focus": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Casey: There's a line on page 174 where Jonas realizes the community has been searching for him but then stopped. What do you think that means?\""
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Casey: Yes, especially people our age. It's important to think about these questions before we become adults and get set in our ways.\""
+          ]
+        }
+      },
+      "overall_impression": "Casey provided philosophical depth and facilitated a shift in the group's understanding, demonstrating strong analytical skills.",
+      "growth_indicators": [
+        "Showed increased confidence in presenting complex ideas and engaging with peers."
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 5,
+        "collaboration_relationship": 5,
+        "adaptability_open_mindedness": 5,
+        "active_listening_focus": 5,
+        "participation_engagement": 5
+      }
+    },
+    {
+      "student_id": "Alex",
+      "totalTurns": 9,
+      "speaking_time_estimate": "2-3 minutes",
+      "interaction_patterns": {
+        "responded_to": [
+          "Maya",
           "Jordan"
+        ],
+        "built_upon_ideas_from": [
+          "Casey",
+          "Sam"
+        ],
+        "received_responses_from": [
+          "Jordan",
+          "Maya"
         ],
         "interruption_count": 0,
         "was_interrupted_by": [],
@@ -274,81 +372,8 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Engaged in reflective thinking and changed perspectives.",
-        "contribution_to_environment": "Introduced new interpretations and influenced peers' understanding."
-      },
-      "skills": {
-        "empathy_perspective_taking": {
-          "pattern": "occasional",
-          "confidence": "medium",
-          "examples": [
-            "\"Casey: Hmm. I hadn't thought about it that way, Sam. That actually changes how I see the ending.\""
-          ]
-        },
-        "collaboration_relationship": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"Casey: But maybe that's necessary? Like, maybe they need to go through that chaos to become a real community again?\""
-          ]
-        },
-        "adaptability_open_mindedness": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"Casey: Yeah! Like, even if it's tragic, it's still about freedom and choice. Which is what the whole book is about.\""
-          ]
-        },
-        "active_listening_focus": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"Casey: This book is going to stick with me for a while.\""
-          ]
-        },
-        "participation_engagement": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": []
-        }
-      },
-      "overall_impression": "Casey demonstrated adaptability by changing interpretations and influencing peers' perspectives.",
-      "growth_indicators": [
-        "Showed significant adaptability by reinterpreting the book's ending."
-      ],
-      "suggested_score": {
-        "empathy_perspective_taking": 4,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 5,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
-      }
-    },
-    {
-      "student_id": "Alex",
-      "totalTurns": 6,
-      "speaking_time_estimate": "2-3 minutes",
-      "interaction_patterns": {
-        "responded_to": [
-          "Jordan"
-        ],
-        "built_upon_ideas_from": [
-          "Maya"
-        ],
-        "received_responses_from": [
-          "Maya",
-          "Jordan"
-        ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 0,
-        "turn_length": "medium"
-      },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "Expressed personal interpretations and engaged with peers' ideas.",
-        "contribution_to_environment": "Contributed empathetic perspectives and engaged with differing viewpoints."
+        "response_rate": "Contributed thoughtful and empathetic insights, engaging with peers' ideas.",
+        "contribution_to_environment": "Provided emotional depth and supported peers' interpretations."
       },
       "skills": {
         "empathy_perspective_taking": {
@@ -362,35 +387,39 @@
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Alex: That makes me feel better about the ending actually.\""
+            "\"Alex: He chose love. He loved Gabriel more than he loved being safe.\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "occasional",
-          "confidence": "medium",
-          "examples": []
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"Alex: But the sled is real! He saw it in the memory, and then it's actually there. That can't be a coincidence.\""
+          ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Alex: Me too. I'm going to think about it a lot.\""
+            "\"Alex: And he gives Gabriel a chance at life. He's a giver too.\""
           ]
         },
         "participation_engagement": {
           "pattern": "frequent",
           "confidence": "high",
-          "examples": []
+          "examples": [
+            "\"Alex: I'd tell people it's going to make them uncomfortable, but that's a good thing. Comfort isn't always good.\""
+          ]
         }
       },
-      "overall_impression": "Alex contributed empathetic insights and engaged with peers' interpretations, showing growth in confidence.",
+      "overall_impression": "Alex provided emotional depth and supported peers' interpretations, demonstrating strong empathy and engagement.",
       "growth_indicators": [
-        "Displayed increased confidence in expressing personal interpretations."
+        "Showed increased confidence in expressing personal interpretations and engaging with peers."
       ],
       "suggested_score": {
         "empathy_perspective_taking": 5,
         "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
+        "adaptability_open_mindedness": 5,
         "active_listening_focus": 5,
         "participation_engagement": 5
       }

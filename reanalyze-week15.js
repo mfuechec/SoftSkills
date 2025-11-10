@@ -119,7 +119,17 @@ function getUserPrompt(transcript) {
         "response_rate": "High - peers frequently engage with her ideas",
         "contribution_to_environment": "Enhances discussion quality through validation and mentoring"
       },
-      "skills": { },
+      "skills": {
+        "empathy_perspective_taking": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": ["Quote with context"]
+        },
+        "collaboration_relationship": {},
+        "adaptability_open_mindedness": {},
+        "active_listening_focus": {},
+        "participation_engagement": {}
+      },
       "overall_impression": "1-2 sentence summary",
       "growth_indicators": ["Compared to typical patterns"],
       "suggested_score": {
@@ -138,11 +148,24 @@ function getUserPrompt(transcript) {
 - Make sure your "students" array contains ALL 5 students
 - Each student should have their own object in the array
 
+**CRITICAL SCORING INSTRUCTIONS:**
+**Score based on RATE (percentage of relevant opportunities), NOT raw frequency count.**
+
+A student with 5 turns showing empathy in 3 of them (60% rate) should score HIGHER than a student with 15 turns showing empathy in 6 of them (40% rate), even though 6 > 3.
+
+**Scoring Calibration:**
+- **Score 5**: Student demonstrates skill in >60% of relevant opportunities. Exceptional, consistent pattern.
+- **Score 4**: 40-60% of opportunities. Strong, frequent pattern with room for growth.
+- **Score 3**: 20-40% of opportunities. Emerging skill, inconsistent but present.
+- **Score 2**: 5-20% of opportunities. Occasional demonstration, needs development.
+- **Score 1**: <5% of opportunities. Rare or minimal evidence.
+- **Score 0**: Not observed or no relevant opportunities.
+
 **Guidelines:**
 - Quote exact student language whenever possible
 - Use line numbers to reference transcript
 - For skills without evidence, set pattern to "not_observed" and confidence to "low"
-- Scores should reflect evidence quantity and quality (0 = no evidence, 5 = strong pattern)
+- **IMPORTANT**: Normalize scores by number of turns - don't reward longer discussions with higher scores
 - Focus on specific behaviors, not character judgments
 
 **Interaction Analysis Instructions:**
