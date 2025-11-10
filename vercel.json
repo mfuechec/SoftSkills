@@ -12,8 +12,5 @@
     "api/**/*.js": {
       "runtime": "nodejs20.x"
     }
-  },
-  "env": {
-    "OPENAI_API_KEY": "@openai-api-key"
   }
 }
