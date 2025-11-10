@@ -5,6 +5,7 @@ import { generateSkillInsight, getStudentHealthStatus } from '../../utils/skillI
 import { ArrowLeft, TrendingUp, Lightbulb } from 'lucide-react';
 import GrowthChart from './GrowthChart';
 import WeekBreakdown from './WeekBreakdown';
+import InteractionPatterns from './InteractionPatterns';
 
 export default function StudentProfile() {
   const { studentId } = useParams();
@@ -119,6 +120,9 @@ export default function StudentProfile() {
             </div>
           );
         })()}
+
+        {/* Interaction Patterns - NEW */}
+        <InteractionPatterns latestWeekData={lastWeek} />
 
         {/* Skills Growth Summary with Insights */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">

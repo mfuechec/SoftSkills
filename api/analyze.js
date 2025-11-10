@@ -120,12 +120,42 @@ function getPromptTemplate() {
     "discussion_quality": "Brief qualitative assessment",
     "key_moments": ["Notable discussion moments"],
     "concerns": ["Any red flags or issues"],
-    "teacher_recommendations": ["Specific actionable suggestions"]
+    "teacher_recommendations": ["Specific actionable suggestions"],
+    "participation_equity_score": 7,
+    "participation_distribution": "even/skewed_to_few/dominated_by_one",
+    "discussion_depth_score": 8,
+    "evidence_citation_count": 5,
+    "perspective_diversity": "high/medium/low",
+    "interaction_health": "strong/moderate/weak",
+    "conversational_turns": 25,
+    "environment_quality": {
+      "student_to_student_interaction": "high/medium/low",
+      "idea_building_frequency": "frequent/occasional/rare",
+      "domination_concerns": ["StudentName dominated with 40% of turns"],
+      "exclusion_concerns": ["StudentName received no responses from peers"],
+      "positive_patterns": ["Strong collaborative dialogue between Maya and Jordan"]
+    }
   },
   "students": [
     {
       "student_id": "StudentName",
       "total_turns": 5,
+      "speaking_time_estimate": "2-3 minutes",
+      "interaction_patterns": {
+        "responded_to": ["OtherStudent"],
+        "built_upon_ideas_from": ["OtherStudent"],
+        "received_responses_from": ["OtherStudent"],
+        "interruption_count": 0,
+        "was_interrupted_by": [],
+        "initiated_topics": 1,
+        "turn_length": "short/medium/long"
+      },
+      "discussion_behavior": {
+        "engagement_level": "high/medium/low",
+        "wait_time": "patient/moderate/impulsive",
+        "response_rate": "How often peers engage with their ideas",
+        "contribution_to_environment": "Enhances/neutral/detracts from discussion quality"
+      },
       "skills": {
         "empathy_perspective_taking": {
           "evidence": [
@@ -133,7 +163,8 @@ function getPromptTemplate() {
               "quote": "Exact student quote",
               "context": "What prompted this",
               "behavior_observed": "Specific skill demonstrated",
-              "line_reference": "Line X"
+              "line_reference": "Line X",
+              "interacted_with": "StudentName (if responding to someone)"
             }
           ],
           "pattern": "strong/consistent/emerging/not_observed",
@@ -165,6 +196,26 @@ function getPromptTemplate() {
 - For skills without evidence, set pattern to "not_observed" and confidence to "low"
 - Scores should reflect evidence quantity and quality (0 = no evidence, 5 = strong pattern)
 - Focus on specific behaviors, not character judgments
+
+**Interaction Analysis Instructions:**
+1. **Responded to**: When Student A directly addresses Student B's point (e.g., "I agree with Jordan...", "Building on what Maya said...")
+2. **Built upon ideas from**: When Student A extends/develops Student B's thinking (not just agreeing)
+3. **Received responses from**: Which students engaged with this student's contributions
+4. **Interruptions**: Count instances where a student cuts off another mid-sentence
+5. **Speaking time**: Estimate based on turn count and length (short turns = 15-30s, medium = 30-60s, long = 1-2min)
+
+**Discussion Quality Instructions:**
+- **Participation equity score (1-10)**: 10 = perfectly even distribution, 1 = one student dominates
+- **Discussion depth score (1-10)**: 1-3 = surface opinions, 4-6 = some reasoning, 7-10 = evidence-based synthesis
+- **Evidence citation count**: Number of times students cite the text ("On page X...", "The author says...")
+- **Perspective diversity**: High = multiple viewpoints explored, Low = groupthink/echo chamber
+- **Interaction health**: Strong = frequent idea-building, Weak = parallel monologues
+- **Conversational turns**: Count back-and-forth exchanges (Student A → B → A counts as 2 turns)
+
+**Environment Quality Instructions:**
+- **Domination concerns**: Flag if any student has >30% of turns or consistently talks over others
+- **Exclusion concerns**: Flag students who contribute but receive no peer responses
+- **Positive patterns**: Highlight strong collaborative dynamics worth reinforcing
 
 **Transcript:**
 

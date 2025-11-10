@@ -2,12 +2,14 @@ import { useNavigate } from 'react-router-dom';
 import { useData } from '../../context/DataContext';
 import StudentCard from '../Student/StudentCard';
 import WeekSelector from '../Shared/WeekSelector';
+import ClassInsights from '../ClassInsights/ClassInsights';
+import InterventionPriority from '../ClassInsights/InterventionPriority';
 import { getAllStudents } from '../../utils/aggregateStudent';
 import { Upload } from 'lucide-react';
 
 export default function ClassOverview() {
   const navigate = useNavigate();
-  const { loading, error, currentAnalysis, analyses, selectedWeek } = useData();
+  const { loading, error, currentAnalysis, analyses, selectedWeek, availableWeeks } = useData();
 
   if (loading) {
     return (
@@ -33,6 +35,11 @@ export default function ClassOverview() {
 
   const students = currentAnalysis?.students || [];
   const metadata = currentAnalysis?.transcript_metadata || {};
+
+  // Get previous week's analysis for comparison
+  const currentWeekIdx = availableWeeks.indexOf(selectedWeek);
+  const previousWeek = currentWeekIdx > 0 ? availableWeeks[currentWeekIdx - 1] : null;
+  const previousAnalysis = previousWeek ? analyses[previousWeek] : null;
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -87,6 +94,12 @@ export default function ClassOverview() {
             </div>
           </div>
         </div>
+
+        {/* Class Insights - NEW */}
+        <ClassInsights analysis={currentAnalysis} />
+
+        {/* Intervention Priority - NEW */}
+        <InterventionPriority analysis={currentAnalysis} previousAnalysis={previousAnalysis} />
 
         {/* Students Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
