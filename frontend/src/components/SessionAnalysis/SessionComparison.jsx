@@ -21,7 +21,7 @@ export default function SessionComparison({ currentAnalysis, previousAnalysis })
     <div className="mt-6 space-y-4">
       <div className="border-t border-gray-200 pt-6">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">
-          Compared to Week {previousMeta.week || 'Previous'}
+          Compared to {previousMeta.week ? `Week ${previousMeta.week.replace('Week ', '')}` : 'Previous Week'}
         </h3>
         <p className="text-sm text-gray-600 mb-4">
           What changed this week and how it affected the discussion:

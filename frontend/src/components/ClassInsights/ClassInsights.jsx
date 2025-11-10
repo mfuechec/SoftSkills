@@ -114,14 +114,14 @@ export default function ClassInsights({ analysis }) {
               </span>
               <div className="flex-1 bg-gray-100 rounded-full h-6 relative">
                 <div
-                  className={`h-6 rounded-full flex items-center justify-end pr-2 ${
+                  className={`h-6 rounded-full flex items-center justify-end pr-2 overflow-hidden ${
                     student.percentage > 30 ? 'bg-red-500' :
                     student.percentage > 20 ? 'bg-yellow-500' :
                     'bg-primary-500'
                   }`}
                   style={{ width: `${Math.max(student.percentage, 5)}%` }}
                 >
-                  <span className="text-xs font-semibold text-white">
+                  <span className="text-xs font-semibold text-white whitespace-nowrap">
                     {student.turns} ({student.percentage}%)
                   </span>
                 </div>
