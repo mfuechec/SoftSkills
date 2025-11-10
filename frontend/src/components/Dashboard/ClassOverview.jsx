@@ -18,19 +18,33 @@ export default function ClassOverview() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = ['students', 'environment', 'interventions', 'session'];
-      const scrollPosition = window.scrollY + 100; // Offset for header
+      const scrollPosition = window.scrollY + 150; // Offset for header + buffer
 
-      // Find which section is currently in view
-      for (let i = sections.length - 1; i >= 0; i--) {
-        const section = document.getElementById(sections[i]);
+      // Find which section is currently most visible
+      let currentSection = 'students';
+      let minDistance = Infinity;
+
+      sections.forEach(sectionId => {
+        const section = document.getElementById(sectionId);
         if (section) {
           const sectionTop = section.offsetTop;
-          if (scrollPosition >= sectionTop) {
-            setActiveSection(sections[i]);
-            break;
+          const sectionBottom = sectionTop + section.offsetHeight;
+
+          // Check if section is in viewport
+          if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+            currentSection = sectionId;
+          } else if (scrollPosition < sectionTop) {
+            // If we haven't reached this section yet, check distance
+            const distance = sectionTop - scrollPosition;
+            if (distance < minDistance) {
+              minDistance = distance;
+              currentSection = sectionId;
+            }
           }
         }
-      }
+      });
+
+      setActiveSection(currentSection);
     };
 
     window.addEventListener('scroll', handleScroll);
