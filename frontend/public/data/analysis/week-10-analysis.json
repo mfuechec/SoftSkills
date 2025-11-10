@@ -4,406 +4,394 @@
     "date": "2025-01-15",
     "topic": "Is Jonas's community truly perfect? (Chapters 10-12)",
     "duration_minutes": 15,
-    "totalTurns": 28
+    "total_turns": 28
   },
   "session_analysis": {
     "overall_engagement": "medium",
-    "discussion_quality": "Students engaged with the trade-offs between safety and freedom, showing varied perspectives.",
-    "keyMoments": [
-      "Maya highlights the loss of color as a significant sacrifice.",
-      "Sam emphasizes the elimination of war and hunger.",
-      "Jordan acknowledges the lack of choice in the community.",
-      "Alex quietly expresses sadness about the community's conditions."
+    "discussion_quality": "The discussion was thoughtful with multiple perspectives considered, though some students dominated the conversation.",
+    "key_moments": [
+      "Maya's reflection on the cost of eliminating color sparked a significant debate."
     ],
-    "concerns": [
-      "Alex's contributions were minimal and received little response."
+    "concerns": [],
+    "teacher_recommendations": [
+      "Encourage quieter students like Alex to share more by directly inviting their thoughts."
     ],
-    "teacherRecommendations": [
-      "Encourage quieter students like Alex to share more.",
-      "Facilitate turn-taking to reduce interruptions."
-    ],
-    "participationEquityScore": 6,
-    "participationDistribution": "skewed_to_few",
-    "discussionDepthScore": 7,
-    "evidenceCitationCount": 0,
-    "perspectiveDiversity": "high",
-    "interactionHealth": "moderate",
-    "conversationalTurns": 22,
-    "environmentQuality": {
-      "studentToStudentInteraction": "medium",
-      "ideaBuildingFrequency": "occasional",
-      "dominationConcerns": [
-        "Sam dominated with 28% of turns"
+    "participation_equity_score": 5,
+    "participation_distribution": "skewed_to_few",
+    "discussion_depth_score": 7,
+    "evidence_citation_count": 0,
+    "perspective_diversity": "high",
+    "interaction_health": "moderate",
+    "conversational_turns": 12,
+    "environment_quality": {
+      "student_to_student_interaction": "medium",
+      "idea_building_frequency": "occasional",
+      "domination_concerns": [
+        "Sam had a high number of turns and interruptions."
       ],
-      "exclusionConcerns": [
-        "Alex received no responses from peers"
+      "exclusion_concerns": [
+        "Alex's contributions were minimal and not engaged with by peers."
       ],
-      "positivePatterns": [
-        "Strong collaborative dialogue between Maya and Jordan"
+      "positive_patterns": [
+        "Jordan and Maya demonstrated active listening and building on each other's ideas."
       ]
     }
   },
   "students": [
     {
-      "studentId": "Maya",
+      "student_id": "Maya",
       "totalTurns": 6,
-      "speakingTimeEstimate": "2-3 minutes",
-      "interactionPatterns": {
-        "respondedTo": [
+      "speaking_time_estimate": "2-3 minutes",
+      "interaction_patterns": {
+        "responded_to": [
           "Sam",
           "Jordan"
         ],
-        "builtUponIdeasFrom": [
+        "built_upon_ideas_from": [
           "Jordan"
         ],
-        "receivedResponsesFrom": [
+        "received_responses_from": [
           "Sam",
           "Jordan"
         ],
-        "interruptionCount": 0,
-        "wasInterruptedBy": [],
-        "initiatedTopics": 1,
-        "turnLength": "medium"
+        "interruption_count": 0,
+        "was_interrupted_by": [],
+        "initiated_topics": 1,
+        "turn_length": "medium"
       },
-      "discussionBehavior": {
-        "engagementLevel": "high",
-        "waitTime": "patient",
-        "responseRate": "high",
-        "contributionToEnvironment": "enhances"
+      "discussion_behavior": {
+        "engagement_level": "high",
+        "wait_time": "patient",
+        "response_rate": "Maya responded thoughtfully to others' points and built on ideas.",
+        "contribution_to_environment": "Maya contributed to a reflective and balanced discussion environment."
       },
       "skills": {
-        "empathyPerspectiveTaking": {
+        "empathy_perspective_taking": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Maya: 'I see what you mean, Sam. That's a really valid point about war.'"
+            "\"I see what you mean, Sam. That's a really valid point about war.\""
           ]
         },
-        "collaborationRelationship": {
+        "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Maya: 'That's a really good point, Jordan. The freedom thing is huge.'"
+            "Maya acknowledged and built on Jordan's point about freedom."
           ]
         },
-        "adaptabilityOpenMindedness": {
+        "adaptability_open_mindedness": {
           "pattern": "occasional",
           "confidence": "medium",
           "examples": [
-            "Maya: 'I still think... I don't know, I think I'd rather have the choice?'"
+            "Maya considered both the safety and freedom aspects of the community."
           ]
         },
-        "activeListeningFocus": {
+        "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Maya: 'No, I get that. I'm just saying the cost is bigger than I first thought.'"
+            "Maya referenced Jordan's point about freedom being huge."
           ]
         },
-        "participationEngagement": {
+        "participation_engagement": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Maya: 'I was really struck by how they eliminated color.'"
+            "Maya initiated the discussion on the cost of eliminating color."
           ]
         }
       },
-      "overallImpression": "Maya actively engaged with the discussion, showing empathy and building on peers' ideas.",
-      "growthIndicators": [
-        "Consistently engaged and responsive to peers."
+      "overall_impression": "Maya was actively engaged and demonstrated strong empathy and perspective-taking skills.",
+      "growth_indicators": [
+        "Maya showed the ability to integrate and reflect on multiple viewpoints."
       ],
-      "suggestedScore": {
-        "empathyPerspectiveTaking": 4,
-        "collaborationRelationship": 4,
-        "adaptabilityOpenMindedness": 3,
-        "activeListeningFocus": 4,
-        "participationEngagement": 5
+      "suggested_score": {
+        "empathy_perspective_taking": 5,
+        "collaboration_relationship": 5,
+        "adaptability_open_mindedness": 4,
+        "active_listening_focus": 5,
+        "participation_engagement": 5
       }
     },
     {
-      "studentId": "Sam",
+      "student_id": "Sam",
       "totalTurns": 8,
-      "speakingTimeEstimate": "3-4 minutes",
-      "interactionPatterns": {
-        "respondedTo": [
-          "Maya",
-          "Casey"
-        ],
-        "builtUponIdeasFrom": [
-          "Casey"
-        ],
-        "receivedResponsesFrom": [
+      "speaking_time_estimate": "2-3 minutes",
+      "interaction_patterns": {
+        "responded_to": [
           "Maya",
           "Jordan"
         ],
-        "interruptionCount": 2,
-        "wasInterruptedBy": [
+        "built_upon_ideas_from": [
+          "Casey"
+        ],
+        "received_responses_from": [
+          "Maya",
           "Jordan"
         ],
-        "initiatedTopics": 2,
-        "turnLength": "medium"
+        "interruption_count": 2,
+        "was_interrupted_by": [
+          "Jordan"
+        ],
+        "initiated_topics": 1,
+        "turn_length": "medium"
       },
-      "discussionBehavior": {
-        "engagementLevel": "high",
-        "waitTime": "impulsive",
-        "responseRate": "medium",
-        "contributionToEnvironment": "neutral"
+      "discussion_behavior": {
+        "engagement_level": "high",
+        "wait_time": "impulsive",
+        "response_rate": "Sam frequently responded to others but often interrupted.",
+        "contribution_to_environment": "Sam contributed strong opinions but occasionally dominated the conversation."
       },
       "skills": {
-        "empathyPerspectiveTaking": {
+        "empathy_perspective_taking": {
           "pattern": "occasional",
           "confidence": "medium",
           "examples": [
-            "Sam: 'I think they did. War is horrible. My grandpa was in a war and he says it was the worst thing ever.'"
+            "\"I think they did. War is horrible. My grandpa was in a war and he says it was the worst thing ever.\""
           ]
         },
-        "collaborationRelationship": {
+        "collaboration_relationship": {
           "pattern": "occasional",
           "confidence": "medium",
           "examples": [
-            "Sam: 'Exactly! That's what I'm saying. They designed it to be safe, and it works.'"
+            "Sam built on Casey's point about safety."
           ]
         },
-        "adaptabilityOpenMindedness": {
+        "adaptability_open_mindedness": {
           "pattern": "not_observed",
           "confidence": "low",
           "examples": []
         },
-        "activeListeningFocus": {
+        "active_listening_focus": {
           "pattern": "occasional",
           "confidence": "medium",
           "examples": [
-            "Sam: 'But why though? Nobody's suffering.'"
+            "Sam acknowledged Maya's point about choice."
           ]
         },
-        "participationEngagement": {
+        "participation_engagement": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Sam: 'Yeah but they also got rid of war and hunger, so isn't that worth it?'"
+            "Sam initiated the discussion on the benefits of eliminating war."
           ]
         }
       },
-      "overallImpression": "Sam was highly engaged and frequently contributed, though sometimes interrupted others.",
-      "growthIndicators": [
-        "Tends to dominate the conversation, could improve turn-taking."
+      "overall_impression": "Sam was highly engaged but needs to work on listening and reducing interruptions.",
+      "growth_indicators": [
+        "Sam demonstrated strong engagement but should focus on listening skills."
       ],
-      "suggestedScore": {
-        "empathyPerspectiveTaking": 3,
-        "collaborationRelationship": 3,
-        "adaptabilityOpenMindedness": 1,
-        "activeListeningFocus": 3,
-        "participationEngagement": 5
+      "suggested_score": {
+        "empathy_perspective_taking": 3,
+        "collaboration_relationship": 3,
+        "adaptability_open_mindedness": 2,
+        "active_listening_focus": 3,
+        "participation_engagement": 5
       }
     },
     {
-      "studentId": "Jordan",
+      "student_id": "Jordan",
       "totalTurns": 5,
-      "speakingTimeEstimate": "2-3 minutes",
-      "interactionPatterns": {
-        "respondedTo": [
+      "speaking_time_estimate": "1-2 minutes",
+      "interaction_patterns": {
+        "responded_to": [
           "Sam",
           "Maya"
         ],
-        "builtUponIdeasFrom": [
+        "built_upon_ideas_from": [
           "Maya"
         ],
-        "receivedResponsesFrom": [
+        "received_responses_from": [
+          "Maya"
+        ],
+        "interruption_count": 1,
+        "was_interrupted_by": [
+          "Sam"
+        ],
+        "initiated_topics": 1,
+        "turn_length": "medium"
+      },
+      "discussion_behavior": {
+        "engagement_level": "medium",
+        "wait_time": "moderate",
+        "response_rate": "Jordan responded to others' points and built on ideas.",
+        "contribution_to_environment": "Jordan contributed to the depth of the discussion by considering multiple perspectives."
+      },
+      "skills": {
+        "empathy_perspective_taking": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "\"I mean, Sam has a point. But also, they don't get to choose anything.\""
+          ]
+        },
+        "collaboration_relationship": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "Jordan built on Maya's point about freedom."
+          ]
+        },
+        "adaptability_open_mindedness": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "Jordan shifted perspective from safety to freedom."
+          ]
+        },
+        "active_listening_focus": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "Jordan referenced Maya's point about freedom being huge."
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "Jordan initiated a discussion on the lack of choice."
+          ]
+        }
+      },
+      "overall_impression": "Jordan contributed thoughtful insights and demonstrated good listening skills.",
+      "growth_indicators": [
+        "Jordan showed the ability to consider and integrate different viewpoints."
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 4,
+        "collaboration_relationship": 5,
+        "adaptability_open_mindedness": 4,
+        "active_listening_focus": 5,
+        "participation_engagement": 4
+      }
+    },
+    {
+      "student_id": "Casey",
+      "totalTurns": 4,
+      "speaking_time_estimate": "1-2 minutes",
+      "interaction_patterns": {
+        "responded_to": [
           "Maya",
           "Sam"
         ],
-        "interruptionCount": 0,
-        "wasInterruptedBy": [
+        "built_upon_ideas_from": [],
+        "received_responses_from": [
           "Sam"
         ],
-        "initiatedTopics": 1,
-        "turnLength": "medium"
+        "interruption_count": 0,
+        "was_interrupted_by": [],
+        "initiated_topics": 0,
+        "turn_length": "short"
       },
-      "discussionBehavior": {
-        "engagementLevel": "high",
-        "waitTime": "moderate",
-        "responseRate": "high",
-        "contributionToEnvironment": "enhances"
+      "discussion_behavior": {
+        "engagement_level": "medium",
+        "wait_time": "patient",
+        "response_rate": "Casey contributed to the discussion but did not build on others' ideas.",
+        "contribution_to_environment": "Casey provided a perspective on the community's safety but did not engage deeply."
       },
       "skills": {
-        "empathyPerspectiveTaking": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Jordan: 'Wait, Sam, let Maya finish.'"
-          ]
-        },
-        "collaborationRelationship": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Jordan: 'That's a really good point, Jordan. The freedom thing is huge.'"
-          ]
-        },
-        "adaptabilityOpenMindedness": {
-          "pattern": "occasional",
-          "confidence": "medium",
-          "examples": [
-            "Jordan: 'Yeah, I'm starting to lean that way too. Like, at first I thought safety was more important, but now I'm not so sure.'"
-          ]
-        },
-        "activeListeningFocus": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Jordan: 'Oh, uh, yeah. I was just gonna say that's the scary part.'"
-          ]
-        },
-        "participationEngagement": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Jordan: 'I mean, Sam has a point. But also, they don't get to choose anything.'"
-          ]
-        }
-      },
-      "overallImpression": "Jordan actively engaged with the discussion, showing empathy and adaptability.",
-      "growthIndicators": [
-        "Demonstrated increased openness to changing perspectives."
-      ],
-      "suggestedScore": {
-        "empathyPerspectiveTaking": 4,
-        "collaborationRelationship": 4,
-        "adaptabilityOpenMindedness": 3,
-        "activeListeningFocus": 4,
-        "participationEngagement": 5
-      }
-    },
-    {
-      "studentId": "Casey",
-      "totalTurns": 4,
-      "speakingTimeEstimate": "1-2 minutes",
-      "interactionPatterns": {
-        "respondedTo": [
-          "Sam"
-        ],
-        "builtUponIdeasFrom": [
-          "Sam"
-        ],
-        "receivedResponsesFrom": [
-          "Sam"
-        ],
-        "interruptionCount": 0,
-        "wasInterruptedBy": [],
-        "initiatedTopics": 1,
-        "turnLength": "short"
-      },
-      "discussionBehavior": {
-        "engagementLevel": "medium",
-        "waitTime": "moderate",
-        "responseRate": "medium",
-        "contributionToEnvironment": "neutral"
-      },
-      "skills": {
-        "empathyPerspectiveTaking": {
-          "pattern": "occasional",
-          "confidence": "medium",
-          "examples": [
-            "Casey: 'I guess I never thought about it that way. I was just thinking about the safety aspect.'"
-          ]
-        },
-        "collaborationRelationship": {
-          "pattern": "occasional",
-          "confidence": "medium",
-          "examples": [
-            "Casey: 'But don't we have rules too? We can't just do whatever we want.'"
-          ]
-        },
-        "adaptabilityOpenMindedness": {
+        "empathy_perspective_taking": {
           "pattern": "not_observed",
           "confidence": "low",
           "examples": []
         },
-        "activeListeningFocus": {
+        "collaboration_relationship": {
           "pattern": "occasional",
           "confidence": "medium",
           "examples": [
-            "Casey: 'This is really hard to decide.'"
+            "Casey responded to Maya's point about the community's perfection."
           ]
         },
-        "participationEngagement": {
+        "adaptability_open_mindedness": {
+          "pattern": "not_observed",
+          "confidence": "low",
+          "examples": []
+        },
+        "active_listening_focus": {
           "pattern": "occasional",
           "confidence": "medium",
           "examples": [
-            "Casey: 'I think the community is perfect for what they wanted.'"
+            "Casey acknowledged Sam's point about safety."
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "occasional",
+          "confidence": "medium",
+          "examples": [
+            "Casey contributed a perspective on the community's safety."
           ]
         }
       },
-      "overallImpression": "Casey contributed occasionally, offering insights on safety versus freedom.",
-      "growthIndicators": [
-        "Could increase engagement and build more on others' ideas."
+      "overall_impression": "Casey participated with moderate engagement but did not deeply engage with others' ideas.",
+      "growth_indicators": [
+        "Casey could benefit from building on others' ideas more actively."
       ],
-      "suggestedScore": {
-        "empathyPerspectiveTaking": 3,
-        "collaborationRelationship": 3,
-        "adaptabilityOpenMindedness": 1,
-        "activeListeningFocus": 3,
-        "participationEngagement": 3
+      "suggested_score": {
+        "empathy_perspective_taking": 2,
+        "collaboration_relationship": 3,
+        "adaptability_open_mindedness": 2,
+        "active_listening_focus": 3,
+        "participation_engagement": 3
       }
     },
     {
-      "studentId": "Alex",
+      "student_id": "Alex",
       "totalTurns": 2,
-      "speakingTimeEstimate": "less than 1 minute",
-      "interactionPatterns": {
-        "respondedTo": [],
-        "builtUponIdeasFrom": [],
-        "receivedResponsesFrom": [],
-        "interruptionCount": 0,
-        "wasInterruptedBy": [],
-        "initiatedTopics": 0,
-        "turnLength": "short"
+      "speaking_time_estimate": "<1 minute",
+      "interaction_patterns": {
+        "responded_to": [],
+        "built_upon_ideas_from": [],
+        "received_responses_from": [],
+        "interruption_count": 0,
+        "was_interrupted_by": [],
+        "initiated_topics": 0,
+        "turn_length": "short"
       },
-      "discussionBehavior": {
-        "engagementLevel": "low",
-        "waitTime": "patient",
-        "responseRate": "low",
-        "contributionToEnvironment": "neutral"
+      "discussion_behavior": {
+        "engagement_level": "low",
+        "wait_time": "patient",
+        "response_rate": "Alex's contributions were minimal and not engaged with by peers.",
+        "contribution_to_environment": "Alex's participation was limited and did not significantly impact the discussion."
       },
       "skills": {
-        "empathyPerspectiveTaking": {
+        "empathy_perspective_taking": {
           "pattern": "not_observed",
           "confidence": "low",
           "examples": []
         },
-        "collaborationRelationship": {
+        "collaboration_relationship": {
           "pattern": "not_observed",
           "confidence": "low",
           "examples": []
         },
-        "adaptabilityOpenMindedness": {
+        "adaptability_open_mindedness": {
           "pattern": "not_observed",
           "confidence": "low",
           "examples": []
         },
-        "activeListeningFocus": {
+        "active_listening_focus": {
           "pattern": "not_observed",
           "confidence": "low",
           "examples": []
         },
-        "participationEngagement": {
-          "pattern": "rare",
-          "confidence": "medium",
-          "examples": [
-            "Alex: 'I don't know... it seems kind of sad.'"
-          ]
+        "participation_engagement": {
+          "pattern": "not_observed",
+          "confidence": "low",
+          "examples": []
         }
       },
-      "overallImpression": "Alex's contributions were minimal and received no peer responses.",
-      "growthIndicators": [
-        "Needs encouragement to engage more actively."
+      "overall_impression": "Alex was very quiet and did not engage with the discussion significantly.",
+      "growth_indicators": [
+        "Alex could benefit from being encouraged to share more thoughts."
       ],
-      "suggestedScore": {
-        "empathyPerspectiveTaking": 1,
-        "collaborationRelationship": 1,
-        "adaptabilityOpenMindedness": 0,
-        "activeListeningFocus": 1,
-        "participationEngagement": 2
+      "suggested_score": {
+        "empathy_perspective_taking": 1,
+        "collaboration_relationship": 1,
+        "adaptability_open_mindedness": 1,
+        "active_listening_focus": 1,
+        "participation_engagement": 1
       }
     }
   ]
