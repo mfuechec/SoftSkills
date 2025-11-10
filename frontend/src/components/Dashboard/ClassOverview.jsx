@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useData } from '../../context/DataContext';
 import StudentCard from '../Student/StudentCard';
@@ -13,45 +13,6 @@ export default function ClassOverview() {
   const navigate = useNavigate();
   const { loading, error, currentAnalysis, analyses, selectedWeek, availableWeeks } = useData();
   const [activeSection, setActiveSection] = useState('students');
-
-  // Scroll spy - update active section based on scroll position
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = ['students', 'environment', 'interventions', 'session'];
-      const scrollPosition = window.scrollY + 150; // Offset for header + buffer
-
-      // Find which section is currently most visible
-      let currentSection = 'students';
-      let minDistance = Infinity;
-
-      sections.forEach(sectionId => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-          const sectionTop = section.offsetTop;
-          const sectionBottom = sectionTop + section.offsetHeight;
-
-          // Check if section is in viewport
-          if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-            currentSection = sectionId;
-          } else if (scrollPosition < sectionTop) {
-            // If we haven't reached this section yet, check distance
-            const distance = sectionTop - scrollPosition;
-            if (distance < minDistance) {
-              minDistance = distance;
-              currentSection = sectionId;
-            }
-          }
-        }
-      });
-
-      setActiveSection(currentSection);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Check initial position
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   if (loading) {
     return (
