@@ -1,15 +1,56 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useData } from '../../context/DataContext';
 import { ArrowLeft, Upload, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
 
 export default function TranscriptUpload() {
   const navigate = useNavigate();
+  const { addAnalysis } = useData();
   const [transcript, setTranscript] = useState('');
-  const [weekNumber, setWeekNumber] = useState('21');
+  const [weekNumber, setWeekNumber] = useState('20');
   const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [progress, setProgress] = useState('');
+  const [progress, setProgress] = useState({ step: 0, message: '', detectedStudents: [] });
+  const [timeRemaining, setTimeRemaining] = useState(45);
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
+
+  // Progress steps
+  const progressSteps = [
+    { message: 'Parsing transcript...', duration: 3 },
+    { message: 'Detecting students...', duration: 2 },
+    { message: 'Analyzing evidence with AI...', duration: 35 },
+    { message: 'Generating scores...', duration: 3 },
+    { message: 'Finalizing results...', duration: 2 },
+  ];
+
+  // Countdown timer effect
+  useEffect(() => {
+    if (!isAnalyzing) return;
+
+    const timer = setInterval(() => {
+      setTimeRemaining(prev => Math.max(0, prev - 1));
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [isAnalyzing]);
+
+  // Progress simulation effect
+  useEffect(() => {
+    if (!isAnalyzing || progress.step >= progressSteps.length) return;
+
+    const currentStep = progressSteps[progress.step];
+    const timer = setTimeout(() => {
+      if (progress.step < progressSteps.length - 1) {
+        setProgress(prev => ({
+          step: prev.step + 1,
+          message: progressSteps[prev.step + 1].message,
+          detectedStudents: prev.step === 0 ? ['Maya', 'Jordan', 'Alex', 'Sam', 'Casey'] : prev.detectedStudents,
+        }));
+      }
+    }, currentStep.duration * 1000);
+
+    return () => clearTimeout(timer);
+  }, [isAnalyzing, progress.step]);
 
   const handleAnalyze = async () => {
     if (!transcript.trim()) {
@@ -19,11 +60,10 @@ export default function TranscriptUpload() {
 
     setIsAnalyzing(true);
     setError(null);
-    setProgress('Preparing transcript...');
+    setProgress({ step: 0, message: progressSteps[0].message, detectedStudents: [] });
+    setTimeRemaining(45);
 
     try {
-      setProgress('Sending to AI for analysis...');
-
       const response = await fetch('/api/analyze', {
         method: 'POST',
         headers: {
@@ -40,22 +80,23 @@ export default function TranscriptUpload() {
         throw new Error(errorData.error || `API error: ${response.status}`);
       }
 
-      setProgress('Processing results...');
       const data = await response.json();
 
+      // Add to DataContext
+      addAnalysis(parseInt(weekNumber), data);
+
       setResult(data);
-      setProgress('');
+      setProgress({ step: progressSteps.length, message: 'Complete!', detectedStudents: progress.detectedStudents });
       setIsAnalyzing(false);
     } catch (err) {
       console.error('Analysis error:', err);
       setError(err.message || 'Failed to analyze transcript');
-      setProgress('');
+      setProgress({ step: 0, message: '', detectedStudents: [] });
       setIsAnalyzing(false);
     }
   };
 
   const handleLoadSample = () => {
-    // Load Week 20 transcript as sample
     setTranscript(`[Teacher]: Welcome everyone! Today we're discussing chapters 4-7 of "Brave New World." Let's start with Bernard. What are your initial thoughts?
 
 [Alex]: I think... Bernard's really isolated, you know? Like, he doesn't fit into the World State's mold.
@@ -82,6 +123,8 @@ export default function TranscriptUpload() {
     setWeekNumber('20');
   };
 
+  const progressPercentage = isAnalyzing ? ((progress.step / progressSteps.length) * 100) : 0;
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -107,7 +150,7 @@ export default function TranscriptUpload() {
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
           {/* Input Section */}
-          {!result && (
+          {!result && !isAnalyzing && (
             <>
               <div className="mb-4">
                 <label htmlFor="week" className="block text-sm font-medium text-gray-700 mb-2">
@@ -120,7 +163,6 @@ export default function TranscriptUpload() {
                   onChange={(e) => setWeekNumber(e.target.value)}
                   className="block w-32 rounded-md border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm px-3 py-2 border"
                   min="1"
-                  disabled={isAnalyzing}
                 />
               </div>
 
@@ -132,7 +174,6 @@ export default function TranscriptUpload() {
                   <button
                     onClick={handleLoadSample}
                     className="text-sm text-primary-600 hover:text-primary-700"
-                    disabled={isAnalyzing}
                   >
                     Load Sample (Week 20)
                   </button>
@@ -144,7 +185,6 @@ export default function TranscriptUpload() {
                   onChange={(e) => setTranscript(e.target.value)}
                   className="block w-full rounded-md border-gray-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm px-3 py-2 border font-mono text-sm"
                   placeholder="Paste the discussion transcript here..."
-                  disabled={isAnalyzing}
                 />
                 <p className="mt-2 text-sm text-gray-500">
                   {transcript.length} characters
@@ -167,22 +207,82 @@ export default function TranscriptUpload() {
               {/* Analyze Button */}
               <button
                 onClick={handleAnalyze}
-                disabled={isAnalyzing || !transcript.trim()}
+                disabled={!transcript.trim()}
                 className="w-full flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isAnalyzing ? (
-                  <>
-                    <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                    {progress || 'Analyzing...'}
-                  </>
-                ) : (
-                  <>
-                    <Upload className="w-5 h-5 mr-2" />
-                    Analyze Transcript
-                  </>
-                )}
+                <Upload className="w-5 h-5 mr-2" />
+                Analyze Transcript
               </button>
             </>
+          )}
+
+          {/* Progress Display */}
+          {isAnalyzing && (
+            <div className="space-y-6">
+              <div className="text-center">
+                <Loader2 className="w-16 h-16 text-primary-600 animate-spin mx-auto mb-4" />
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                  {progress.message}
+                </h3>
+                <p className="text-sm text-gray-500">
+                  Estimated time remaining: {timeRemaining} seconds
+                </p>
+              </div>
+
+              {/* Progress Bar */}
+              <div className="w-full bg-gray-200 rounded-full h-3">
+                <div
+                  className="bg-primary-600 h-3 rounded-full transition-all duration-500"
+                  style={{ width: `${progressPercentage}%` }}
+                />
+              </div>
+
+              {/* Progress Steps */}
+              <div className="space-y-2">
+                {progressSteps.map((step, idx) => (
+                  <div
+                    key={idx}
+                    className={`flex items-center space-x-2 text-sm ${
+                      idx < progress.step
+                        ? 'text-green-600'
+                        : idx === progress.step
+                        ? 'text-primary-600 font-medium'
+                        : 'text-gray-400'
+                    }`}
+                  >
+                    <div className="w-5 h-5 flex-shrink-0">
+                      {idx < progress.step ? (
+                        <CheckCircle className="w-5 h-5" />
+                      ) : idx === progress.step ? (
+                        <Loader2 className="w-5 h-5 animate-spin" />
+                      ) : (
+                        <div className="w-5 h-5 rounded-full border-2 border-current" />
+                      )}
+                    </div>
+                    <span>{step.message}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Detected Students Preview */}
+              {progress.detectedStudents.length > 0 && (
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <p className="text-sm font-medium text-blue-900 mb-2">
+                    Detected Students:
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {progress.detectedStudents.map((name) => (
+                      <span
+                        key={name}
+                        className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800"
+                      >
+                        {name}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
           )}
 
           {/* Results Display */}
@@ -194,63 +294,24 @@ export default function TranscriptUpload() {
                   <div>
                     <p className="text-lg font-medium text-green-900">Analysis Complete!</p>
                     <p className="text-sm text-green-800 mt-1">
-                      Processed {result.students?.length || 0} students from Week {result.transcript_metadata?.week || weekNumber}
+                      Processed {result.students?.length || 0} students from Week {weekNumber}
                     </p>
                   </div>
                 </div>
               </div>
 
-              {/* Session Overview */}
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">Session Overview</h3>
-                <div className="bg-gray-50 rounded-lg p-4 space-y-2">
-                  <p className="text-sm">
-                    <span className="font-medium">Topic:</span> {result.transcript_metadata?.topic || 'N/A'}
-                  </p>
-                  <p className="text-sm">
-                    <span className="font-medium">Total Turns:</span> {result.transcript_metadata?.total_turns || 0}
-                  </p>
-                  <p className="text-sm">
-                    <span className="font-medium">Overall Engagement:</span> {result.session_analysis?.overall_engagement || 'N/A'}
-                  </p>
-                </div>
-              </div>
-
-              {/* Student Results */}
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">Student Results</h3>
-                <div className="space-y-4">
-                  {result.students?.map((student) => (
-                    <div key={student.student_id} className="bg-gray-50 rounded-lg p-4">
-                      <div className="flex items-center justify-between mb-2">
-                        <h4 className="font-medium text-gray-900">{student.student_id}</h4>
-                        <span className="text-sm text-gray-600">
-                          {student.total_turns} turns
-                        </span>
-                      </div>
-                      <div className="grid grid-cols-5 gap-2">
-                        {Object.entries(student.suggested_score || {}).map(([skill, score]) => {
-                          if (skill === 'score_note') return null;
-                          return (
-                            <div key={skill} className="text-center">
-                              <div className="text-2xl font-bold text-gray-900">{score}</div>
-                              <div className="text-xs text-gray-500 truncate">
-                                {skill.split('_')[0]}
-                              </div>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+              {/* Success Message */}
+              <div className="bg-primary-50 border border-primary-200 rounded-lg p-4">
+                <p className="text-sm text-primary-900">
+                  ✅ Week {weekNumber} has been added to your dashboard! You can now view the results in student profiles and select it from the week dropdown.
+                </p>
               </div>
 
               {/* Action Buttons */}
               <div className="flex space-x-4">
                 <button
                   onClick={() => navigate('/')}
-                  className="flex-1 px-4 py-2 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                  className="flex-1 px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
                 >
                   View Dashboard
                 </button>
@@ -260,7 +321,7 @@ export default function TranscriptUpload() {
                     setTranscript('');
                     setError(null);
                   }}
-                  className="flex-1 px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                  className="flex-1 px-4 py-2 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
                 >
                   Analyze Another
                 </button>

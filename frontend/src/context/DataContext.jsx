@@ -11,8 +11,7 @@ export function useData() {
 }
 
 export function DataProvider({ children }) {
-  const availableWeeks = [10, 12, 15, 17, 19];
-
+  const [availableWeeks, setAvailableWeeks] = useState([10, 12, 15, 17, 19]);
   const [analyses, setAnalyses] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -54,6 +53,22 @@ export function DataProvider({ children }) {
     loadAnalyses();
   }, []);
 
+  // Function to add a new analysis (for live upload)
+  const addAnalysis = (weekNumber, analysisData) => {
+    setAnalyses(prev => ({
+      ...prev,
+      [weekNumber]: analysisData
+    }));
+
+    // Add week to available weeks if not already there
+    if (!availableWeeks.includes(weekNumber)) {
+      setAvailableWeeks(prev => [...prev, weekNumber].sort((a, b) => a - b));
+    }
+
+    // Automatically switch to the new week
+    setSelectedWeek(weekNumber);
+  };
+
   // Get current week's analysis
   const currentAnalysis = analyses[selectedWeek];
 
@@ -69,6 +84,7 @@ export function DataProvider({ children }) {
     availableWeeks,
     currentAnalysis,
     allStudents,
+    addAnalysis, // Export the new function
   };
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
