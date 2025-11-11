@@ -1,25 +1,25 @@
 {
   "transcript_metadata": {
-    "week": "Week 17",
-    "date": "2025-03-05",
-    "topic": "The escape begins (Chapters 22-23)",
+    "week": "Week 20",
+    "date": "2025-03-26",
+    "topic": "Brave New World introduction (Chapters 1-3)",
     "duration_minutes": 30,
-    "total_turns": 63
+    "total_turns": 64
   },
   "session_analysis": {
     "overall_engagement": "high",
-    "discussion_quality": "Thoughtful and mature analysis with strong peer facilitation",
+    "discussion_quality": "Sophisticated analysis with strong peer facilitation and minimal teacher intervention.",
     "key_moments": [
-      "Jordan mediates by saying 'Hold on Sam, let's hear Alex's full thought' to prevent potential interruption."
+      "Sam's self-correction after interruption, Alex's profound observation about technology vs human nature."
     ],
     "concerns": [],
     "teacher_recommendations": [
-      "Monitor Sam's sustained improvement in impulse control."
+      "Continue to encourage peer-led facilitation and deepen intellectual analysis."
     ],
-    "participation_equity_score": 8,
+    "participation_equity_score": 9,
     "participation_distribution": "even",
     "discussion_depth_score": 9,
-    "evidence_citation_count": 7,
+    "evidence_citation_count": 8,
     "perspective_diversity": "high",
     "interaction_health": "strong",
     "conversational_turns": 30,
@@ -29,81 +29,82 @@
       "domination_concerns": [],
       "exclusion_concerns": [],
       "positive_patterns": [
-        "Students building on each other's ideas naturally."
+        "Peer support and self-correction, high-level facilitation by Maya and Jordan."
       ]
     }
   },
   "students": [
     {
       "student_id": "Sam",
-      "totalTurns": 12,
+      "totalTurns": 13,
       "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Alex",
-          "Casey"
+          "Casey",
+          "Jordan"
         ],
         "built_upon_ideas_from": [
-          "Alex",
-          "Casey"
-        ],
-        "received_responses_from": [
           "Jordan",
           "Alex"
         ],
-        "interruption_count": 1,
-        "was_interrupted_by": [
-          "Jordan"
+        "received_responses_from": [
+          "Casey",
+          "Jordan",
+          "Maya"
         ],
+        "interruption_count": 1,
+        "was_interrupted_by": [],
         "initiated_topics": 1,
         "turn_length": "medium"
       },
       "discussion_behavior": {
         "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "Consistent and thoughtful responses",
-        "contribution_to_environment": "Actively engaged with peers' ideas and demonstrated improved impulse control."
+        "wait_time": "moderate",
+        "response_rate": "Quick to respond, occasionally impulsive but self-corrects.",
+        "contribution_to_environment": "Active participant, shows growth in self-regulation."
       },
       "skills": {
         "empathy_perspective_taking": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"I get that intellectually, but emotionally I still need them to survive. I'm too invested.\""
+            "'Sorry for jumping in.' (line 21)",
+            "'I hope he shakes things up.' (line 94)"
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Oh, I wasn't going to interrupt. But yeah Alex, tell us more.\""
+            "'Yeah, exactly. Sorry for jumping in.' (line 23)"
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "occasional",
+          "pattern": "emerging",
           "confidence": "medium",
           "examples": [
-            "\"I'm choosing to believe they survived. I know it's ambiguous, but I need that hope.\""
+            "'I'm noticing that pattern everywhere now. In real life, not just books.' (line 77)"
           ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"The part where he couldn't transmit memories to Gabriel anymore because he was too weak—that broke my heart.\""
+            "'Those slogans are creepy. They're designed to stop people from thinking.' (line 51)"
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Do you think Gabriel understood what was happening? Like, did he know Jonas was saving him?\""
+            "'I want to meet John and see what happens when someone unconditioned encounters this society.' (line 102)"
           ]
         }
       },
-      "overall_impression": "Sam demonstrated significant improvement in impulse control and actively engaged in the discussion with empathy and collaboration.",
+      "overall_impression": "Sam shows strong engagement and self-awareness, with a notable ability to self-correct and contribute meaningfully to discussions.",
       "growth_indicators": [
-        "Interruptions reduced by 80% from baseline (1 vs 5), shows strong impulse control and awareness."
+        "Self-correction after interruption",
+        "Increased engagement with complex ideas"
       ],
       "suggested_score": {
         "empathy_perspective_taking": 5,
@@ -115,19 +116,20 @@
     },
     {
       "student_id": "Maya",
-      "totalTurns": 11,
+      "totalTurns": 12,
       "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Alex",
-          "Casey"
+          "Jordan",
+          "Alex"
         ],
         "built_upon_ideas_from": [
-          "Alex",
+          "Sam",
           "Casey"
         ],
         "received_responses_from": [
           "Jordan",
+          "Alex",
           "Sam"
         ],
         "interruption_count": 0,
@@ -138,54 +140,55 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Consistent and thoughtful responses",
-        "contribution_to_environment": "Facilitated discussion effectively and encouraged peer contributions."
+        "response_rate": "Facilitates discussion, encourages others to contribute.",
+        "contribution_to_environment": "Mentors peers, validates growth, and maintains high-level facilitation."
       },
       "skills": {
         "empathy_perspective_taking": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"That's a really profound way to look at it, Alex. We want good actions to lead to good outcomes, but sometimes the action is enough.\""
+            "'Sam, I appreciate how quickly you self-corrected. That shows real growth.' (line 25)"
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"What evidence do you each see for survival versus death?\""
+            "'These connections show sophisticated analysis.' (line 73)"
           ]
         },
         "adaptability_open_mindedness": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Whatever we each believe, we can all agree that Jonas made the right choice.\""
+            "'These are complex ethical questions. There aren't easy answers.' (line 63)"
           ]
         },
         "active_listening_focus": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Love as action, not just feeling. That's what Jonas learned from the memories and demonstrates through his choices.\""
+            "'Excellent connection, Alex. How else is language used in Brave New World?' (line 59)"
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Why do you think that's significant, Alex?\""
+            "'What are you most interested in as we continue reading?' (line 97)"
           ]
         }
       },
-      "overall_impression": "Maya effectively facilitated discussion, encouraging peers to share their perspectives and building on their ideas.",
+      "overall_impression": "Maya demonstrates leadership and empathy, effectively facilitating discussions and supporting peer growth.",
       "growth_indicators": [
-        "Successfully stepped back from constant facilitation role as peer dynamics matured."
+        "High-level facilitation",
+        "Empathy in peer interactions"
       ],
       "suggested_score": {
         "empathy_perspective_taking": 5,
         "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 5,
+        "adaptability_open_mindedness": 4,
         "active_listening_focus": 5,
         "participation_engagement": 5
       }
@@ -200,10 +203,11 @@
           "Casey"
         ],
         "built_upon_ideas_from": [
-          "Alex",
-          "Casey"
+          "Maya",
+          "Alex"
         ],
         "received_responses_from": [
+          "Sam",
           "Maya",
           "Alex"
         ],
@@ -215,54 +219,55 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Consistent and thoughtful responses",
-        "contribution_to_environment": "Proactively facilitated discussion and protected peers' speaking space."
+        "response_rate": "Quick to support peers, synthesizes ideas effectively.",
+        "contribution_to_environment": "Acts as a peer leader, providing support and encouragement."
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"That's really mature, Alex. And honestly, kind of depressing but true.\""
+            "'It's okay, Sam. You caught yourself fast.' (line 24)"
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Hold on Sam, let's hear Alex's full thought. Why do you think that distinction matters?\""
+            "'Jordan, can you explain that distinction more?' (line 67)"
           ]
         },
         "adaptability_open_mindedness": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"I think they made it too. But barely. Like, by the thinnest possible margin.\""
+            "'That's hopeful, Alex. Even in dystopia, the human spirit survives.' (line 93)"
           ]
         },
         "active_listening_focus": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Casey, good memory. Yeah, the ambiguity might be intentional—the moral choice is what's important, not whether it worked out.\""
+            "'Yeah, to distract ourselves from problems instead of facing them.' (line 85)"
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"And Jonas gave him good memories whenever he could. Even when it drained him completely.\""
+            "'I'm interested in Helmholtz. He seems like he might actually do something, not just complain like Bernard.' (line 101)"
           ]
         }
       },
-      "overall_impression": "Jordan demonstrated strong facilitation skills, ensuring a balanced discussion and encouraging peers to elaborate on their thoughts.",
+      "overall_impression": "Jordan is a supportive peer leader, contributing to a positive discussion environment and synthesizing complex ideas.",
       "growth_indicators": [
-        "Expert peer facilitator, prevents potential interruptions proactively, strong collaborative skills."
+        "Peer support",
+        "Synthesis of ideas"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
+        "empathy_perspective_taking": 4,
         "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 5,
+        "adaptability_open_mindedness": 4,
         "active_listening_focus": 5,
         "participation_engagement": 5
       }
@@ -273,148 +278,154 @@
       "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Maya",
-          "Alex"
+          "Sam",
+          "Jordan"
         ],
         "built_upon_ideas_from": [
-          "Jordan",
-          "Sam"
-        ],
-        "received_responses_from": [
-          "Jordan",
+          "Alex",
           "Maya"
         ],
+        "received_responses_from": [
+          "Sam",
+          "Jordan",
+          "Alex"
+        ],
         "interruption_count": 0,
-        "was_interrupted_by": [],
+        "was_interrupted_by": [
+          "Sam"
+        ],
         "initiated_topics": 2,
         "turn_length": "medium"
       },
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Consistent and thoughtful responses",
-        "contribution_to_environment": "Demonstrated deep critical thinking and thematic analysis."
+        "response_rate": "Thoughtful and reflective, connects ideas across texts.",
+        "contribution_to_environment": "Provides sophisticated analysis and thematic connections."
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"The memories would have gone back to everyone. Suddenly they'd all feel pain, love, loss, color—everything.\""
+            "'He's like if Jonas was weaker or more conflicted.' (line 37)"
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"That connects to what we talked about last week. The outcome matters less than the choice itself.\""
+            "'Which society is worse for that? Having fake families or no families?' (line 61)"
           ]
         },
         "adaptability_open_mindedness": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"I'm going to remember this book for a long time. It changed how I think about a lot of things.\""
+            "'So these books are teaching us to see. To recognize control even when it feels good.' (line 109)"
           ]
         },
         "active_listening_focus": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Can we talk about the journey itself? The escape was so intense. When Jonas fell and hurt his ankle, I thought it was over.\""
+            "'It's literally chemical control. Feeling sad? Take soma. Feeling angry? Take soma.' (line 83)"
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"The Giver is the one who starts everything. He gives Jonas the memories, the plan, the courage to act.\""
+            "'I want to see if anyone breaks through their conditioning.' (line 100)"
           ]
         }
       },
-      "overall_impression": "Casey consistently demonstrated sophisticated literary analysis and thematic connections, contributing to a rich discussion.",
+      "overall_impression": "Casey consistently provides thoughtful analysis and connections, enhancing the depth of the discussion.",
       "growth_indicators": [
-        "Sophisticated thematic analysis and ethical reasoning consistently demonstrated."
+        "Cross-textual analysis",
+        "Sophisticated thematic connections"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
+        "empathy_perspective_taking": 4,
         "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 5,
+        "adaptability_open_mindedness": 4,
         "active_listening_focus": 5,
         "participation_engagement": 5
       }
     },
     {
       "student_id": "Alex",
-      "totalTurns": 13,
-      "speaking_time_estimate": "3-4 minutes",
+      "totalTurns": 14,
+      "speaking_time_estimate": "4-5 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Sam",
-          "Jordan"
-        ],
-        "built_upon_ideas_from": [
           "Maya",
           "Casey"
         ],
-        "received_responses_from": [
+        "built_upon_ideas_from": [
           "Jordan",
           "Sam"
         ],
+        "received_responses_from": [
+          "Maya",
+          "Jordan",
+          "Casey"
+        ],
         "interruption_count": 0,
         "was_interrupted_by": [],
-        "initiated_topics": 2,
+        "initiated_topics": 3,
         "turn_length": "medium"
       },
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Consistent and thoughtful responses",
-        "contribution_to_environment": "Contributed sophisticated unprompted analysis and philosophical observations."
+        "response_rate": "Confident and insightful, contributes profound observations.",
+        "contribution_to_environment": "Drives discussion with deep insights and connections."
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"But I think part of growing up is accepting that good choices don't always lead to happy endings.\""
+            "'That's hopeful, Alex. Even in dystopia, the human spirit survives.' (line 93)"
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Well, Jonas made the right choice. He chose freedom and love over safety. Even if he died, he died free instead of living trapped.\""
+            "'That makes him dangerous to the World State.' (line 47)"
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Or it's showing us that his first memory and his last moment are connected. Like, his whole journey led to that sled.\""
+            "'Good dystopian fiction is timeless because it's about human nature, not technology.' (line 79)"
           ]
         },
         "active_listening_focus": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Because it shows he's leaving the community's control behind. His senses are waking up. He's becoming fully human.\""
+            "'Like how release meant something different in The Giver.' (line 69)"
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Maybe anyone can be a giver if they choose to share truth and love instead of hiding it.\""
+            "'I want to know if there's any hope.' (line 103)"
           ]
         }
       },
-      "overall_impression": "Alex consistently contributed sophisticated analysis and philosophical insights, demonstrating confidence and depth in discussion.",
+      "overall_impression": "Alex demonstrates high confidence and insight, contributing significantly to the depth and direction of the discussion.",
       "growth_indicators": [
-        "Participation maintained at high level (13 turns), confidence fully internalized, contributing sophisticated unprompted analysis."
+        "Increased participation",
+        "Profound insights"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
+        "empathy_perspective_taking": 4,
         "collaboration_relationship": 5,
         "adaptability_open_mindedness": 5,
         "active_listening_focus": 5,
