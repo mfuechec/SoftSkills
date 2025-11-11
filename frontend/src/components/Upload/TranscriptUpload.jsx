@@ -97,223 +97,197 @@ export default function TranscriptUpload() {
   };
 
   const handleLoadSample = () => {
-    setTranscript(`**Teacher:** Let's discuss Chapters 4-7 of Brave New World. What are you noticing about how this society maintains control?
+    setTranscript(`**Teacher:** Welcome to our first deep discussion of Brave New World. What are your initial impressions?
 
-**Casey:** The conditioning is really intense. Like, they literally train people from birth to accept their place in society.
+**Casey:** It's so different from The Giver. Everything is excessive instead of restricted.
 
-**Jordan:** Yeah, and everyone just goes along with it. Nobody questions the system.
+**Jordan:** Yeah, but the result is the same—people who don't think for themselves.
 
-**Maya:** Well, except Bernard. He seems uncomfortable with everything.
+**Maya:** That's a really important parallel. Different methods, same outcome.
 
-**Sam:** Bernard is so whiny though. Like, okay, you're unhappy, do something about it.
+**Sam:** The conditioning is way more intense than anything in The Giver. They literally engineer people before they're even born.
 
-**Alex:** I don't think it's that easy, Sam. Everyone around him thinks he's weird. That's really isolating.
+**Alex:** And then they brainwash them while they sleep. It's disturbing how thorough it is.
 
-**Maya:** Alex, that's a really empathetic point. Bernard is struggling against an entire system by himself.
+**Casey:** The hypnopaedia—sleep teaching—is genius and terrifying. By the time people are adults, they can't even conceive of questioning the system.
 
-**Sam:** Okay, you're right. I hadn't thought about how lonely that would be.
+**Jordan:** At least in The Giver, Jonas could wake up and see the truth. In Brave New World, is that even possible?
 
-**Jordan:** I feel like there's something important about how the society uses pleasure to control people. It's like... more sinister than force?
+**Maya:** Good question, Jordan. What do you all think?
 
-**Casey:** Oh, absolutely! Because people think they're free. Force is obvious, but pleasure is sneaky.
+**Alex:** I think Bernard shows it's possible. He's uncomfortable with everything, even though he was conditioned the same way.
 
-**Maya:** Casey, that's such an insightful observation. It connects back to what we were talking about last week.
+**Sam:** But Bernard is also kind of annoying. [interrupts] He complains but doesn't—oh, sorry Casey, go ahead.
 
-**Alex:** It reminds me of what Jordan said about social media. We think we're choosing to use it, but maybe we're kind of addicted.
+**Casey:** [smiles] I was going to say something similar actually. Bernard sees the problems but he's too caught up in wanting acceptance to really rebel.
 
-**Jordan:** Exactly, Alex! And that makes it way harder to resist than if someone was obviously controlling us.
+**Sam:** Yeah, exactly. Sorry for jumping in.
 
-**Sam:** So what you're saying is... we're all living in a version of Brave New World?
+**Jordan:** It's okay, Sam. You caught yourself fast. And you're right—Bernard is all talk and no action so far.
 
-**Casey:** Maybe not quite that extreme, but there are definitely parallels.
+**Maya:** Sam, I appreciate how quickly you self-corrected. That shows real growth.
 
-**Maya:** I think the question is: how do we recognize when we're being controlled and actually do something about it?
+**Alex:** I think Bernard is realistic though. Not everyone who sees problems has the courage to fight them.
 
-**Jordan:** That's where Bernard is interesting, right? He recognizes it but doesn't know what to do.
+**Casey:** That's true. He's like if Jonas was weaker or more conflicted. He knows something's wrong but can't bring himself to sacrifice his comfort.
 
-**Alex:** He's also scared. Like, what if he speaks up and everyone rejects him?
+**Jordan:** Helmholtz is more interesting to me. He's successful and valued, but he still feels empty.
 
-**Casey:** Well, they're already kind of rejecting him. So maybe he has nothing to lose?
+**Sam:** What's Helmholtz's job again? I got confused by all the titles.
 
-**Sam:** [interrupts] Yeah but—
+**Casey:** He's an Emotional Engineer. He writes the propaganda that conditions people. So he's part of the system, but he's starting to question it.
 
-**Jordan:** [gently] Hold on Sam, I think Casey's making a point.
+**Alex:** That makes him dangerous to the World State. If the people creating the propaganda start doubting, the whole system could collapse.
 
-**Sam:** Oh, sorry Casey. Go ahead.
+**Maya:** Alex, that's really insightful. The system only works if everyone believes in it, especially those in power.
 
-**Casey:** I was just going to say, sometimes you have to risk rejection to stand up for what you believe in. That's what Jonas did.
+**Jordan:** And Lenina is the perfect example of someone who's been completely conditioned. She can't even understand what Bernard is trying to say.
 
-**Maya:** That's a beautiful connection to The Giver, Casey. Both books are about that moment when you have to choose between comfort and truth.
+**Casey:** Every time Bernard tries to have a real conversation, she just repeats slogans. "Everyone belongs to everyone else." "Ending is better than mending."
 
-**Jordan:** And I think what makes it hard is that choosing truth means losing everything that feels safe.
+**Sam:** Those slogans are creepy. They're designed to stop people from thinking.
 
-**Alex:** But staying comfortable means losing yourself.
+**Alex:** Like precision of language in The Giver. Both societies use language to control thought.
 
-**Maya:** Wow, Alex. That's really profound.
+**Maya:** Excellent connection, Alex. How else is language used in Brave New World?
 
-**Sam:** Okay, Alex just summed up both books in one sentence.
+**Alex:** Well, words like "mother" and "father" are considered obscene. They've erased family language because they've erased families.
 
-**Jordan:** [laughs] Seriously. That's going in my notes.
+**Jordan:** That's brutal. In The Giver, families existed even if they weren't based on love. In Brave New World, there's no family concept at all.
 
-**Casey:** Do you think we'll meet anyone in Brave New World who actually successfully rebels? Or is it going to be depressing like The Giver might have been?
+**Casey:** Which society is worse for that? Having fake families or no families?
 
-**Maya:** That's a great question. What do you all predict?
+**Sam:** I think no families is worse. At least Jonas had his parents and Lily, even if the relationships were shallow.
 
-**Sam:** I think someone will try but fail. These dystopias don't usually have happy endings.
+**Alex:** But fake families might be crueler because you think you have love when you don't. In Brave New World, people don't expect family love, so they don't miss it.
 
-**Jordan:** Unless the point is to make us think about our own world, not to give us a neat resolution.
+**Jordan:** That's depressing but logical. You can't miss what you never knew existed.
 
-**Alex:** That would make sense. Like, the books are supposed to make us uncomfortable so we change things in real life.
+**Maya:** These are complex ethical questions. There aren't easy answers.
 
-**Casey:** I really like that interpretation, Alex.
+**Casey:** The caste system is horrifying. People are literally designed to be less intelligent so they can be workers.
 
-**Maya:** Me too. These books aren't about escaping into a story - they're mirrors showing us what to avoid.
+**Sam:** And they're conditioned to be happy about it. Epsilons are taught to be grateful they're Epsilons.
 
-**Jordan:** So the real question is: what are we going to do with what we're learning?
+**Alex:** That's the ultimate control—making people love their own oppression.
 
-**Sam:** That's heavy, Jordan. But you're right.
+**Jordan:** At least in The Giver, people didn't know they were oppressed. In Brave New World, they're taught that their oppression is freedom.
 
-**Teacher:** These are exactly the kinds of questions I hoped you'd be asking. Let's dig deeper into the control mechanisms. What else have you noticed about how pleasure is used in this society?
+**Maya:** Jordan, can you explain that distinction more?
 
-**Alex:** The soma. They take it whenever they feel even slightly uncomfortable. It's like they've completely eliminated the ability to deal with negative emotions.
+**Jordan:** Sure. In The Giver, people thought they were happy and equal, but they were wrong. In Brave New World, people are told "you're free" while being completely controlled, and they believe it because freedom has been redefined.
 
-**Casey:** Right. And that's presented as a good thing - like suffering is this terrible evil that should be erased. But what happens when you can't feel pain?
+**Casey:** So it's a language thing again. Freedom means something different to them than it means to us.
 
-**Jordan:** You can't grow. Pain and discomfort are how we learn and develop as people.
+**Alex:** Like how release meant something different in The Giver. Euphemisms and redefinitions are tools of control.
 
-**Maya:** Jordan, that's such an important insight. Can you expand on that?
+**Sam:** I'm noticing that pattern everywhere now. In real life, not just books.
 
-**Jordan:** Well, like, think about anything difficult you've done. Learning an instrument, working through a hard problem, having a difficult conversation. It's uncomfortable, but that's how you become stronger.
+**Maya:** That's exactly what critical thinking looks like, Sam. Applying literary lessons to the world around you.
 
-**Sam:** So in Brave New World, everyone stays weak because they never have to struggle?
+**Jordan:** The soma is maybe the scariest part. A drug that makes you feel good without any consequences.
 
-**Casey:** Exactly. They're stunted. They can't mature emotionally because they run from anything hard.
+**Casey:** It's literally chemical control. Feeling sad? Take soma. Feeling angry? Take soma. Don't ever deal with real emotions.
 
-**Alex:** It's like emotional babies in adult bodies. That's disturbing.
+**Alex:** And everyone takes it willingly. There's no force needed because people want to escape discomfort.
 
-**Maya:** That's a vivid way to put it, Alex, but you're right. The society has created perpetual children who can't handle reality.
+**Sam:** That connects to what we said about our own world. Social media, phones, entertainment—we use those like soma sometimes.
 
-**Jordan:** And it's all by design. The Controllers want them that way - easier to manage people who can't think critically.
+**Jordan:** Yeah, to distract ourselves from problems instead of facing them.
 
-**Sam:** What about Lenina? She seems smart, but she's completely brainwashed. Every time Bernard tries to have a real conversation, she just repeats slogans.
+**Maya:** These connections show sophisticated analysis. You're not just reading—you're understanding systems of control.
 
-**Casey:** The slogans are another control mechanism! "Everyone belongs to everyone else." "Ending is better than mending." They replace actual thinking with catchphrases.
+**Casey:** Do you think anyone in Brave New World will successfully rebel? Or is it all going to be tragic?
 
-**Maya:** Casey, yes! Language as a tool of control. Have you all noticed how limited their vocabulary is for discussing feelings or ideas?
+**Alex:** Based on the tone, I think it'll be tragic. But maybe meaningful tragedy, like The Giver.
 
-**Alex:** They can't even understand what Bernard's trying to say when he talks about being alone or wanting meaning. They literally don't have the words for it.
+**Jordan:** I hope someone rebels successfully. I need to believe resistance is possible, even in impossible situations.
 
-**Jordan:** That's like what happened in The Giver too. Remember how they had to have "precision of language" but actually their language was super limited?
+**Sam:** What about John? The introduction mentioned someone called John the Savage.
 
-**Sam:** Oh wow, I didn't connect that. Both societies control language to control thought.
+**Casey:** He hasn't appeared yet, but I bet he's important. Probably someone from outside the World State.
 
-**Casey:** If you can't name something, you can't think about it. It's a form of erasure.
+**Alex:** That would be interesting. Someone who wasn't conditioned, seeing the society for the first time.
 
-**Maya:** This is excellent analysis. You're seeing how these books use similar techniques in different ways.
+**Maya:** Like an outside perspective showing what's wrong with the system.
 
-**Teacher:** Let's talk about the caste system. How does that function as control?
+**Jordan:** Jonas had to learn to see clearly. Maybe John already sees clearly because he's from outside.
 
-**Jordan:** People are literally designed for their jobs. Alphas are smart, Epsilons are basically servants, and everyone in between has their place.
+**Sam:** I hope he shakes things up. This society needs someone to challenge it.
 
-**Casey:** And they're conditioned from before birth to be happy with their position. The hypnopaedia makes them believe they're lucky to be what they are.
+**Casey:** Though realistically, one person probably can't change a global system. That's even harder than changing Jonas's small community.
 
-**Alex:** That's so messed up. Like, an Epsilon could have been an Alpha in a different world, but they're engineered to be less intelligent and then told to be grateful for it.
+**Alex:** But even failed resistance matters. It shows that human nature can't be completely suppressed.
 
-**Sam:** At least they don't know what they're missing? Like, if you genuinely believe you're happy, does it matter that you could have been more?
+**Jordan:** That's hopeful, Alex. Even in dystopia, the human spirit survives.
 
-**Maya:** Sam's playing devil's advocate here. What do you all think - does ignorance equal happiness?
+**Maya:** What are you most interested in as we continue reading?
 
-**Jordan:** I don't think so. Because even if they don't know what they're missing, they're still being denied their full potential as humans.
+**Casey:** I want to see if anyone breaks through their conditioning. If it's possible to wake up in this world.
 
-**Casey:** Plus, we've seen that the system isn't perfect. Bernard exists. Helmholtz exists. People slip through the cracks and feel dissatisfied even without knowing why.
+**Sam:** I want to meet John and see what happens when someone unconditioned encounters this society.
 
-**Alex:** That actually gives me hope. Like, the human spirit can't be completely crushed, even with all this conditioning.
+**Jordan:** I'm interested in Helmholtz. He seems like he might actually do something, not just complain like Bernard.
 
-**Maya:** That's a beautiful observation, Alex. There's something in humans that resists total control.
+**Alex:** I want to know if there's any hope. The Giver was ambiguous. Will Brave New World be completely bleak or is there a way forward?
 
-**Sam:** But most people don't resist. It's just a few weird outliers. The system mostly works.
+**Maya:** All great goals for our continued reading. This is clearly a darker, more cynical book than The Giver.
 
-**Jordan:** Which is terrifying. It means that control through pleasure is really effective on most people.
+**Jordan:** Yeah, Lowry seemed to believe in individual courage changing things. Huxley seems more pessimistic.
 
-**Casey:** More effective than control through force would be. Force creates obvious oppression and rebellion. Pleasure creates... compliance that feels like freedom.
+**Casey:** Maybe because Huxley's dystopia is more complete. It's global, it's technological, it's thoroughly internalized by everyone.
 
-**Maya:** Casey, you've identified something crucial. The most effective tyranny is the one people don't recognize as tyranny.
+**Alex:** That makes rebellion almost impossible. But maybe that's the point—to warn us before we get there.
 
-**Alex:** Are we going back to the social media thing? Because I keep thinking about how this relates to our phones and stuff.
+**Sam:** Like, we're not at Brave New World yet, but we could be if we're not careful.
 
-**Jordan:** I think we have to. These books are warnings. Huxley wrote this in the 1930s but it feels like he was predicting our exact moment.
+**Maya:** Exactly. Dystopian fiction is always a warning about the present, not a prediction about the future.
 
-**Sam:** So what do we do about it? Like, we can analyze the book all we want, but if we're living in a version of it, what's the answer?
+**Teacher:** Excellent first discussion. I'm impressed by how you're drawing connections to The Giver and to our own world. Let's talk about the science briefly. Huxley wrote this in 1932. How do you feel about his predictions?
 
-**Casey:** Awareness is the first step. You can't resist what you don't recognize.
+**Jordan:** Some of it seems pretty accurate. We have genetic engineering now. Test tube babies. Pharmaceutical mood management.
 
-**Maya:** That's absolutely right. And you're all demonstrating that awareness by making these connections.
+**Casey:** Yeah, we're not as extreme as Brave New World, but the pieces are there. That's what makes it scary.
 
-**Alex:** But awareness isn't enough on its own. Bernard is aware, but he's also kind of pathetic because he won't actually do anything.
+**Sam:** I never thought a book from the 1930s would feel so relevant. But it really does.
 
-**Jordan:** Alex, that's harsh but true. He complains but doesn't act. He wants to rebel but also wants to be accepted.
+**Alex:** Good dystopian fiction is timeless because it's about human nature, not technology. Technology just changes how control happens.
 
-**Sam:** To be fair, acting would mean giving up everything. His job, his friends, his whole life. That's a big ask.
+**Maya:** That's a sophisticated observation, Alex. The methods change but the fundamental questions about freedom and control remain.
 
-**Casey:** But isn't that what integrity requires sometimes? Sacrificing comfort for truth?
+**Jordan:** So whether it's pills, propaganda, genetic engineering, or social media—it's all about preventing people from thinking critically.
 
-**Maya:** You're all grappling with a really difficult question - what's the price of living authentically in a false world?
+**Casey:** And getting people to voluntarily give up freedom for comfort.
 
-**Jordan:** And different people have different answers. Jonas paid the price and left. Bernard can't bring himself to do it.
+**Sam:** Which is what makes Brave New World scarier than The Giver. Force is obvious and creates resistance. But comfort? People embrace that.
 
-**Alex:** What would each of us do, honestly? Like, if we were in that world, would we be Jonas or Bernard?
+**Alex:** We trade freedom for convenience all the time. Privacy for apps. Attention for entertainment. Time for scrolling.
 
-**Sam:** I want to say I'd be Jonas, but realistically, I'd probably be too scared. I'd be Bernard, complaining but not acting.
+**Jordan:** That's uncomfortably accurate.
 
-**Casey:** I think it depends on whether I had someone to do it with. Jonas had The Giver. Bernard is alone. That makes a huge difference.
+**Maya:** But recognizing it is the first step. You can't resist what you don't see.
 
-**Maya:** Casey, that's a really important point about community and support in resistance. It's so much harder alone.
+**Casey:** So these books are teaching us to see. To recognize control even when it feels good.
 
-**Jordan:** Which is maybe why the society isolates people emotionally. "Everyone belongs to everyone" actually means nobody truly connects with anyone.
+**Sam:** I'm going to be paranoid about everything now.
 
-**Alex:** So they're alone together. That's almost sadder than being actually alone.
+**Alex:** Not paranoid. Aware. There's a difference.
 
-**Sam:** I'm getting depressed. Does anything good happen in this book, or is it just bleak all the way through?
+**Jordan:** Right. Paranoia is irrational fear. Awareness is rational observation.
 
-**Casey:** The bleakness is kind of the point though, isn't it? We're supposed to be disturbed.
+**Maya:** Well said. Critical thinking isn't about being scared of everything—it's about understanding systems and making informed choices.
 
-**Maya:** Casey's right, but Sam's feeling is also valid. This is heavy material. What's making you most uncomfortable, Sam?
+**Teacher:** This has been an outstanding discussion. Your growth over these past weeks is remarkable. Sam, your self-correction was perfect. Alex, your confidence and insight are wonderful to see. Everyone, your ability to connect ideas and think critically is impressive. Keep this momentum going. See you next week for more Brave New World.
 
-**Sam:** I think it's the hopelessness. Like, the system is so complete and so effective. How do you fight something that's everywhere and that most people support?
+**Sam:** This is going to be an intense book.
 
-**Jordan:** You fight it by living differently. By refusing to take the soma, metaphorically speaking. By staying conscious even when it's easier to zone out.
+**Casey:** But worth it, like The Giver.
 
-**Alex:** By having real relationships instead of shallow ones. By choosing discomfort over fake happiness.
+**Alex:** Yeah. Hard books teach us important things.
 
-**Casey:** By reading books like this and talking about them and keeping ourselves aware. That's what we're doing right now.
+**Jordan:** And this group makes the discussions valuable. We all push each other to think deeper.
 
-**Maya:** Yes. This discussion is an act of resistance in itself. You're thinking critically, questioning, connecting ideas. That's exactly what the World State tries to prevent.
-
-**Teacher:** We have a few minutes left. What's one thing you want to pay attention to as we continue reading?
-
-**Jordan:** I want to see what happens when they go to the Savage Reservation. That seems like it'll be a major turning point.
-
-**Casey:** I'm interested in whether anyone successfully rebels or if it's just going to be tragic. I need to know if resistance is even possible.
-
-**Alex:** I want to understand Lenina better. Right now she seems one-dimensional, but I hope there's more to her.
-
-**Sam:** I want to see if Bernard grows a spine. Like, will something push him to actually act on his beliefs?
-
-**Maya:** I'm curious about how Huxley resolves the philosophical questions he's raising. Or if he even tries to resolve them.
-
-**Teacher:** Excellent goals. Keep these questions in mind as you read. And keep bringing your full selves to these discussions. The connections you're making to our world, to other books, to your own experiences - that's what makes literature meaningful.
-
-**Jordan:** This is probably our best discussion yet.
-
-**Casey:** Agreed. I love when we get into the deep questions like this.
-
-**Alex:** Me too. It makes the reading feel important, not just like homework.
-
-**Sam:** Even though it's kind of depressing, I'm glad we're reading this. It's making me think about stuff I usually don't question.
-
-**Maya:** That's the goal of education, Sam. Not just learning facts, but learning to think critically about the world.
-
-**Teacher:** On that note, we'll end here. Great work today, everyone.`);
+**Maya:** That's what makes this class special. We're learning together.`);
     setWeekNumber('20');
   };
 
