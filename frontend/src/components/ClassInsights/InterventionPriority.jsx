@@ -157,9 +157,7 @@ export default function InterventionPriority({ analysis, previousAnalysis }) {
               <div className="ml-11 mt-3 bg-white bg-opacity-50 rounded p-2">
                 <p className="text-xs font-medium text-gray-700">Suggested Action:</p>
                 <p className="text-xs text-gray-600 mt-1">
-                  {urgency === 'high' && 'Meet 1-on-1 this week to understand barriers and re-engage'}
-                  {urgency === 'medium' && 'Check in during class, consider peer pairing for next discussion'}
-                  {urgency === 'low' && 'Monitor next week, may benefit from facilitated participation'}
+                  {generateSuggestion(priority)}
                 </p>
               </div>
             </div>
@@ -185,4 +183,42 @@ function calculateAvgScore(scores) {
     .map(([, value]) => value);
   if (values.length === 0) return 0;
   return values.reduce((sum, val) => sum + val, 0) / values.length;
+}
+
+function generateSuggestion(priority) {
+  const concerns = priority.concerns;
+
+  // Check for specific concern types and provide targeted suggestions
+  if (concerns.some(c => c.includes('interruption'))) {
+    return `Practice wait time strategies with ${priority.student_id}. Consider implementing a "raise hand" system or using a talking piece to help develop patience and turn-taking skills.`;
+  }
+
+  if (concerns.some(c => c.includes('low participation') || c.includes('Very low participation'))) {
+    return `One-on-one check-in with ${priority.student_id} to understand barriers. Try direct questions, think-pair-share activities, or small group discussions to build confidence.`;
+  }
+
+  if (concerns.some(c => c.includes('no peer responses') || c.includes('received no peer responses'))) {
+    return `Facilitate peer engagement for ${priority.student_id}. Use prompts like "What does everyone think about ${priority.student_id}'s point?" to ensure their contributions are acknowledged.`;
+  }
+
+  if (concerns.some(c => c.includes('declined') || c.includes('fewer turns'))) {
+    return `Check in with ${priority.student_id} about recent drop in participation. May be experiencing personal issues, lack of preparation, or disengagement with current material.`;
+  }
+
+  if (concerns.some(c => c.includes('Low engagement'))) {
+    return `Re-engage ${priority.student_id} with material. Try connecting topics to their interests, assigning a discussion role, or providing prep questions before class.`;
+  }
+
+  if (concerns.some(c => c.includes('No evidence'))) {
+    return `${priority.student_id} needs more opportunities to demonstrate skills. Provide structured prompts targeting specific competencies (empathy, collaboration, etc.) during discussion.`;
+  }
+
+  // Default based on priority level
+  if (priority.score >= 6) {
+    return `Meet 1-on-1 with ${priority.student_id} this week to understand barriers and create an action plan for re-engagement.`;
+  } else if (priority.score >= 4) {
+    return `Check in with ${priority.student_id} during class. Consider peer pairing or assigning a discussion role for next session.`;
+  } else {
+    return `Monitor ${priority.student_id} next week. May benefit from facilitated participation or pre-discussion prep questions.`;
+  }
 }
