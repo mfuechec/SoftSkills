@@ -73,6 +73,12 @@ export default async function handler(req, res) {
 function getPromptTemplate() {
   return `Analyze the following classroom discussion transcript and extract evidence of non-academic skills for each student.
 
+**CRITICAL FORMATTING RULES:**
+1. Use snake_case for ALL field names EXCEPT "totalTurns"
+2. The ONLY camelCase field should be "totalTurns" (for speaking turn count)
+3. Examples: "student_id", "transcript_metadata", "session_analysis", "interaction_patterns"
+4. DO NOT use "studentId", "transcriptMetadata", "sessionAnalysis", "interactionPatterns"
+
 **Skills Framework (Flourish Schools / CASEL):**
 
 1. **Empathy & Perspective-Taking**
@@ -139,7 +145,7 @@ function getPromptTemplate() {
   "students": [
     {
       "student_id": "StudentName",
-      "total_turns": 5,
+      "totalTurns": 5,
       "speaking_time_estimate": "2-3 minutes",
       "interaction_patterns": {
         "responded_to": ["OtherStudent"],
@@ -158,43 +164,46 @@ function getPromptTemplate() {
       },
       "skills": {
         "empathy_perspective_taking": {
-          "evidence": [
-            {
-              "quote": "Exact student quote",
-              "context": "What prompted this",
-              "behavior_observed": "Specific skill demonstrated",
-              "line_reference": "Line X",
-              "interacted_with": "StudentName (if responding to someone)"
-            }
-          ],
-          "pattern": "strong/consistent/emerging/not_observed",
+          "pattern": "frequent/occasional/consistent/emerging/not_observed",
           "confidence": "high/medium/low",
-          "confidence_rationale": "Why this confidence level"
+          "examples": ["Quote with context"]
         },
-        "collaboration_relationship": { },
-        "adaptability_open_mindedness": { },
-        "active_listening_focus": { },
-        "participation_engagement": { }
+        "collaboration_relationship": {},
+        "adaptability_open_mindedness": {},
+        "active_listening_focus": {},
+        "participation_engagement": {}
       },
       "overall_impression": "1-2 sentence summary",
-      "growth_indicators": ["Compared to typical patterns"],
+      "growth_indicators": ["Indicator 1"],
       "suggested_score": {
-        "empathy_perspective_taking": 4,
-        "collaboration_relationship": 3,
-        "adaptability_open_mindedness": 0,
-        "active_listening_focus": 2,
-        "participation_engagement": 5,
-        "score_note": "1-5 scale. Use 0 if insufficient evidence. Scores are SECONDARY to evidence."
+        "empathy_perspective_taking": 5,
+        "collaboration_relationship": 4,
+        "adaptability_open_mindedness": 3,
+        "active_listening_focus": 4,
+        "participation_engagement": 5
       }
     }
   ]
 }
 
+**CRITICAL SCORING INSTRUCTIONS:**
+**Score based on RATE (percentage of relevant opportunities), NOT raw frequency count.**
+
+A student with 5 turns showing empathy in 3 of them (60% rate) should score HIGHER than a student with 15 turns showing empathy in 6 of them (40% rate), even though 6 > 3.
+
+**Scoring Calibration:**
+- **Score 5**: Student demonstrates skill in >60% of relevant opportunities. Exceptional, consistent pattern.
+- **Score 4**: 40-60% of opportunities. Strong, frequent pattern with room for growth.
+- **Score 3**: 20-40% of opportunities. Emerging skill, inconsistent but present.
+- **Score 2**: 5-20% of opportunities. Occasional demonstration, needs development.
+- **Score 1**: <5% of opportunities. Rare or minimal evidence.
+- **Score 0**: Not observed or no relevant opportunities.
+
 **Guidelines:**
 - Quote exact student language whenever possible
 - Use line numbers to reference transcript
 - For skills without evidence, set pattern to "not_observed" and confidence to "low"
-- Scores should reflect evidence quantity and quality (0 = no evidence, 5 = strong pattern)
+- **IMPORTANT**: Normalize scores by number of turns - don't reward longer discussions with higher scores
 - Focus on specific behaviors, not character judgments
 
 **Interaction Analysis Instructions:**
@@ -206,8 +215,8 @@ function getPromptTemplate() {
 
 **Discussion Quality Instructions:**
 - **Participation equity score (1-10)**: 10 = perfectly even distribution, 1 = one student dominates
-- **Discussion depth score (1-10)**: 1-3 = surface opinions, 4-6 = some reasoning, 7-10 = evidence-based synthesis
-- **Evidence citation count**: Number of times students cite the text ("On page X...", "The author says...")
+- **Discussion depth score (1-10)**: 1-3 = surface opinions, 4-6 = some reasoning, 7-10 = evidence-based synthesis and critical analysis
+- **Evidence citation count**: Number of times students support claims with concrete evidence (textual citations, logical reasoning, real-world examples, data, personal experience, etc.). Be flexible - evidence type depends on discussion context.
 - **Perspective diversity**: High = multiple viewpoints explored, Low = groupthink/echo chamber
 - **Interaction health**: Strong = frequent idea-building, Weak = parallel monologues
 - **Conversational turns**: Count back-and-forth exchanges (Student A → B → A counts as 2 turns)
