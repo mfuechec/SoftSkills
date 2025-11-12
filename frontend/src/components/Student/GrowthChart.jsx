@@ -24,7 +24,7 @@ export default function GrowthChart({ timeline }) {
       <LineChart data={chartData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="week" />
-        <YAxis domain={[0, 5]} ticks={[0, 1, 2, 3, 4, 5]} />
+        <YAxis domain={[0, 10]} ticks={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]} />
         <Tooltip />
         <Legend />
         <Line

@@ -134,7 +134,7 @@ export default function InterventionPriority({ analysis, previousAnalysis }) {
                         {urgency} priority
                       </span>
                       <span className="text-xs text-gray-500">
-                        Score: {priority.avgScore.toFixed(1)}/5 · {priority.totalTurns} turns
+                        Score: {priority.avgScore.toFixed(1)}/10 · {priority.totalTurns} turns
                       </span>
                     </div>
                   </div>

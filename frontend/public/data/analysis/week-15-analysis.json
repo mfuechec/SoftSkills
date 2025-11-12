@@ -2,28 +2,28 @@
   "transcript_metadata": {
     "week": "Week 15",
     "date": "2025-02-19",
-    "topic": "The truth about 'release' and Jonas's reaction (Chapters 18-19)",
-    "duration_minutes": 15,
+    "topic": "Jonas's reaction and the plan to escape (Chapters 20-21)",
+    "duration_minutes": 30,
     "total_turns": 64
   },
   "session_analysis": {
     "overall_engagement": "high",
-    "discussion_quality": "Students demonstrated deep engagement with the text, building on each other's ideas and showing strong empathy and ethical reasoning.",
+    "discussion_quality": "Students demonstrated deep thematic understanding and ethical reasoning.",
     "key_moments": [
-      "Sam self-corrected an interruption and apologized to Casey.",
-      "Alex's prediction from Week 12 was validated, boosting his confidence.",
-      "Maya facilitated discussion with minimal intervention, allowing peers to lead."
+      "Sam self-corrects mid-interruption and apologizes to Casey.",
+      "Alex's prediction from Week 12 is validated, boosting confidence.",
+      "Casey makes connections about trust and courage."
     ],
     "concerns": [
-      "Sam still occasionally interrupts, though improvement is noted."
+      "Sam still interrupts occasionally, though improvement is noted."
     ],
     "teacher_recommendations": [
-      "Encourage Sam to continue practicing self-awareness during discussions.",
-      "Provide opportunities for Alex to lead discussions to further build confidence."
+      "Encourage Alex to continue sharing insights.",
+      "Support Sam's self-awareness and encourage further reduction in interruptions."
     ],
     "participation_equity_score": 8,
     "participation_distribution": "even",
-    "discussion_depth_score": 8,
+    "discussion_depth_score": 9,
     "evidence_citation_count": 5,
     "perspective_diversity": "high",
     "interaction_health": "strong",
@@ -34,262 +34,24 @@
       "domination_concerns": [],
       "exclusion_concerns": [],
       "positive_patterns": [
-        "Strong collaborative dialogue between Maya and Jordan",
-        "Alex's confidence boost from peer validation"
+        "Strong collaborative dialogue between Maya and Jordan"
       ]
     }
   },
   "students": [
-    {
-      "student_id": "Maya",
-      "totalTurns": 12,
-      "speaking_time_estimate": "3-4 minutes",
-      "interaction_patterns": {
-        "responded_to": [
-          "Alex",
-          "Casey"
-        ],
-        "built_upon_ideas_from": [
-          "Jordan",
-          "Sam"
-        ],
-        "received_responses_from": [
-          "Jordan",
-          "Alex"
-        ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 2,
-        "turn_length": "medium"
-      },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "High - peers frequently engage with her ideas",
-        "contribution_to_environment": "Enhances discussion quality through validation and mentoring"
-      },
-      "skills": {
-        "empathy_perspective_taking": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "That's beautifully put, Alex.",
-            "That's really empathetic thinking, Casey."
-          ]
-        },
-        "collaboration_relationship": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Maya facilitates discussion with minimal intervention, allowing peers to lead."
-          ]
-        },
-        "adaptability_open_mindedness": {
-          "pattern": "emerging",
-          "confidence": "medium",
-          "examples": [
-            "Maya acknowledges different perspectives on ethical dilemmas."
-          ]
-        },
-        "active_listening_focus": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Maya builds on others' ideas and references previous discussions."
-          ]
-        },
-        "participation_engagement": {
-          "pattern": "consistent",
-          "confidence": "high",
-          "examples": [
-            "Maya actively engages with peers, initiating topics and responding thoughtfully."
-          ]
-        }
-      },
-      "overall_impression": "Maya consistently enhances the discussion through empathy and validation, fostering a collaborative environment.",
-      "growth_indicators": [
-        "Continues to facilitate peer-led discussions effectively."
-      ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 3,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
-      }
-    },
-    {
-      "student_id": "Jordan",
-      "totalTurns": 13,
-      "speaking_time_estimate": "3-4 minutes",
-      "interaction_patterns": {
-        "responded_to": [
-          "Casey",
-          "Sam"
-        ],
-        "built_upon_ideas_from": [
-          "Alex",
-          "Maya"
-        ],
-        "received_responses_from": [
-          "Maya",
-          "Sam"
-        ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 2,
-        "turn_length": "medium"
-      },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "High - peers frequently engage with his ideas",
-        "contribution_to_environment": "Synthesizes ideas and supports peers, fostering a positive discussion climate"
-      },
-      "skills": {
-        "empathy_perspective_taking": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Jordan acknowledges the emotional impact on Jonas's parents and Fiona."
-          ]
-        },
-        "collaboration_relationship": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Jordan supports Sam's growth and builds on peers' ideas."
-          ]
-        },
-        "adaptability_open_mindedness": {
-          "pattern": "emerging",
-          "confidence": "medium",
-          "examples": [
-            "Jordan considers multiple outcomes for the community."
-          ]
-        },
-        "active_listening_focus": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Jordan references others' ideas and builds upon them."
-          ]
-        },
-        "participation_engagement": {
-          "pattern": "consistent",
-          "confidence": "high",
-          "examples": [
-            "Jordan actively engages with peers, initiating topics and responding thoughtfully."
-          ]
-        }
-      },
-      "overall_impression": "Jordan demonstrates strong empathy and collaboration, effectively synthesizing ideas and supporting peers.",
-      "growth_indicators": [
-        "Emerging as a peer supporter, less frustrated by interruptions."
-      ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 3,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
-      }
-    },
-    {
-      "student_id": "Casey",
-      "totalTurns": 12,
-      "speaking_time_estimate": "3-4 minutes",
-      "interaction_patterns": {
-        "responded_to": [
-          "Sam",
-          "Jordan"
-        ],
-        "built_upon_ideas_from": [
-          "Maya",
-          "Alex"
-        ],
-        "received_responses_from": [
-          "Maya",
-          "Sam"
-        ],
-        "interruption_count": 0,
-        "was_interrupted_by": [
-          "Sam"
-        ],
-        "initiated_topics": 2,
-        "turn_length": "medium"
-      },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "High - peers frequently engage with her ideas",
-        "contribution_to_environment": "Contributes sophisticated ethical reasoning and thematic analysis"
-      },
-      "skills": {
-        "empathy_perspective_taking": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Casey considers the emotional impact on Jonas's parents and the community."
-          ]
-        },
-        "collaboration_relationship": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Casey builds on peers' ideas and engages in meaningful dialogue."
-          ]
-        },
-        "adaptability_open_mindedness": {
-          "pattern": "emerging",
-          "confidence": "medium",
-          "examples": [
-            "Casey explores different outcomes for the community."
-          ]
-        },
-        "active_listening_focus": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "Casey references others' ideas and builds upon them."
-          ]
-        },
-        "participation_engagement": {
-          "pattern": "consistent",
-          "confidence": "high",
-          "examples": [
-            "Casey actively engages with peers, initiating topics and responding thoughtfully."
-          ]
-        }
-      },
-      "overall_impression": "Casey demonstrates strong ethical reasoning and collaboration, contributing to a rich discussion.",
-      "growth_indicators": [
-        "Consistently developing sophisticated ethical and thematic analysis."
-      ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 3,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
-      }
-    },
     {
       "student_id": "Sam",
       "totalTurns": 12,
       "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Casey",
-          "Jordan"
+          "Casey"
         ],
         "built_upon_ideas_from": [
-          "Maya",
-          "Alex"
+          "Jordan"
         ],
         "received_responses_from": [
-          "Jordan",
-          "Casey"
+          "Jordan"
         ],
         "interruption_count": 2,
         "was_interrupted_by": [],
@@ -299,56 +61,57 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "moderate",
-        "response_rate": "High - peers frequently engage with his ideas",
-        "contribution_to_environment": "Shows growth in self-awareness and contributes to discussion depth"
+        "response_rate": "frequent",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "Sam empathizes with Jonas's loneliness and the community's potential anger."
+            "I think people deserve to know the truth, even if it hurts."
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Sam engages with peers' ideas and supports their contributions."
+            "I'm getting better at it. Sometimes I still mess up, but I'm trying."
           ]
         },
         "adaptability_open_mindedness": {
           "pattern": "emerging",
           "confidence": "medium",
           "examples": [
-            "Sam considers different outcomes for Jonas and the community."
+            "That's so dark! They'd kill Jonas just to— wait, sorry Casey, were you going to say something?"
           ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Sam references others' ideas and builds upon them."
+            "That takes so much courage. He's only twelve and he's taking on the entire system by himself."
           ]
         },
         "participation_engagement": {
-          "pattern": "consistent",
+          "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Sam actively engages with peers, initiating topics and responding thoughtfully."
+            "Please no! I need a clear happy ending. I'm too stressed about this."
           ]
         }
       },
-      "overall_impression": "Sam shows significant growth in self-awareness and empathy, contributing positively to the discussion.",
+      "overall_impression": "Sam is actively engaged and improving in self-regulation, showing empathy and collaboration.",
       "growth_indicators": [
-        "Interruptions reduced, self-correction improving."
+        "Reduced interruptions",
+        "Increased self-awareness"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 3,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 8,
+        "collaboration_relationship": 7,
+        "adaptability_open_mindedness": 5,
+        "active_listening_focus": 7,
+        "participation_engagement": 8
       }
     },
     {
@@ -357,15 +120,239 @@
       "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Maya",
-          "Jordan"
+          "Maya"
         ],
         "built_upon_ideas_from": [
-          "Casey",
-          "Sam"
+          "Jordan"
         ],
         "received_responses_from": [
-          "Maya",
+          "Maya"
+        ],
+        "interruption_count": 0,
+        "was_interrupted_by": [],
+        "initiated_topics": 2,
+        "turn_length": "medium"
+      },
+      "discussion_behavior": {
+        "engagement_level": "high",
+        "wait_time": "patient",
+        "response_rate": "frequent",
+        "contribution_to_environment": "Enhances"
+      },
+      "skills": {
+        "empathy_perspective_taking": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "Love means you do hard things. Jonas loves Gabriel, so he has to try."
+          ]
+        },
+        "collaboration_relationship": {
+          "pattern": "consistent",
+          "confidence": "high",
+          "examples": [
+            "Alex, you totally called that! You said he couldn't stay after learning too much. You were completely right."
+          ]
+        },
+        "adaptability_open_mindedness": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "Because the book isn't really about whether Jonas succeeds. It's about whether he makes the choice. The choice is the important part."
+          ]
+        },
+        "active_listening_focus": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "Jonas has been lonely since he became the Receiver. This just makes it worse."
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "I think they survive, but we don't know what happens next. Like, they reach Elsewhere but we don't see what that means."
+          ]
+        }
+      },
+      "overall_impression": "Alex shows strong analytical skills and confidence, contributing meaningfully to the discussion.",
+      "growth_indicators": [
+        "Increased confidence",
+        "Sophisticated analysis"
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 8,
+        "collaboration_relationship": 9,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 8,
+        "participation_engagement": 8
+      }
+    },
+    {
+      "student_id": "Jordan",
+      "totalTurns": 13,
+      "speaking_time_estimate": "3-4 minutes",
+      "interaction_patterns": {
+        "responded_to": [
+          "Sam"
+        ],
+        "built_upon_ideas_from": [
+          "Casey"
+        ],
+        "received_responses_from": [
+          "Alex"
+        ],
+        "interruption_count": 0,
+        "was_interrupted_by": [],
+        "initiated_topics": 2,
+        "turn_length": "medium"
+      },
+      "discussion_behavior": {
+        "engagement_level": "high",
+        "wait_time": "patient",
+        "response_rate": "frequent",
+        "contribution_to_environment": "Enhances"
+      },
+      "skills": {
+        "empathy_perspective_taking": {
+          "pattern": "consistent",
+          "confidence": "high",
+          "examples": [
+            "But leaving means the memories will go back to everyone. That could be traumatic for the whole community."
+          ]
+        },
+        "collaboration_relationship": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "We all mess up. What matters is that you're working on it."
+          ]
+        },
+        "adaptability_open_mindedness": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "Maybe they'd release him. Keep the memories contained by getting rid of him permanently."
+          ]
+        },
+        "active_listening_focus": {
+          "pattern": "consistent",
+          "confidence": "high",
+          "examples": [
+            "That's really selfless of the Giver. He's choosing to suffer more so he can help the community cope."
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "I think Jonas escapes with Gabriel but barely survives. Like, they make it by the smallest margin."
+          ]
+        }
+      },
+      "overall_impression": "Jordan is a strong collaborator and synthesizer, supporting peers and contributing to deep discussions.",
+      "growth_indicators": [
+        "Strong peer support",
+        "Effective synthesis"
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 9,
+        "collaboration_relationship": 8,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 9,
+        "participation_engagement": 8
+      }
+    },
+    {
+      "student_id": "Casey",
+      "totalTurns": 12,
+      "speaking_time_estimate": "3-4 minutes",
+      "interaction_patterns": {
+        "responded_to": [
+          "Sam"
+        ],
+        "built_upon_ideas_from": [
+          "Maya"
+        ],
+        "received_responses_from": [
+          "Jordan"
+        ],
+        "interruption_count": 0,
+        "was_interrupted_by": [
+          "Sam"
+        ],
+        "initiated_topics": 1,
+        "turn_length": "medium"
+      },
+      "discussion_behavior": {
+        "engagement_level": "high",
+        "wait_time": "patient",
+        "response_rate": "frequent",
+        "contribution_to_environment": "Enhances"
+      },
+      "skills": {
+        "empathy_perspective_taking": {
+          "pattern": "consistent",
+          "confidence": "high",
+          "examples": [
+            "His mom will probably be okay—she's strong. But his dad... finding out he's been killing babies? That's going to destroy him."
+          ]
+        },
+        "collaboration_relationship": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "There's that part where Jonas refuses to go home and makes the Giver realize how serious he is. That was powerful."
+          ]
+        },
+        "adaptability_open_mindedness": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "I think they need Jonas back. He has all the memories. Without him, those memories are loose."
+          ]
+        },
+        "active_listening_focus": {
+          "pattern": "consistent",
+          "confidence": "high",
+          "examples": [
+            "The alternative is leaving everything the same, and that means more babies and old people get killed. That's definitely worse."
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "I think hope is what makes Jonas different from everyone else in the community. They don't hope because they don't even know they should want something different."
+          ]
+        }
+      },
+      "overall_impression": "Casey consistently demonstrates sophisticated ethical reasoning and empathy, contributing valuable insights.",
+      "growth_indicators": [
+        "Sophisticated ethical reasoning",
+        "Empathy development"
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 9,
+        "collaboration_relationship": 8,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 9,
+        "participation_engagement": 8
+      }
+    },
+    {
+      "student_id": "Maya",
+      "totalTurns": 12,
+      "speaking_time_estimate": "3-4 minutes",
+      "interaction_patterns": {
+        "responded_to": [
+          "Alex"
+        ],
+        "built_upon_ideas_from": [
+          "Jordan"
+        ],
+        "received_responses_from": [
           "Casey"
         ],
         "interruption_count": 0,
@@ -376,56 +363,57 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "High - peers frequently engage with his ideas",
-        "contribution_to_environment": "Contributes sophisticated literary analysis and builds confidence through peer validation"
+        "response_rate": "frequent",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "Alex empathizes with Jonas's isolation and the community's potential trauma."
+            "That's really empathetic thinking, Casey. The consequences will hit different people differently based on what they've done."
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Alex builds on peers' ideas and engages in meaningful dialogue."
+            "Maya, you've really picked up on Jonas's isolation throughout this book. That's good character analysis."
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "emerging",
-          "confidence": "medium",
-          "examples": [
-            "Alex explores different outcomes for Jonas and the community."
-          ]
-        },
-        "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "Alex references others' ideas and builds upon them."
+            "I predict the ending will be somewhat ambiguous. We'll be left wondering if they truly made it or not."
           ]
         },
-        "participation_engagement": {
+        "active_listening_focus": {
           "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "Alex actively engages with peers, initiating topics and responding thoughtfully."
+            "Both of you are showing really mature ethical reasoning. There are no easy answers here."
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "Sometimes the most powerful endings are the ones that make us keep thinking."
           ]
         }
       },
-      "overall_impression": "Alex demonstrates growing confidence and sophisticated analysis, contributing positively to the discussion.",
+      "overall_impression": "Maya facilitates deep discussion and validates peers, enhancing the collaborative environment.",
       "growth_indicators": [
-        "Participation increased, confidence boosted by peer validation."
+        "Facilitation skills",
+        "Validation of peers"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 3,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 9,
+        "collaboration_relationship": 8,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 9,
+        "participation_engagement": 8
       }
     }
   ]

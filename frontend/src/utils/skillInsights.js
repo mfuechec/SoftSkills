@@ -27,7 +27,7 @@ export function generateSkillInsight(skillName, skillKey, growthData, latestWeek
     insight.recommendation = `Create targeted opportunities for ${skillName.toLowerCase()}. Ask questions that specifically invite this skill (e.g., "What do you think about [peer's] perspective?" or "How would you approach this differently?").`;
   }
   // Low score with evidence
-  else if (end > 0 && end <= 2) {
+  else if (end > 0 && end <= 4) {
     insight.status = 'emerging';
     insight.icon = '🌱';
     insight.reasoning = `${skillName} is emerging but inconsistent. Student shows ${evidenceCount} instance(s) but hasn't developed a consistent pattern yet.`;
@@ -35,7 +35,7 @@ export function generateSkillInsight(skillName, skillKey, growthData, latestWeek
   }
   // Growth detected
   else if (change > 0) {
-    if (end >= 4) {
+    if (end >= 8) {
       insight.status = 'strong-growth';
       insight.icon = '🚀';
       insight.reasoning = `Excellent progress! ${skillName} has grown from ${start} to ${end}. Student now demonstrates this skill consistently with ${evidenceCount} clear example(s) in the latest session.`;
@@ -47,8 +47,8 @@ export function generateSkillInsight(skillName, skillKey, growthData, latestWeek
       insight.recommendation = `Continue providing opportunities to practice. Point out progress: "You're getting better at [specific behavior]. Keep it up!"`;
     }
   }
-  // Strong skill (4-5) with no growth needed
-  else if (end >= 4 && change === 0) {
+  // Strong skill (8-10) with no growth needed
+  else if (end >= 8 && change === 0) {
     insight.status = 'mastery';
     insight.icon = '⭐';
     insight.reasoning = `Strong mastery of ${skillName.toLowerCase()}. Consistently demonstrates this skill with ${evidenceCount} clear example(s).`;
@@ -62,10 +62,10 @@ export function generateSkillInsight(skillName, skillKey, growthData, latestWeek
     insight.recommendation = `Check in with the student. Are they disengaged? Facing challenges? Consider differentiated support or pairing with a stronger peer for collaborative learning.`;
   }
   // Moderate score, no change
-  else if (end === 3 && change === 0) {
+  else if (end >= 5 && end <= 6 && change === 0) {
     insight.status = 'steady';
     insight.icon = '➡️';
-    insight.reasoning = `Moderate ${skillName.toLowerCase()} demonstrated consistently at level 3. Shows ${evidenceCount} example(s) but hasn't progressed further.`;
+    insight.reasoning = `Moderate ${skillName.toLowerCase()} demonstrated consistently at level ${end}. Shows ${evidenceCount} example(s) but hasn't progressed further.`;
     insight.recommendation = `Student is competent but could push further. Introduce more challenging scenarios that require deeper application of ${skillName.toLowerCase()}.`;
   }
 
@@ -91,8 +91,8 @@ export function getStudentHealthStatus(growthSummary) {
 
   const growthCount = skills.filter(s => s.change > 0).length;
   const declineCount = skills.filter(s => s.change < 0).length;
-  const highScores = skills.filter(s => s.end >= 4).length;
-  const lowScores = skills.filter(s => s.end <= 1).length;
+  const highScores = skills.filter(s => s.end >= 8).length;
+  const lowScores = skills.filter(s => s.end <= 2).length;
 
   if (growthCount >= 3 && highScores >= 2) {
     return {

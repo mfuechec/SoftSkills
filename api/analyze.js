@@ -191,12 +191,13 @@ function getPromptTemplate() {
 
 A student with 5 turns showing empathy in 3 of them (60% rate) should score HIGHER than a student with 15 turns showing empathy in 6 of them (40% rate), even though 6 > 3.
 
-**Scoring Calibration:**
-- **Score 5**: Student demonstrates skill in >60% of relevant opportunities. Exceptional, consistent pattern.
-- **Score 4**: 40-60% of opportunities. Strong, frequent pattern with room for growth.
-- **Score 3**: 20-40% of opportunities. Emerging skill, inconsistent but present.
-- **Score 2**: 5-20% of opportunities. Occasional demonstration, needs development.
-- **Score 1**: <5% of opportunities. Rare or minimal evidence.
+**Scoring Calibration (1-10 scale):**
+- **Score 9-10**: Student demonstrates skill in >80% of relevant opportunities. Exceptional, highly consistent pattern.
+- **Score 8**: 70-80% of opportunities. Strong mastery with consistent demonstration.
+- **Score 7**: 60-70% of opportunities. Frequent, reliable pattern with minor gaps.
+- **Score 5-6**: 40-60% of opportunities. Developing skill, present but inconsistent.
+- **Score 3-4**: 20-40% of opportunities. Emerging skill, occasional demonstration.
+- **Score 1-2**: <20% of opportunities. Rare or minimal evidence, needs significant development.
 - **Score 0**: Not observed or no relevant opportunities.
 
 **Guidelines:**

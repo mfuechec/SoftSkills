@@ -89,7 +89,7 @@ export default function WeekBreakdown({ weekData, studentId, analysis }) {
               <div key={key}>
                 <div className="flex items-center justify-between mb-3">
                   <h4 className="text-sm font-medium text-gray-700">{name}</h4>
-                  <span className="text-sm font-medium text-gray-900">Score: {score}/5</span>
+                  <span className="text-sm font-medium text-gray-900">Score: {score}/10</span>
                 </div>
 
                 {skillData.pattern && (

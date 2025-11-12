@@ -313,27 +313,27 @@
               "empathy_perspective_taking": {
                 "type": "integer",
                 "minimum": 0,
-                "maximum": 5
+                "maximum": 10
               },
               "collaboration_relationship": {
                 "type": "integer",
                 "minimum": 0,
-                "maximum": 5
+                "maximum": 10
               },
               "adaptability_open_mindedness": {
                 "type": "integer",
                 "minimum": 0,
-                "maximum": 5
+                "maximum": 10
               },
               "active_listening_focus": {
                 "type": "integer",
                 "minimum": 0,
-                "maximum": 5
+                "maximum": 10
               },
               "participation_engagement": {
                 "type": "integer",
                 "minimum": 0,
-                "maximum": 5
+                "maximum": 10
               }
             },
             "additionalProperties": false

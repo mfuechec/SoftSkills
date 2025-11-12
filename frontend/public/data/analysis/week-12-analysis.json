@@ -8,33 +8,34 @@
   },
   "session_analysis": {
     "overall_engagement": "high",
-    "discussion_quality": "The discussion was rich with emotional engagement and ethical questioning, showing deep comprehension of the book's themes.",
+    "discussion_quality": "Engaged and thoughtful with deep ethical questions explored.",
     "key_moments": [
-      "Sam's self-correction and apology for interrupting without teacher prompting (line 7).",
-      "Alex's increased participation and substantive predictions about Jonas's escape plan (lines 43, 47, 61)."
+      "Sam's self-correction mid-interruption",
+      "Alex's prediction about Jonas's escape",
+      "Group's meta-awareness about communication patterns"
     ],
     "concerns": [
-      "Alex's extended silence periods, though improved from previous sessions."
+      "Alex's extended silence periods, though improved",
+      "Sam's interruptions reduced but not eliminated"
     ],
     "teacher_recommendations": [
-      "Continue to encourage Alex's participation and confidence.",
-      "Reinforce Sam's progress in managing interruptions."
+      "Encourage Alex to continue speaking up with positive reinforcement",
+      "Reinforce Sam's progress in reducing interruptions"
     ],
     "participation_equity_score": 8,
     "participation_distribution": "even",
-    "discussion_depth_score": 9,
-    "evidence_citation_count": 7,
+    "discussion_depth_score": 8,
+    "evidence_citation_count": 5,
     "perspective_diversity": "high",
     "interaction_health": "strong",
-    "conversational_turns": 30,
+    "conversational_turns": 25,
     "environment_quality": {
       "student_to_student_interaction": "high",
       "idea_building_frequency": "frequent",
       "domination_concerns": [],
       "exclusion_concerns": [],
       "positive_patterns": [
-        "Maya's validation of Alex's contributions",
-        "Sam's self-awareness and improvement in listening"
+        "Strong collaborative dialogue between Maya and Jordan"
       ]
     }
   },
@@ -42,18 +43,19 @@
     {
       "student_id": "Maya",
       "totalTurns": 13,
-      "speaking_time_estimate": "3-4 minutes",
+      "speaking_time_estimate": "4-5 minutes",
       "interaction_patterns": {
         "responded_to": [
           "Alex",
           "Sam"
         ],
         "built_upon_ideas_from": [
-          "Alex"
+          "Jordan",
+          "Casey"
         ],
         "received_responses_from": [
           "Jordan",
-          "Sam"
+          "Alex"
         ],
         "interruption_count": 0,
         "was_interrupted_by": [],
@@ -63,64 +65,63 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Consistently engaged with peers, validating and building on their ideas.",
-        "contribution_to_environment": "Fostered a supportive and inclusive discussion environment."
+        "response_rate": "high",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Me too, Alex. I think we all felt that way.\" (line 8)",
-            "\"Alex, that's brilliant!\" (line 45)"
+            "\"Me too, Alex. I think we all felt that way.\"",
+            "\"Alex, that's brilliant! I didn't even think about that consequence.\""
           ]
         },
         "collaboration_relationship": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Maya explicitly validates Alex three times.\" (lines 45, 81, 125)"
+            "\"That's a really deep ethical question, Casey. What do you think?\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "frequent",
-          "confidence": "medium",
+          "pattern": "consistent",
+          "confidence": "high",
           "examples": [
-            "\"That's a really deep ethical question, Casey. What do you think?\" (line 12)"
+            "\"It could destroy the community. Or it could save them, depending on how you look at it.\""
           ]
         },
         "active_listening_focus": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Maya explicitly validates Alex three times.\" (lines 45, 81, 125)"
+            "\"That's exactly right, Alex. The whole community believes release is something nice.\""
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Maya continues strong facilitation, validates Alex's contributions multiple times.\""
+            "\"These are wonderful insights. Last few minutes—what do you predict happens next?\""
           ]
         }
       },
-      "overall_impression": "Maya demonstrated strong facilitation skills, consistently validating peers and fostering a supportive discussion environment.",
+      "overall_impression": "Maya consistently facilitates discussion, validates peers, and builds on ideas.",
       "growth_indicators": [
-        "Consistent validation of peers' contributions",
-        "Encouraging quieter voices like Alex"
+        "Strong peer mentorship"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 9,
+        "collaboration_relationship": 9,
+        "adaptability_open_mindedness": 9,
+        "active_listening_focus": 9,
+        "participation_engagement": 9
       }
     },
     {
       "student_id": "Jordan",
       "totalTurns": 12,
-      "speaking_time_estimate": "3-4 minutes",
+      "speaking_time_estimate": "4-5 minutes",
       "interaction_patterns": {
         "responded_to": [
           "Sam",
@@ -131,164 +132,165 @@
           "Alex"
         ],
         "received_responses_from": [
-          "Sam",
-          "Casey"
+          "Maya",
+          "Sam"
         ],
-        "interruption_count": 0,
+        "interruption_count": 2,
         "was_interrupted_by": [
           "Sam"
         ],
-        "initiated_topics": 2,
+        "initiated_topics": 1,
         "turn_length": "medium"
       },
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Engaged deeply with content, providing thoughtful analysis and building on others' ideas.",
-        "contribution_to_environment": "Contributed to a thoughtful and analytical discussion environment."
+        "response_rate": "high",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
-          "confidence": "medium",
+          "confidence": "high",
           "examples": [
-            "\"Because he's been conditioned to see it as normal. Just part of the job.\" (line 10)"
+            "\"Because he's been conditioned to see it as normal. Just part of the job.\""
           ]
         },
         "collaboration_relationship": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Jordan mediates less but engages more substantively with content.\""
+            "\"True. The Giver knows, but he's had to live with this for years.\""
           ]
         },
         "adaptability_open_mindedness": {
           "pattern": "frequent",
-          "confidence": "medium",
+          "confidence": "high",
           "examples": [
-            "\"Or they've convinced themselves it's necessary. For the greater good or whatever.\" (line 20)"
+            "\"They'd have to face the truth. No more hiding behind precision of language and pretty words.\""
           ]
         },
         "active_listening_focus": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Jordan mediates less but engages more substantively with content.\""
+            "\"I agree with Alex. Yeah, it would be hard, but living in ignorance is worse.\""
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Jordan mediates less but engages more substantively with content.\""
+            "\"Do you think Lowry is trying to teach us something specific? Like, a message about society?\""
           ]
         }
       },
-      "overall_impression": "Jordan provided thoughtful analysis and engaged deeply with the content, contributing to a rich discussion environment.",
+      "overall_impression": "Jordan engages deeply with content, mediates less but contributes substantively.",
       "growth_indicators": [
-        "Engaged more substantively with content",
-        "Handled interruptions better"
+        "More engaged with ideas"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 4,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 8,
+        "collaboration_relationship": 9,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 9,
+        "participation_engagement": 9
       }
     },
     {
       "student_id": "Sam",
       "totalTurns": 13,
-      "speaking_time_estimate": "3-4 minutes",
+      "speaking_time_estimate": "4-5 minutes",
       "interaction_patterns": {
         "responded_to": [
           "Jordan",
           "Maya"
         ],
         "built_upon_ideas_from": [
-          "Casey"
+          "Casey",
+          "Alex"
         ],
         "received_responses_from": [
-          "Jordan",
-          "Maya"
+          "Maya",
+          "Jordan"
         ],
         "interruption_count": 3,
         "was_interrupted_by": [],
-        "initiated_topics": 1,
+        "initiated_topics": 2,
         "turn_length": "medium"
       },
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "moderate",
-        "response_rate": "Showed significant improvement in managing interruptions and demonstrated self-awareness.",
-        "contribution_to_environment": "Contributed to a more respectful and aware discussion environment."
+        "response_rate": "high",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
-          "pattern": "occasional",
-          "confidence": "medium",
+          "pattern": "frequent",
+          "confidence": "high",
           "examples": [
-            "\"Especially when ignorance means you're casually murdering people and calling it release.\" (line 60)"
+            "\"That scene where he realizes what his father did—I felt so bad for him.\""
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Sam's self-correction and apology for interrupting without teacher prompting (line 7).\""
+            "\"I'm trying to be more aware. It's hard but I want to get better at it.\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "occasional",
+          "pattern": "emerging",
           "confidence": "medium",
           "examples": [
-            "\"I'm trying to be more aware. It's hard but I want to get better at it.\" (line 79)"
+            "\"Or maybe the Giver wanted Jonas to understand how bad it really is. So he'd be motivated to change things.\""
           ]
         },
         "active_listening_focus": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Sam self-corrects mid-interruption line 77 ('Sorry, go ahead Jordan').\""
+            "\"Sorry, go ahead Jordan.\""
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Sam's interruptions DOWN to 3 (from 5 in Week 10) with immediate self-awareness and apology line 7 WITHOUT teacher prompting.\""
+            "\"I'm going to pay more attention to that in real life now. Like, when politicians or companies use careful language.\""
           ]
         }
       },
-      "overall_impression": "Sam showed significant improvement in managing interruptions and demonstrated self-awareness, contributing positively to the discussion environment.",
+      "overall_impression": "Sam shows significant improvement in self-awareness and active listening, though interruptions remain a focus area.",
       "growth_indicators": [
-        "Reduced interruptions by 40%",
-        "Demonstrated self-awareness and improvement in listening"
+        "Interruptions reduced by 40%",
+        "Shows unprompted apologies"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 3,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 3,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 8,
+        "collaboration_relationship": 8,
+        "adaptability_open_mindedness": 6,
+        "active_listening_focus": 8,
+        "participation_engagement": 9
       }
     },
     {
       "student_id": "Casey",
       "totalTurns": 13,
-      "speaking_time_estimate": "3-4 minutes",
+      "speaking_time_estimate": "4-5 minutes",
       "interaction_patterns": {
         "responded_to": [
           "Maya",
           "Jordan"
         ],
         "built_upon_ideas_from": [
+          "Sam",
           "Alex"
         ],
         "received_responses_from": [
-          "Sam",
-          "Jordan"
+          "Jordan",
+          "Maya"
         ],
         "interruption_count": 0,
         "was_interrupted_by": [],
@@ -298,70 +300,70 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Engaged deeply with ethical questions and made real-world connections.",
-        "contribution_to_environment": "Contributed to a thoughtful and analytical discussion environment."
+        "response_rate": "high",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
           "pattern": "frequent",
-          "confidence": "medium",
+          "confidence": "high",
           "examples": [
-            "\"That's still evil though. You can't murder babies for the greater good.\" (line 20)"
+            "\"That's still evil though. You can't murder babies for the greater good.\""
           ]
         },
         "collaboration_relationship": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Casey developing sophisticated ethical reasoning (lines 12, 38, 55).\""
+            "\"I think we all have things to work on. Like, I need to speak up more at the beginning of discussions.\""
           ]
         },
         "adaptability_open_mindedness": {
           "pattern": "frequent",
-          "confidence": "medium",
+          "confidence": "high",
           "examples": [
-            "\"Do you think other people know the truth? Like, the Elders?\" (line 16)"
+            "\"Maybe it'll be bittersweet. Like, Jonas escapes but at a cost.\""
           ]
         },
         "active_listening_focus": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Casey developing sophisticated ethical reasoning (lines 12, 38, 55).\""
+            "\"That's a really good point. We probably have our own versions of precision of language.\""
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Casey developing sophisticated ethical reasoning (lines 12, 38, 55).\""
+            "\"Do you think the book will have a happy ending? Or is it going to be tragic?\""
           ]
         }
       },
-      "overall_impression": "Casey engaged deeply with ethical questions and made real-world connections, contributing to a thoughtful and analytical discussion environment.",
+      "overall_impression": "Casey demonstrates deep ethical reasoning and engages actively with peers.",
       "growth_indicators": [
-        "Developing sophisticated ethical reasoning",
-        "Making real-world connections"
+        "Deeper analytical thinking emerging"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 4,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 4,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 8,
+        "collaboration_relationship": 8,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 9,
+        "participation_engagement": 9
       }
     },
     {
       "student_id": "Alex",
       "totalTurns": 10,
-      "speaking_time_estimate": "2-3 minutes",
+      "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
           "Maya",
           "Jordan"
         ],
         "built_upon_ideas_from": [
-          "Casey"
+          "Casey",
+          "Sam"
         ],
         "received_responses_from": [
           "Maya",
@@ -370,62 +372,62 @@
         "interruption_count": 0,
         "was_interrupted_by": [],
         "initiated_topics": 1,
-        "turn_length": "short"
+        "turn_length": "medium"
       },
       "discussion_behavior": {
         "engagement_level": "medium",
         "wait_time": "patient",
-        "response_rate": "Increased participation and confidence, contributing substantive ideas.",
-        "contribution_to_environment": "Contributed to a more inclusive and supportive discussion environment."
+        "response_rate": "moderate",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
-          "pattern": "occasional",
-          "confidence": "medium",
+          "pattern": "frequent",
+          "confidence": "high",
           "examples": [
-            "\"Everyone's been lied to.\" (line 14)"
+            "\"Everyone's been lied to.\""
           ]
         },
         "collaboration_relationship": {
-          "pattern": "occasional",
-          "confidence": "medium",
+          "pattern": "frequent",
+          "confidence": "high",
           "examples": [
-            "\"Alex participation up 25% (10 turns vs 8), made substantive predictions (lines 43, 47, 61).\""
+            "\"He's doing the right thing even though it's scary. I respect that.\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "occasional",
-          "confidence": "medium",
+          "pattern": "frequent",
+          "confidence": "high",
           "examples": [
-            "\"Maybe they need to learn.\" (line 36)"
+            "\"Maybe they need to learn.\""
           ]
         },
         "active_listening_focus": {
-          "pattern": "occasional",
-          "confidence": "medium",
+          "pattern": "frequent",
+          "confidence": "high",
           "examples": [
-            "\"Alex participation up 25% (10 turns vs 8), made substantive predictions (lines 43, 47, 61).\""
+            "\"I think they make it. The book wouldn't be this intense if it ended badly.\""
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "emerging",
           "confidence": "medium",
           "examples": [
-            "\"Alex participation up 25% (10 turns vs 8), made substantive predictions (lines 43, 47, 61).\""
+            "\"I need to talk more in general.\""
           ]
         }
       },
-      "overall_impression": "Alex increased participation and confidence, contributing substantive ideas and helping to create a more inclusive discussion environment.",
+      "overall_impression": "Alex shows increased confidence and substantive contributions, though still has room to increase participation.",
       "growth_indicators": [
-        "Increased participation by 25%",
-        "Contributed substantive ideas"
+        "Participation increased 25%",
+        "More confident voice"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 3,
-        "collaboration_relationship": 3,
-        "adaptability_open_mindedness": 3,
-        "active_listening_focus": 3,
-        "participation_engagement": 4
+        "empathy_perspective_taking": 8,
+        "collaboration_relationship": 8,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 8,
+        "participation_engagement": 7
       }
     }
   ]

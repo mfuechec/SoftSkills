@@ -10,123 +10,51 @@
     "overall_engagement": "high",
     "discussion_quality": "Sophisticated literary analysis and ethical reasoning demonstrated by all participants.",
     "key_moments": [
-      "Sam achieves zero interruptions for the first time - complete behavioral transformation from Week 10's 5 interruptions."
+      "Sam achieves zero interruptions for the first time.",
+      "Jordan synthesizes and builds bridges between ideas.",
+      "Casey demonstrates complex analytical thinking."
     ],
     "concerns": [],
     "teacher_recommendations": [
-      "Continue fostering student-led discussions to maintain engagement and intellectual growth."
+      "Encourage students to maintain peer-facilitated discussions.",
+      "Continue to deepen literary analysis in future sessions."
     ],
     "participation_equity_score": 9,
     "participation_distribution": "even",
     "discussion_depth_score": 9,
-    "evidence_citation_count": 7,
+    "evidence_citation_count": 5,
     "perspective_diversity": "high",
     "interaction_health": "strong",
-    "conversational_turns": 32,
+    "conversational_turns": 61,
     "environment_quality": {
       "student_to_student_interaction": "high",
       "idea_building_frequency": "frequent",
       "domination_concerns": [],
       "exclusion_concerns": [],
       "positive_patterns": [
-        "Students actively build on each other's ideas without teacher mediation."
+        "Strong collaborative dialogue between Maya and Jordan"
       ]
     }
   },
   "students": [
     {
-      "student_id": "Sam",
-      "totalTurns": 12,
-      "speaking_time_estimate": "2-3 minutes",
-      "interaction_patterns": {
-        "responded_to": [
-          "Casey",
-          "Alex"
-        ],
-        "built_upon_ideas_from": [
-          "Maya",
-          "Jordan"
-        ],
-        "received_responses_from": [
-          "Jordan",
-          "Casey"
-        ],
-        "interruption_count": 0,
-        "was_interrupted_by": [],
-        "initiated_topics": 1,
-        "turn_length": "medium"
-      },
-      "discussion_behavior": {
-        "engagement_level": "high",
-        "wait_time": "patient",
-        "response_rate": "Consistently engaged with thoughtful questions and reflections.",
-        "contribution_to_environment": "Contributed to a respectful and thoughtful discussion environment."
-      },
-      "skills": {
-        "empathy_perspective_taking": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"But doesn't it matter emotionally? Like, I want to know if Gabriel got to grow up free.\""
-          ]
-        },
-        "collaboration_relationship": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"Sam raises a good point. We're invested in these characters as people, not just symbols.\""
-          ]
-        },
-        "adaptability_open_mindedness": {
-          "pattern": "occasional",
-          "confidence": "medium",
-          "examples": [
-            "\"This might sound weird, but I'm grateful for this book. Even though it was hard and sad.\""
-          ]
-        },
-        "active_listening_focus": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"Like what? Give me an example.\""
-          ]
-        },
-        "participation_engagement": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"Do you think the community survived getting the memories back? Or did it collapse?\""
-          ]
-        }
-      },
-      "overall_impression": "Sam demonstrated a complete behavioral transformation, engaging thoughtfully and respectfully throughout the discussion.",
-      "growth_indicators": [
-        "Complete behavioral transformation - 100% reduction in interruptions from baseline, maintains engagement without disruption."
-      ],
-      "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 3,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
-      }
-    },
-    {
       "student_id": "Maya",
       "totalTurns": 14,
-      "speaking_time_estimate": "3-4 minutes",
+      "speaking_time_estimate": "4-5 minutes",
       "interaction_patterns": {
         "responded_to": [
           "Jordan",
-          "Casey"
+          "Casey",
+          "Sam"
         ],
         "built_upon_ideas_from": [
-          "Sam",
+          "Jordan",
           "Alex"
         ],
         "received_responses_from": [
+          "Jordan",
           "Casey",
-          "Jordan"
+          "Alex"
         ],
         "interruption_count": 0,
         "was_interrupted_by": [],
@@ -136,12 +64,12 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Facilitated discussion with thoughtful questions and synthesis.",
-        "contribution_to_environment": "Created an inclusive and intellectually stimulating environment."
+        "response_rate": "high",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
             "\"Sam raises a good point. We're invested in these characters as people, not just symbols.\""
@@ -151,59 +79,61 @@
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"These connections you're making show real moral reasoning. You're not just reading—you're grappling with genuine ethical questions.\""
+            "\"You're all synthesizing these ideas beautifully. This is sophisticated literary analysis.\""
           ]
         },
         "adaptability_open_mindedness": {
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"Sometimes the greatest gifts are the ones we don't even know we received.\""
+            "\"These connections you're making show real moral reasoning.\""
           ]
         },
         "active_listening_focus": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"What do you all think?\""
+            "\"That's a great question, Alex. What do you all think?\""
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
             "\"I'm excited to compare the two books more directly.\""
           ]
         }
       },
-      "overall_impression": "Maya excelled as a facilitator, guiding the discussion with insightful questions and fostering a collaborative environment.",
+      "overall_impression": "Maya effectively facilitated the discussion, encouraging deep analysis and synthesis among peers.",
       "growth_indicators": [
-        "Successfully transitioned from behavior manager to intellectual facilitator."
+        "Successfully transitioned from behavior manager to intellectual facilitator"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 5,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 9,
+        "collaboration_relationship": 9,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 9,
+        "participation_engagement": 9
       }
     },
     {
       "student_id": "Jordan",
       "totalTurns": 14,
-      "speaking_time_estimate": "3-4 minutes",
+      "speaking_time_estimate": "4-5 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Alex",
-          "Casey"
-        ],
-        "built_upon_ideas_from": [
           "Maya",
-          "Sam"
-        ],
-        "received_responses_from": [
           "Casey",
           "Alex"
+        ],
+        "built_upon_ideas_from": [
+          "Casey",
+          "Alex"
+        ],
+        "received_responses_from": [
+          "Maya",
+          "Alex",
+          "Sam"
         ],
         "interruption_count": 0,
         "was_interrupted_by": [],
@@ -213,12 +143,12 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Actively engaged with peers, synthesizing ideas and fostering collaboration.",
-        "contribution_to_environment": "Enhanced discussion through synthesis and bridging ideas."
+        "response_rate": "high",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
             "\"Alex, that's really well put. The tension between intellectual understanding and emotional need.\""
@@ -235,52 +165,52 @@
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"I think it depends on whether you had someone like the Giver supporting you.\""
-          ]
-        },
-        "active_listening_focus": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
             "\"I've been thinking about it all week. I'm more convinced now that they survived.\""
           ]
         },
-        "participation_engagement": {
-          "pattern": "frequent",
+        "active_listening_focus": {
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Do you think Lowry knows how much this book affects people?\""
+            "\"I think Jonas finds a community that's different. Maybe not perfect, but real.\""
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "consistent",
+          "confidence": "high",
+          "examples": [
+            "\"Can we talk about the movie adaptation? Has anyone seen it?\""
           ]
         }
       },
-      "overall_impression": "Jordan demonstrated strong leadership and collaboration skills, effectively synthesizing and building on peers' ideas.",
+      "overall_impression": "Jordan emerged as a peer leader, synthesizing ideas and facilitating deep discussion.",
       "growth_indicators": [
-        "Evolved from interrupted participant to peer co-facilitator, strong synthesis and collaboration skills."
+        "Evolved from interrupted participant to peer co-facilitator"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 5,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 9,
+        "collaboration_relationship": 9,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 9,
+        "participation_engagement": 9
       }
     },
     {
       "student_id": "Casey",
       "totalTurns": 12,
-      "speaking_time_estimate": "2-3 minutes",
+      "speaking_time_estimate": "3-4 minutes",
       "interaction_patterns": {
         "responded_to": [
-          "Sam",
-          "Jordan"
+          "Jordan",
+          "Sam"
         ],
         "built_upon_ideas_from": [
-          "Alex",
-          "Maya"
+          "Maya",
+          "Alex"
         ],
         "received_responses_from": [
-          "Sam",
-          "Jordan"
+          "Jordan",
+          "Maya"
         ],
         "interruption_count": 0,
         "was_interrupted_by": [],
@@ -290,8 +220,8 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Consistently engaged with complex analysis and ethical reasoning.",
-        "contribution_to_environment": "Contributed sophisticated insights and encouraged deeper thinking."
+        "response_rate": "high",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
@@ -309,37 +239,37 @@
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"I'd rather face uncomfortable truth than comfortable lies.\""
+            "\"I've actually gone the opposite direction. I think the ending is deliberately unclear because the survival doesn't matter as much as the choice.\""
           ]
         },
         "active_listening_focus": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
-            "\"Like how Jonas's journey from the community to Elsewhere mirrors humanity's journey from ignorance to knowledge.\""
+            "\"That's what good books make you do. They don't end when you close them.\""
           ]
         },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
             "\"Why did you choose such an ambiguous ending? What were you trying to make us feel?\""
           ]
         }
       },
-      "overall_impression": "Casey consistently demonstrated sophisticated literary analysis and ethical reasoning, contributing deeply to the discussion.",
+      "overall_impression": "Casey consistently demonstrated sophisticated literary analysis and complex ethical reasoning.",
       "growth_indicators": [
-        "Consistent sophisticated analysis and ethical reasoning throughout all recent discussions."
+        "Consistent sophisticated analysis and ethical reasoning"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 5,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 8,
+        "collaboration_relationship": 8,
+        "adaptability_open_mindedness": 9,
+        "active_listening_focus": 9,
+        "participation_engagement": 9
       }
     },
     {
@@ -367,8 +297,8 @@
       "discussion_behavior": {
         "engagement_level": "high",
         "wait_time": "patient",
-        "response_rate": "Confidently engaged with philosophical observations and analysis.",
-        "contribution_to_environment": "Enhanced discussion with philosophical insights and active engagement."
+        "response_rate": "high",
+        "contribution_to_environment": "Enhances"
       },
       "skills": {
         "empathy_perspective_taking": {
@@ -382,41 +312,118 @@
           "pattern": "frequent",
           "confidence": "high",
           "examples": [
-            "\"That's what makes Jonas special. And why his choice matters so much.\""
+            "\"I think about individual responsibility. What Jonas did alone changed everything.\""
           ]
         },
         "adaptability_open_mindedness": {
-          "pattern": "frequent",
+          "pattern": "consistent",
+          "confidence": "high",
+          "examples": [
+            "\"I agree with Casey. Whether Jonas lived or died, he chose freedom. That's what the book is really about.\""
+          ]
+        },
+        "active_listening_focus": {
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
             "\"Is fake fun better than no fun? That's basically the question.\""
           ]
         },
-        "active_listening_focus": {
-          "pattern": "frequent",
-          "confidence": "high",
-          "examples": [
-            "\"I agree with Casey. Whether Jonas lived or died, he chose freedom.\""
-          ]
-        },
         "participation_engagement": {
-          "pattern": "frequent",
+          "pattern": "consistent",
           "confidence": "high",
           "examples": [
             "\"What do you hope readers take away from this story?\""
           ]
         }
       },
-      "overall_impression": "Alex demonstrated full confidence and contributed significantly to the discussion with philosophical insights and active engagement.",
+      "overall_impression": "Alex demonstrated full confidence, contributing sophisticated analysis and philosophical observations.",
       "growth_indicators": [
-        "Participation increased 62.5% from baseline (13 vs 8 turns), fully confident, ideas actively referenced by peers."
+        "Participation increased 62.5% from baseline, fully confident"
       ],
       "suggested_score": {
-        "empathy_perspective_taking": 5,
-        "collaboration_relationship": 5,
-        "adaptability_open_mindedness": 5,
-        "active_listening_focus": 5,
-        "participation_engagement": 5
+        "empathy_perspective_taking": 8,
+        "collaboration_relationship": 8,
+        "adaptability_open_mindedness": 9,
+        "active_listening_focus": 9,
+        "participation_engagement": 9
+      }
+    },
+    {
+      "student_id": "Sam",
+      "totalTurns": 12,
+      "speaking_time_estimate": "3-4 minutes",
+      "interaction_patterns": {
+        "responded_to": [
+          "Casey",
+          "Alex"
+        ],
+        "built_upon_ideas_from": [
+          "Jordan",
+          "Maya"
+        ],
+        "received_responses_from": [
+          "Maya",
+          "Casey"
+        ],
+        "interruption_count": 0,
+        "was_interrupted_by": [],
+        "initiated_topics": 1,
+        "turn_length": "medium"
+      },
+      "discussion_behavior": {
+        "engagement_level": "high",
+        "wait_time": "patient",
+        "response_rate": "high",
+        "contribution_to_environment": "Enhances"
+      },
+      "skills": {
+        "empathy_perspective_taking": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"But doesn't it matter emotionally? Like, I want to know if Gabriel got to grow up free.\""
+          ]
+        },
+        "collaboration_relationship": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"And he had Gabriel to save. Sometimes you find courage for other people that you can't find for yourself.\""
+          ]
+        },
+        "adaptability_open_mindedness": {
+          "pattern": "frequent",
+          "confidence": "high",
+          "examples": [
+            "\"This might sound weird, but I'm grateful for this book. Even though it was hard and sad.\""
+          ]
+        },
+        "active_listening_focus": {
+          "pattern": "consistent",
+          "confidence": "high",
+          "examples": [
+            "\"Like what? Give me an example.\""
+          ]
+        },
+        "participation_engagement": {
+          "pattern": "consistent",
+          "confidence": "high",
+          "examples": [
+            "\"Is there a real-world community like this? Something that inspired the book?\""
+          ]
+        }
+      },
+      "overall_impression": "Sam showed complete behavioral transformation, achieving zero interruptions and maintaining thoughtful engagement.",
+      "growth_indicators": [
+        "Complete behavioral transformation - 100% reduction in interruptions"
+      ],
+      "suggested_score": {
+        "empathy_perspective_taking": 8,
+        "collaboration_relationship": 8,
+        "adaptability_open_mindedness": 8,
+        "active_listening_focus": 9,
+        "participation_engagement": 9
       }
     }
   ]

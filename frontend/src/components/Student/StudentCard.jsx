@@ -55,13 +55,13 @@ export default function StudentCard({ student, analyses }) {
             <div className="flex items-center justify-between text-sm mb-1">
               <span className="text-gray-700">{skill.name}</span>
               <span className="font-medium text-gray-900">
-                {skill.score}/5
+                {skill.score}/10
               </span>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-2">
               <div
                 className="bg-primary-600 h-2 rounded-full transition-all"
-                style={{ width: `${(skill.score / 5) * 100}%` }}
+                style={{ width: `${(skill.score / 10) * 100}%` }}
               />
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function StudentCard({ student, analyses }) {
       <div className="mt-4 flex items-center justify-between">
         <span className="text-xs text-gray-500">Average Score</span>
         <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-100 text-primary-800">
-          {avgScore > 0 ? avgScore.toFixed(1) : 'N/A'}/5
+          {avgScore > 0 ? avgScore.toFixed(1) : 'N/A'}/10
         </span>
       </div>
     </div>
