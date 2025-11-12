@@ -206,6 +206,7 @@ A student with 5 turns showing empathy in 3 of them (60% rate) should score HIGH
 - For skills without evidence, set pattern to "not_observed" and confidence to "low"
 - **IMPORTANT**: Normalize scores by number of turns - don't reward longer discussions with higher scores
 - Focus on specific behaviors, not character judgments
+- **Score Change Explanations**: When a student's score drops by 3+ points from the previous week in any skill, include a "confidence_rationale" field explaining the decrease. This helps teachers understand what changed and why.
 
 **Interaction Analysis Instructions:**
 1. **Responded to**: When Student A directly addresses Student B's point (e.g., "I agree with Jordan...", "Building on what Maya said...")

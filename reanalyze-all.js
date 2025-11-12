@@ -15,7 +15,7 @@ if (!OPENAI_API_KEY) {
 
 const weeks = [10, 12, 15, 17, 19, 20];
 
-async function analyzeTranscript(weekNumber) {
+async function analyzeTranscript(weekNumber, previousWeekAnalysis = null) {
   console.log(`\n📊 Analyzing Week ${weekNumber}...`);
 
   // Read transcript
@@ -32,6 +32,7 @@ async function analyzeTranscript(weekNumber) {
       body: JSON.stringify({
         transcript,
         week: weekNumber,
+        previousWeekAnalysis,
       }),
     });
 
@@ -46,6 +47,7 @@ async function analyzeTranscript(weekNumber) {
         body: JSON.stringify({
           transcript,
           week: weekNumber,
+          previousWeekAnalysis,
         }),
       });
 
@@ -64,16 +66,27 @@ async function analyzeTranscript(weekNumber) {
     console.log('   Calling OpenAI directly...');
 
     // Call OpenAI directly if API endpoint fails
-    return await analyzeWithOpenAI(transcript, weekNumber);
+    return await analyzeWithOpenAI(transcript, weekNumber, previousWeekAnalysis);
   }
 }
 
-async function analyzeWithOpenAI(transcript, weekNumber) {
+async function analyzeWithOpenAI(transcript, weekNumber, previousWeekAnalysis = null) {
   const OpenAI = (await import('openai')).default;
   const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
   const promptTemplate = getPromptTemplate();
-  const userPrompt = promptTemplate.replace('{TRANSCRIPT_TEXT}', transcript.trim());
+  let userPrompt = promptTemplate.replace('{TRANSCRIPT_TEXT}', transcript.trim());
+
+  // Add previous week context if available
+  if (previousWeekAnalysis) {
+    const previousWeekScores = {};
+    previousWeekAnalysis.students.forEach(student => {
+      previousWeekScores[student.student_id] = student.suggested_score;
+    });
+
+    const previousWeekContext = `\n\n**PREVIOUS WEEK SCORES (for comparison):**\n${JSON.stringify(previousWeekScores, null, 2)}\n\n**IMPORTANT**: If any student's score drops by 3+ points in any skill compared to the previous week, include a "confidence_rationale" field for that skill explaining why the score decreased.\n\n`;
+    userPrompt = previousWeekContext + userPrompt;
+  }
 
   console.log('   Calling OpenAI GPT-4o...');
   const completion = await openai.chat.completions.create({
@@ -114,13 +127,18 @@ async function main() {
   console.log('🚀 Re-analyzing all transcripts with enhanced prompt\n');
   console.log('This will take a few minutes (GPT-4o calls)...\n');
 
+  let previousWeekAnalysis = null;
+
   for (const week of weeks) {
     try {
-      const analysis = await analyzeTranscript(week);
+      const analysis = await analyzeTranscript(week, previousWeekAnalysis);
 
       // Save to frontend data folder
       const outputPath = path.join(__dirname, 'frontend', 'public', 'data', 'analysis', `week-${week}-analysis.json`);
       fs.writeFileSync(outputPath, JSON.stringify(analysis, null, 2));
+
+      // Store this analysis for next week's comparison
+      previousWeekAnalysis = analysis;
 
       console.log(`   ✅ Week ${week} complete - saved to ${outputPath}`);
       console.log(`   📈 Students analyzed: ${analysis.students?.length || 0}`);
