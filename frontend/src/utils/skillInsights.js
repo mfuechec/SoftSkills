@@ -8,7 +8,7 @@ export function generateSkillInsight(skillName, skillKey, growthData, latestWeek
   const latestAnalysis = analyses[latestWeekData.week];
   const student = latestAnalysis?.students?.find(s => s.student_id === latestWeekData.studentId);
   const skillData = student?.skills?.[skillKey];
-  const evidenceCount = skillData?.evidence?.length || 0;
+  const evidenceCount = skillData?.examples?.length || 0;
   const pattern = skillData?.pattern;
   const confidence = skillData?.confidence;
 

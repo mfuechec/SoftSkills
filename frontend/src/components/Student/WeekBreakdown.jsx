@@ -81,7 +81,7 @@ export default function WeekBreakdown({ weekData, studentId, analysis }) {
             const skillData = studentData.skills[key];
             const score = weekData.scores[key] || 0;
 
-            if (!skillData || !skillData.evidence || skillData.evidence.length === 0) {
+            if (!skillData || !skillData.examples || skillData.examples.length === 0) {
               return null;
             }
 
@@ -99,7 +99,7 @@ export default function WeekBreakdown({ weekData, studentId, analysis }) {
                 )}
 
                 <div className="space-y-3">
-                  {skillData.evidence.map((evidence, idx) => (
+                  {skillData.examples.map((evidence, idx) => (
                     <EvidenceCard key={idx} evidence={evidence} skillName={name} />
                   ))}
                 </div>

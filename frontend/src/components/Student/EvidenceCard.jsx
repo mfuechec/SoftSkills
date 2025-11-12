@@ -7,6 +7,24 @@ export default function EvidenceCard({ evidence, skillName }) {
     low: 'bg-gray-100 text-gray-800',
   };
 
+  // Handle both string format and object format
+  const isStringFormat = typeof evidence === 'string';
+
+  if (isStringFormat) {
+    // Parse string format: "'Quote text' (line 21)"
+    return (
+      <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
+        <div className="flex items-start space-x-3">
+          <Quote className="w-5 h-5 text-gray-400 flex-shrink-0 mt-1" />
+          <div className="flex-1">
+            <p className="text-gray-900 text-sm">{evidence}</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Handle object format
   return (
     <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
       <div className="flex items-start space-x-3">
